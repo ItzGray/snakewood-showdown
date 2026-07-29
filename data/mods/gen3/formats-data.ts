@@ -1,4 +1,40 @@
 export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormatsDataTable = {
+	bulbasaur: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	ivysaur: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	venusaur: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	charmander: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	charmeleon: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	charizard: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	squirtle: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	wartortle: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	blastoise: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
 	boilbasaur: {
 		tier: "LC",
 	},
@@ -14,7 +50,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	charmeworm: {
 		tier: "PU",
 	},
-	charizard: {
+	dragon: {
 		tier: "OU",
 	},
 	oozle: {
