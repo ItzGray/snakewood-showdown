@@ -1,29 +1,29 @@
 export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormatsDataTable = {
-	bulbasaur: {
+	boilbasaur: {
 		tier: "LC",
 	},
-	ivysaur: {
+	shrivlsaur: {
 		tier: "ZU",
 	},
-	venusaur: {
+	vivosaur: {
 		tier: "UUBL",
 	},
-	charmander: {
+	rotmander: {
 		tier: "LC",
 	},
-	charmeleon: {
+	charmeworm: {
 		tier: "PU",
 	},
 	charizard: {
 		tier: "OU",
 	},
-	squirtle: {
+	oozle: {
 		tier: "LC",
 	},
-	wartortle: {
+	entrailtle: {
 		tier: "PU",
 	},
-	blastoise: {
+	bleedoise: {
 		tier: "UU",
 	},
 	caterpie: {
@@ -191,13 +191,13 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	arcanine: {
 		tier: "UU",
 	},
-	poliwag: {
+	polihag: {
 		tier: "LC",
 	},
-	poliwhirl: {
+	poliworm: {
 		tier: "ZUBL",
 	},
-	poliwrath: {
+	poliwraith: {
 		tier: "RU",
 	},
 	politoed: {
@@ -281,10 +281,10 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	dewgong: {
 		tier: "NU",
 	},
-	grimer: {
+	moulder: {
 		tier: "LC",
 	},
-	muk: {
+	yuck: {
 		tier: "UU",
 	},
 	shellder: {
@@ -401,28 +401,28 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	mrmime: {
 		tier: "RU",
 	},
-	scyther: {
+	grimreaper: {
 		tier: "UU",
 	},
-	scizor: {
+	ironreaper: {
 		tier: "UUBL",
 	},
 	smoochum: {
 		tier: "LC",
 	},
-	jynx: {
+	eyeeye: {
 		tier: "UUBL",
 	},
 	elekid: {
 		tier: "ZU",
 	},
-	electabuzz: {
+	electabugs: {
 		tier: "UU",
 	},
 	magby: {
 		tier: "LC",
 	},
-	magmar: {
+	miasmar: {
 		tier: "RU",
 	},
 	pinsir: {
@@ -482,7 +482,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	aerodactyl: {
 		tier: "OU",
 	},
-	snorlax: {
+	gorelax: {
 		tier: "OU",
 	},
 	articuno: {
@@ -590,10 +590,10 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	azurill: {
 		tier: "LC",
 	},
-	marill: {
+	graveill: {
 		tier: "NFE",
 	},
-	azumarill: {
+	azombarill: {
 		tier: "RU",
 	},
 	sudowoodo: {
@@ -710,10 +710,10 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	skarmory: {
 		tier: "OU",
 	},
-	houndour: {
+	houndsour: {
 		tier: "PU",
 	},
-	houndoom: {
+	headdoom: {
 		tier: "UUBL",
 	},
 	phanpy: {
@@ -1170,6 +1170,51 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "Uber",
 	},
 	deoxysspeed: {
+		tier: "Uber",
+	},
+	magnezone: {
+		tier: "Uber",
+	},
+	emolga: {
+		tier: "Uber",
+	},
+	bouffalant: {
+		tier: "Uber",
+	},
+	blitzle: {
+		tier: "LC",
+	},
+	zebstrika: {
+		tier: "Uber",
+	},
+	munchlax: {
+		tier: "LC",
+	},
+	shinx: {
+		tier: "LC",
+	},
+	luxio: {
+		tier: "NFE",
+	},
+	luxray: {
+		tier: "Uber",
+	},
+	weavile: {
+		tier: "Uber",
+	},
+	drilbur: {
+		tier: "NFE",
+	},
+	excadrill: {
+		tier: "Uber",
+	},
+	toxicroak: {
+		tier: "Uber",
+	},
+	spiritomb: {
+		tier: "Uber",
+	},
+	basculin: {
 		tier: "Uber",
 	},
 };
