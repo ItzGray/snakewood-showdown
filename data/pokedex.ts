@@ -1,15 +1,15 @@
 export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
-	bulbasaur: {
+	boilbasaur: {
 		num: 1,
-		name: "Bulbasaur",
+		name: "Boilbasaur",
 		types: ["Grass", "Poison"],
 		genderRatio: { M: 0.875, F: 0.125 },
 		baseStats: { hp: 45, atk: 49, def: 49, spa: 65, spd: 65, spe: 45 },
-		abilities: { 0: "Overgrow", H: "Chlorophyll" },
+		abilities: { 0: "Overgrow" },
 		heightm: 0.7,
 		weightkg: 6.9,
 		color: "Green",
-		evos: ["Ivysaur"],
+		evos: ["Shrivlsaur"],
 		eggGroups: ["Monster", "Grass"],
 	},
 	ivysaur: {
@@ -21052,19 +21052,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		tags: ["Pokestar", "True Past", "Past Unobtainable"],
 		eggGroups: ["Undiscovered"],
 		gen: 5,
-	},
-	boilbasaur: {
-		num: 50001,
-		name: "Boilbasaur",
-		types: ["Grass", "Poison"],
-		genderRatio: { M: 0.875, F: 0.125 },
-		baseStats: { hp: 45, atk: 49, def: 49, spa: 65, spd: 65, spe: 45 },
-		abilities: { 0: "Overgrow" },
-		heightm: 0.7,
-		weightkg: 6.9,
-		color: "Green",
-		evos: ["Shrivlsaur"],
-		eggGroups: ["Monster", "Grass"],
 	},
 	shrivlsaur: {
 		num: 50002,
