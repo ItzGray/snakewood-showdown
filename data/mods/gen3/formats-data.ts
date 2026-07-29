@@ -35,6 +35,70 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "Illegal",
 		isNonstandard: "Unobtainable",
 	},
+	poliwag: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	poliwhirl: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	poliwrath: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	grimer: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	muk: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	scyther: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	jynx: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	electabuzz: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	magmar: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	marill: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	azumarill: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	murkrow: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	scizor: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	houndour: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	houndoom: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	lugia: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
 	boilbasaur: {
 		tier: "LC",
 	},
@@ -521,6 +585,9 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	gorelax: {
 		tier: "OU",
 	},
+	snorlax: {
+		tier: "OU",
+	},
 	articuno: {
 		tier: "UUBL",
 	},
@@ -662,7 +729,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	quagsire: {
 		tier: "UU",
 	},
-	murkrow: {
+	dirtkrow: {
 		tier: "NU",
 	},
 	misdreavus: {
@@ -785,7 +852,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	tyranitar: {
 		tier: "OU",
 	},
-	lugia: {
+	scarlugia: {
 		tier: "Uber",
 	},
 	hooh: {

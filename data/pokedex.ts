@@ -21082,7 +21082,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Monster", "Grass"],
 	},
 	vivosaur: {
-		num: 50003,
+		num: 3,
 		name: "Vivosaur",
 		types: ["Grass", "Poison"],
 		genderRatio: { M: 0.875, F: 0.125 },
@@ -21096,7 +21096,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Monster", "Grass"],
 	},
 	rotmander: {
-		num: 50004,
+		num: 4,
 		name: "Rotmander",
 		types: ["Fire"],
 		genderRatio: { M: 0.875, F: 0.125 },
@@ -21109,7 +21109,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Monster", "Dragon"],
 	},
 	charmeworm: {
-		num: 50005,
+		num: 5,
 		name: "Charmeworm",
 		types: ["Fire"],
 		genderRatio: { M: 0.875, F: 0.125 },
@@ -21123,8 +21123,22 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Dragon"],
 		eggGroups: ["Monster", "Dragon"],
 	},
+	dragon: {
+		num: 6,
+		name: "Dragon",
+		types: ["Dragon"],
+		genderRatio: { M: 0.875, F: 0.125 },
+		baseStats: { hp: 108, atk: 95, def: 75, spa: 112, spd: 75, spe: 76 },
+		abilities: { 0: "Intimidate", 1: "Guts" },
+		heightm: 1.7,
+		weightkg: 90.5,
+		color: "Red",
+		prevo: "Charmeworm",
+		evoLevel: 36,
+		eggGroups: ["Monster", "Dragon"],
+	},
 	oozle: {
-		num: 50007,
+		num: 7,
 		name: "Oozle",
 		types: ["Water"],
 		genderRatio: { M: 0.875, F: 0.125 },
@@ -21137,7 +21151,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Monster", "Water 1"],
 	},
 	entrailtle: {
-		num: 50008,
+		num: 8,
 		name: "Entrailtle",
 		types: ["Water"],
 		genderRatio: { M: 0.875, F: 0.125 },
@@ -21152,7 +21166,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Monster", "Water 1"],
 	},
 	bleedoise: {
-		num: 50009,
+		num: 9,
 		name: "Bleedoise",
 		types: ["Water"],
 		genderRatio: { M: 0.875, F: 0.125 },
@@ -21166,7 +21180,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Monster", "Water 1"],
 	},
 	polihag: {
-		num: 50060,
+		num: 60,
 		name: "Polihag",
 		types: ["Water"],
 		baseStats: { hp: 40, atk: 50, def: 40, spa: 40, spd: 40, spe: 90 },
@@ -21178,7 +21192,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Water 1"],
 	},
 	poliworm: {
-		num: 50061,
+		num: 61,
 		name: "Poliworm",
 		types: ["Water"],
 		baseStats: { hp: 65, atk: 65, def: 65, spa: 50, spd: 50, spe: 90 },
@@ -21192,7 +21206,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Water 1"],
 	},
 	poliwraith: {
-		num: 50062,
+		num: 62,
 		name: "Poliwraith",
 		types: ["Water", "Fighting"],
 		baseStats: { hp: 90, atk: 85, def: 95, spa: 70, spd: 90, spe: 70 },
@@ -21206,7 +21220,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Water 1"],
 	},
 	moulder: {
-		num: 50088,
+		num: 88,
 		name: "Moulder",
 		types: ["Poison", "Disease"],
 		baseStats: { hp: 80, atk: 80, def: 50, spa: 40, spd: 50, spe: 25 },
@@ -21218,7 +21232,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Undiscovered"],
 	},
 	yuck: {
-		num: 50089,
+		num: 89,
 		name: "Yuck",
 		types: ["Poison", "Disease"],
 		baseStats: { hp: 105, atk: 115, def: 85, spa: 65, spd: 100, spe: 50 },
@@ -21231,7 +21245,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Undiscovered"],
 	},
 	grimreaper: {
-		num: 50123,
+		num: 123,
 		name: "Grimreaper",
 		types: ["Bug", "Flying"],
 		baseStats: { hp: 70, atk: 110, def: 80, spa: 55, spd: 80, spe: 105 },
@@ -21243,7 +21257,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Bug"],
 	},
 	eyeeye: {
-		num: 50124,
+		num: 124,
 		name: "Eye-Eye",
 		types: ["Ice", "Psychic"],
 		gender: "F",
@@ -21255,7 +21269,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Human-Like"],
 	},
 	electabugs: {
-		num: 50125,
+		num: 125,
 		name: "Electabugs",
 		types: ["Electric"],
 		genderRatio: { M: 0.75, F: 0.25 },
@@ -21267,7 +21281,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Human-Like"],
 	},
 	miasmar: {
-		num: 50126,
+		num: 126,
 		name: "Miasmar",
 		types: ["Fire"],
 		genderRatio: { M: 0.75, F: 0.25 },
@@ -21279,7 +21293,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Human-Like"],
 	},
 	gorelax: {
-		num: 50143,
+		num: 143,
 		name: "Gorelax",
 		types: ["Normal"],
 		genderRatio: { M: 0.875, F: 0.125 },
@@ -21291,7 +21305,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Monster"],
 	},
 	graveill: {
-		num: 50183,
+		num: 183,
 		name: "Graveill",
 		types: ["Water", "Disease"],
 		baseStats: { hp: 80, atk: 35, def: 65, spa: 35, spd: 60, spe: 50 },
@@ -21303,7 +21317,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Undiscovered"],
 	},
 	azombarill: {
-		num: 50184,
+		num: 184,
 		name: "Azombarill",
 		types: ["Water", "Disease"],
 		baseStats: { hp: 120, atk: 70, def: 100, spa: 60, spd: 100, spe: 70 },
@@ -21316,7 +21330,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Undiscovered"],
 	},
 	dirtkrow: {
-		num: 50198,
+		num: 198,
 		name: "Dirtkrow",
 		types: ["Dark", "Flying"],
 		baseStats: { hp: 60, atk: 85, def: 42, spa: 85, spd: 42, spe: 91 },
@@ -21327,7 +21341,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Flying"],
 	},
 	ironreaper: {
-		num: 50212,
+		num: 212,
 		name: "Ironreaper",
 		types: ["Bug", "Steel"],
 		baseStats: { hp: 70, atk: 130, def: 100, spa: 55, spd: 80, spe: 65 },
@@ -21341,7 +21355,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Bug"],
 	},
 	houndsour: {
-		num: 50228,
+		num: 228,
 		name: "Houndsour",
 		types: ["Dark", "Fire"],
 		baseStats: { hp: 45, atk: 60, def: 30, spa: 80, spd: 50, spe: 65 },
@@ -21353,7 +21367,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Field"],
 	},
 	headdoom: {
-		num: 50229,
+		num: 229,
 		name: "Headdoom",
 		types: ["Dark", "Fire"],
 		baseStats: { hp: 75, atk: 90, def: 50, spa: 110, spd: 80, spe: 95 },
@@ -21366,7 +21380,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Field"],
 	},
 	scarlugia: {
-		num: 50249,
+		num: 249,
 		name: "Scar Lugia",
 		types: ["Psychic", "Flying"],
 		gender: "N",
