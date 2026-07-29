@@ -5493,7 +5493,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 3] Custom Game",
 		mod: 'gen3',
 		searchShow: false,
-		debug: true,
 		battle: { trunc: Math.trunc },
 		ruleset: ['HP Percentage Mod', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
 	},
