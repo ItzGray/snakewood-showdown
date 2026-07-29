@@ -379,7 +379,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		bestOfDefault: true,
 		ruleset: ['[Gen 9 Champions] VGC 2026 Reg M-A', 'Evasion Clause', 'OHKO Clause', 'Gravity Sleep Clause'],
 		banlist: [
-			'Aegislash', 'Aerodactyl', 'Archaludon', 'Basculegion-M', 'Charizard-Mega-Y', 'Delphox-Mega', 'Excadrill', 'Farigiraf', 'Floette-Mega', 'Froslass-Mega', 'Garchomp',
+			'Aegislash', 'Aerodactyl', 'Archaludon', 'Basculegion-M', 'Delphox-Mega', 'Excadrill', 'Farigiraf', 'Floette-Mega', 'Froslass-Mega', 'Garchomp',
 			'Gardevoir-Mega', 'Gengar-Mega', 'Incineroar', 'Kingambit', 'Kommo-o', 'Maushold', 'Meganium-Mega', 'Milotic', 'Ninetales-Alola', 'Pelipper', 'Rotom-Wash', 'Scizor-Mega',
 			'Scovillain-Mega', 'Sinistcha', 'Sneasler', 'Talonflame', 'Tyranitar-Mega', 'Whimsicott', 'Focus Band', 'King\'s Rock', 'Quick Claw',
 		],
@@ -3151,7 +3151,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 			'Sleep Moves Clause', 'Team Type Preview',
 		],
 		banlist: [
-			'Aerodactyl-Mega', 'Alakazam', 'Arceus', 'Beedrill-Mega', 'Blaziken-Mega', 'Calyrex-Ice', 'Calyrex-Shadow', 'Charizard-Mega-Y', 'Chi-Yu', 'Chien-Pao', 'Comfey',
+			'Aerodactyl-Mega', 'Alakazam', 'Arceus', 'Beedrill-Mega', 'Blaziken-Mega', 'Calyrex-Ice', 'Calyrex-Shadow', 'Chi-Yu', 'Chien-Pao', 'Comfey',
 			'Darmanitan', 'Darmanitan-Galar', 'Darmanitan-Galar-Zen', 'Deoxys-Normal', 'Deoxys-Attack', 'Dialga', 'Dhelmise', 'Dondozo', 'Enamorus', 'Eternatus', 'Flutter Mane',
 			'Genesect', 'Gengar-Mega', 'Giratina', 'Gouging Fire', 'Groudon', 'Ho-Oh', 'Hoopa-Unbound', 'Kangaskhan-Mega', 'Kartana', 'Komala', 'Koraidon', 'Kyogre', 'Kyurem',
 			'Kyurem-Black', 'Kyurem-White', 'Landorus-Incarnate', 'Lucario-Mega', 'Lugia', 'Lunala', 'Marshadow', 'Mawile-Mega', 'Medicham-Mega', 'Metagross-Mega', 'Mewtwo',
@@ -3926,7 +3926,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 			'Blue Flare', 'Blunder Policy', 'Body Press', 'Body Slam', 'Bolt Beak', 'Bolt Strike', 'Boomburst', 'Bouncy Bubble',
 			'Brave Bird', 'Bright Powder', 'Brute Bonnet', 'Bug Buzz', 'Bullet Punch', 'Burning Bulwark', 'Buzzwole', 'Buzzy Buzz',
 			'Calm Mind', 'Calyrex-Ice', 'Calyrex-Shadow', 'Camerupt-Mega', 'Catastropika', 'Ceaseless Edge', 'Celebi', 'Celesteela',
-			'Centiskorch', 'Ceruledge', 'Charizard', 'Charizard-Mega-X', 'Charizard-Mega-Y', 'Chatter', 'Chesnaught', 'Chesto Berry',
+			'Centiskorch', 'Ceruledge', 'Chatter', 'Chesnaught', 'Chesto Berry',
 			'Chi-Yu', 'Chien-Pao', 'Chilan Berry', 'Chilling Neigh', 'Chilly Reception', 'Choice Band', 'Choice Scarf', 'Choice Specs',
 			'Cinderace', 'Circle Throw', 'Clanging Scales', 'Clangorous Soul', 'Clangorous Soulblaze', 'Clear Amulet', 'Clear Body',
 			'Clear Smog', 'Close Combat', 'Cloyster', 'Cobalion', 'Coil', 'Collision Course', 'Comatose', 'Combat Torque', 'Competitive',
@@ -4898,7 +4898,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 			'Cancel Mod', 'Team Preview',
 		],
 		banlist: [
-			'Arceus', 'Charizard-Mega-X', 'Charizard-Mega-Y', 'Deoxys-Normal', 'Deoxys-Attack', 'Deoxys-Defense', 'Dialga', 'Giratina', 'Giratina-Origin', 'Groudon',
+			'Arceus', 'Deoxys-Normal', 'Deoxys-Attack', 'Deoxys-Defense', 'Dialga', 'Giratina', 'Giratina-Origin', 'Groudon',
 			'Ho-Oh', 'Kangaskhan-Mega', 'Kyogre', 'Kyurem-White', 'Lugia', 'Mew', 'Mewtwo', 'Palkia', 'Rayquaza', 'Reshiram', 'Salamence-Mega', 'Shaymin-Sky',
 			'Snorlax', 'Xerneas', 'Yveltal', 'Zekrom', 'Moody', 'Focus Sash', 'Soul Dew', 'Dark Void', 'Grass Whistle', 'Hypnosis', 'Perish Song', 'Sing', 'Sleep Powder',
 			'Swagger', 'Yawn',
