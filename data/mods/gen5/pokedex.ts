@@ -41,7 +41,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	beedrill: {
 		inherit: true,
-		baseStats: { hp: 65, atk: 80, def: 40, spa: 45, spd: 80, spe: 75 },
+		baseStats: { hp: 65, atk: 80, def: 40, spa: 45, spd: 80, spe: 99 },
 	},
 	pidgeot: {
 		inherit: true,
