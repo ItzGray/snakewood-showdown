@@ -334,7 +334,8 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "RU",
 	},
 	politoed: {
-		tier: "RU",
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
 	},
 	abra: {
 		tier: "ZU",
@@ -1327,6 +1328,207 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "Uber",
 	},
 	basculin: {
+		tier: "Uber",
+	},
+	shinigami: {
+		tier: "Uber",
+	},
+	stitcher: {
+		tier: "Uber",
+	},
+	antispiral: {
+		tier: "Uber",
+	},
+	glute: {
+		tier: "LC",
+	},
+	bute: {
+		tier: "LC",
+	},
+	nute: {
+		tier: "ZU",
+	},
+	fangasu: {
+		tier: "Uber",
+	},
+	nigera: {
+		tier: "Uber",
+	},
+	goosuboa: {
+		tier: "Uber",
+	},
+	ramshaker: {
+		tier: "Uber",
+	},
+	sevicious: {
+		tier: "Uber",
+	},
+	zangol: {
+		tier: "Uber",
+	},
+	amonster: {
+		tier: "Uber",
+	},
+	gigawolf: {
+		tier: "Uber",
+	},
+	galactimon: {
+		tier: "Uber",
+	},
+	rotting: {
+		tier: "Uber",
+	},
+	kuriputo: {
+		tier: "Uber",
+	},
+	roodanse: {
+		tier: "Uber",
+	},
+	ooshe: {
+		tier: "Uber",
+	},
+	qwilshark: {
+		tier: "Uber",
+	},
+	dragoone: {
+		tier: "Uber",
+	},
+	roclobster: {
+		tier: "Uber",
+	},
+	vigourlan: {
+		tier: "Uber",
+	},
+	mutagon: {
+		tier: "Uber",
+	},
+	mewby: {
+		tier: "NFE",
+	},
+	kamina: {
+		tier: "Uber",
+	},
+	gluemadio: {
+		tier: "Uber",
+	},
+	zombified: {
+		tier: "RU",
+	},
+	earthmadio: {
+		tier: "Uber",
+	},
+	bonemadio: {
+		tier: "Uber",
+	},
+	crazymadio: {
+		tier: "Uber",
+	},
+	seamadio: {
+		tier: "Uber",
+	},
+	burstmadio: {
+		tier: "NFE",
+	},
+	blastmadio: {
+		tier: "Uber",
+	},
+	treemadio: {
+		tier: "Uber",
+	},
+	toxeon: {
+		tier: "Uber",
+	},
+	demoneon: {
+		tier: "Uber",
+	},
+	aeromadio: {
+		tier: "Uber",
+	},
+	diamandix: {
+		tier: "Uber",
+	},
+	normadio: {
+		tier: "Uber",
+	},
+	cinderco: {
+		tier: "NFE",
+	},
+	radiorange: {
+		tier: "Uber",
+	},
+	telson: {
+		tier: "UU",
+	},
+	maw: {
+		tier: "RU",
+	},
+	chocwork: {
+		tier: "Uber",
+	},
+	mysteryegg: {
+		tier: "LC",
+	},
+	skylax: {
+		tier: "Uber",
+	},
+	hyperegg: {
+		tier: "Uber",
+	},
+	secretegg: {
+		tier: "NFE",
+	},
+	kajilianth: {
+		tier: "Uber",
+	},
+	hombone: {
+		tier: "LC",
+	},
+	hombeast: {
+		tier: "Uber",
+	},
+	kenchira: {
+		tier: "NFE",
+	},
+	kenchukuo: {
+		tier: "Uber",
+	},
+	x32763: {
+		tier: "Uber",
+	},
+	kingmadio: {
+		tier: "Uber",
+	},
+	psypig: {
+		tier: "Uber",
+	},
+	calfby: {
+		tier: "LC",
+	},
+	furix: {
+		tier: "Uber",
+	},
+	furiz: {
+		tier: "Uber",
+	},
+	furiq: {
+		tier: "Uber",
+	},
+	turmur: {
+		tier: "Uber",
+	},
+	senex: {
+		tier: "Uber",
+	},
+	lucazamon: {
+		tier: "Uber",
+	},
+	teabarqan: {
+		tier: "Uber",
+	},
+	shaderu: {
+		tier: "Uber",
+	},
+	faceleech: {
 		tier: "Uber",
 	},
 };
