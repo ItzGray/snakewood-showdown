@@ -35,6 +35,10 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "Illegal",
 		isNonstandard: "Unobtainable",
 	},
+	primeape: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
 	poliwag: {
 		tier: "Illegal",
 		isNonstandard: "Unobtainable",
@@ -71,6 +75,14 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "Illegal",
 		isNonstandard: "Unobtainable",
 	},
+	sentret: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	furret: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
 	marill: {
 		tier: "Illegal",
 		isNonstandard: "Unobtainable",
@@ -96,6 +108,30 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		isNonstandard: "Unobtainable",
 	},
 	lugia: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	crawdaunt: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	latias: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	deoxys: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	deoxysattack: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	deoxysdefense: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	deoxysspeed: {
 		tier: "Illegal",
 		isNonstandard: "Unobtainable",
 	},
@@ -281,9 +317,6 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	},
 	mankey: {
 		tier: "LC",
-	},
-	primeape: {
-		tier: "RU",
 	},
 	growlithe: {
 		tier: "LC",
@@ -638,12 +671,6 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	},
 	feraligatr: {
 		tier: "UU",
-	},
-	sentret: {
-		tier: "LC",
-	},
-	furret: {
-		tier: "PU",
 	},
 	hoothoot: {
 		tier: "LC",
@@ -1128,9 +1155,6 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	corphish: {
 		tier: "LC",
 	},
-	crawdaunt: {
-		tier: "NU",
-	},
 	baltoy: {
 		tier: "LC",
 	},
@@ -1245,9 +1269,6 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	registeel: {
 		tier: "OU",
 	},
-	latias: {
-		tier: "Uber",
-	},
 	latios: {
 		tier: "Uber",
 	},
@@ -1262,18 +1283,6 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	},
 	jirachi: {
 		tier: "OU",
-	},
-	deoxys: {
-		tier: "Uber",
-	},
-	deoxysattack: {
-		tier: "Uber",
-	},
-	deoxysdefense: {
-		tier: "Uber",
-	},
-	deoxysspeed: {
-		tier: "Uber",
 	},
 	magnezone: {
 		tier: "Uber",

@@ -8334,7 +8334,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Human-Like"],
 	},
 	toxicroak: {
-		num: 454,
+		num: 386,
 		name: "Toxicroak",
 		types: ["Poison", "Fighting"],
 		baseStats: { hp: 83, atk: 106, def: 65, spa: 86, spd: 65, spe: 85 },
@@ -8450,6 +8450,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoItem: "Razor Claw",
 		evoCondition: "at night",
 		eggGroups: ["Field"],
+		gen: 3,
 	},
 	magnezone: {
 		num: 462,
@@ -8465,6 +8466,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoType: "useItem",
 		evoItem: "Thunder Stone",
 		eggGroups: ["Mineral"],
+		gen: 3,
 	},
 	lickilicky: {
 		num: 463,
@@ -11491,7 +11493,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Bouffalant",
 		types: ["Normal"],
 		baseStats: { hp: 95, atk: 110, def: 95, spa: 40, spd: 95, spe: 55 },
-		abilities: { 0: "Reckless", 1: "Sap Sipper", H: "Soundproof" },
+		abilities: { 0: "Soundproof", 1: "Thick Fat" },
 		heightm: 1.6,
 		weightkg: 94.6,
 		color: "Brown",
