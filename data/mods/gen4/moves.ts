@@ -284,7 +284,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 			onResidualOrder: 10,
 			onResidualSubOrder: 8,
 		},
-		type: "???",
+		type: "Ghost",
 	},
 	defog: {
 		inherit: true,
