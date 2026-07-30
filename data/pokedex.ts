@@ -21345,7 +21345,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	amonster: {
 		num: 49,
 		name: "A Monster",
-		types: ["Disease"],
+		types: ["???"],
 		baseStats: { hp: 200, atk: 110, def: 110, spa: 110, spd: 100, spe: 200 },
 		abilities: { 0: "Cute Charm" },
 		heightm: 1.5,
@@ -21488,7 +21488,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	moulder: {
 		num: 88,
 		name: "Moulder",
-		types: ["Poison", "Disease"],
+		types: ["Poison", "???"],
 		baseStats: { hp: 80, atk: 80, def: 50, spa: 40, spd: 50, spe: 25 },
 		abilities: { 0: "Stench", 1: "Sticky Hold" },
 		heightm: 0.9,
@@ -21500,7 +21500,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	yuck: {
 		num: 89,
 		name: "Yuck",
-		types: ["Poison", "Disease"],
+		types: ["Poison", "???"],
 		baseStats: { hp: 105, atk: 115, def: 85, spa: 65, spd: 100, spe: 50 },
 		abilities: { 0: "Stench", 1: "Sticky Hold" },
 		heightm: 1.2,
@@ -21637,7 +21637,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	graveill: {
 		num: 183,
 		name: "Graveill",
-		types: ["Water", "Disease"],
+		types: ["Water", "???"],
 		baseStats: { hp: 80, atk: 35, def: 65, spa: 35, spd: 60, spe: 50 },
 		abilities: { 0: "Thick Fat", 1: "Huge Power" },
 		heightm: 0.4,
@@ -21649,7 +21649,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	azombarill: {
 		num: 184,
 		name: "Azombarill",
-		types: ["Water", "Disease"],
+		types: ["Water", "???"],
 		baseStats: { hp: 120, atk: 70, def: 100, spa: 60, spd: 100, spe: 70 },
 		abilities: { 0: "Thick Fat", 1: "Huge Power" },
 		heightm: 0.8,
@@ -22183,7 +22183,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	turmur: {
 		num: 5379,
 		name: "Turmur",
-		types: ["Disease"],
+		types: ["???"],
 		gender: "F",
 		baseStats: { hp: 110, atk: 185, def: 100, spa: 130, spd: 140, spe: 20 },
 		abilities: { 0: "Levitate" },
@@ -22248,7 +22248,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	faceleech: {
 		num: 5385,
 		name: "Faceleech",
-		types: ["Disease", "Poison"],
+		types: ["???", "Poison"],
 		gender: "N",
 		baseStats: { hp: 1, atk: 175, def: 1, spa: 1, spd: 1, spe: 255 },
 		abilities: { 0: "Speed Boost" },
