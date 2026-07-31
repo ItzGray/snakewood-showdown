@@ -488,7 +488,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 0.3,
 		weightkg: 2,
 		color: "Brown",
-		evos: ["Fearow"],
 		eggGroups: ["Flying"],
 	},
 	fearow: {
@@ -500,8 +499,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 1.2,
 		weightkg: 38,
 		color: "Brown",
-		prevo: "Spearow",
-		evoLevel: 20,
 		eggGroups: ["Flying"],
 	},
 	ekans: {
