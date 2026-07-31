@@ -168,13 +168,13 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		onBasePower: undefined, // no inherit
 		onModifySpAPriority: 1,
 		onModifySpA(spa, pokemon) {
-			if (pokemon.baseSpecies.num === 380 || pokemon.baseSpecies.num === 381) {
+			if (pokemon.baseSpecies.num === 380 || pokemon.baseSpecies.num === 381 || pokemon.baseSpecies.num === 5382 || pokemon.baseSpecies.num === 5383) {
 				return this.chainModify(1.5);
 			}
 		},
 		onModifySpDPriority: 2,
 		onModifySpD(spd, pokemon) {
-			if (pokemon.baseSpecies.num === 380 || pokemon.baseSpecies.num === 381) {
+			if (pokemon.baseSpecies.num === 380 || pokemon.baseSpecies.num === 381 || pokemon.baseSpecies.num === 5382 || pokemon.baseSpecies.num === 5383) {
 				return this.chainModify(1.5);
 			}
 		},
