@@ -1,6 +1,5 @@
 export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTable = {
 	raticate: {
-		inherit: true,
 		learnset: {
 			tackle: ["3L1"],
 			tailwhip: ["3L1"],
@@ -37,14 +36,6 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			cut: ["3M"],
 			strength: ["3M"],
 			rocksmash: ["3M"],
-			bite: [],
-			counter: [],
-			flamewheel: [],
-			furyswipes: [],
-			reversal: [],
-			screech: [],
-			swagger: [],
-			uproar: [],
 		},
 	},
 };
