@@ -6316,6 +6316,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 1.3,
 		weightkg: 40.3,
 		color: "White",
+		evos: ["Zangol"],
 		eggGroups: ["Field"],
 	},
 	seviper: {
@@ -6327,6 +6328,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 2.7,
 		weightkg: 52.5,
 		color: "Black",
+		evos: ["Sevicious"],
 		eggGroups: ["Field", "Dragon"],
 	},
 	lunatone: {
@@ -21324,6 +21326,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 4.2,
 		weightkg: 175.2,
 		color: "Black",
+		prevo: "Seviper",
+		evoLevel: 55,
 		eggGroups: ["Field", "Dragon"],
 		gen: 3,
 	},
@@ -21336,6 +21340,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 3.5,
 		weightkg: 65,
 		color: "White",
+		prevo: "Zangoose",
+		evoLevel: 55,
 		eggGroups: ["Field", "Dragon"],
 		gen: 3,
 	},
