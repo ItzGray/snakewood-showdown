@@ -663,6 +663,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			cut: ["3M"],
 			strength: ["3M"],
 			rocksmash: ["3M"],
+			bite: [],
+			counter: [],
 		},
 	},
 	kingmadio: {
