@@ -22208,7 +22208,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	lucazamon: {
 		num: 5382,
-		name: "Luca Zamón",
+		name: "Luca Zamon",
 		types: ["Dragon", "Ice"],
 		gender: "F",
 		baseStats: { hp: 112, atk: 112, def: 80, spa: 112, spd: 80, spe: 112 },
@@ -22221,7 +22221,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	},
 	teabarqan: {
 		num: 5383,
-		name: "Téa Barqán",
+		name: "Tea Barqan",
 		types: ["Dragon", "Rock"],
 		gender: "M",
 		baseStats: { hp: 112, atk: 80, def: 112, spa: 80, spd: 112, spe: 112 },
