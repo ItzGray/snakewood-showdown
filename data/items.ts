@@ -5885,13 +5885,13 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		onBasePowerPriority: 15,
 		onBasePower(basePower, user, target, move) {
 			if (
-				move && (user.baseSpecies.num === 380 || user.baseSpecies.num === 381) &&
+				move && (user.baseSpecies.num === 380 || user.baseSpecies.num === 381 || user.baseSpecies.num === 5382 || user.baseSpecies.num === 5383) &&
 				(move.type === 'Psychic' || move.type === 'Dragon')
 			) {
 				return this.chainModify([4915, 4096]);
 			}
 		},
-		itemUser: ["Latios", "Latias"],
+		itemUser: ["Latios", "Latias", "Luca Zamon", "Tea Barqan"],
 		num: 225,
 		gen: 3,
 	},
