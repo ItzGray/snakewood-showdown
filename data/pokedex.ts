@@ -4948,7 +4948,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Tyranitar",
 		types: ["Rock", "Dark"],
 		baseStats: { hp: 100, atk: 134, def: 110, spa: 95, spd: 100, spe: 61 },
-		abilities: { 0: "Sand Stream", H: "Unnerve" },
+		abilities: { 0: "Sand Veil" },
 		heightm: 2,
 		weightkg: 202,
 		color: "Green",
