@@ -5360,7 +5360,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		mod: 'gen3',
 		searchShow: false,
 		ruleset: ['Standard', 'Deoxys Camouflage Clause Mod', 'One Baton Pass Clause'],
-		banlist: ['Wobbuffet + Leftovers', 'Wynaut + Leftovers', 'Baton Pass', 'Raticate + move: Bite', 'Raticate + Counter', 'Raticate + Flame Wheel', 'Raticate + Fury Swipes', 'Raticate + Reversal', 'Raticate + Screech', 'Raticate + Swagger', 'Raticate + Uproar', 'Raticate + Body Slam', 'Raticate + Defense Curl', 'Raticate + Double-Edge', 'Raticate + Endure', 'Raticate + Icy Wind', 'Raticate + Mimic', 'Raticate + Mud-Slap', 'Raticate + Sleep Talk', 'Raticate + Snore', 'Raticate + Substitute', 'Raticate + Swift', 'Raticate + Thunder Wave', 'Raticate + Focus Energy'],
+		banlist: ['Wobbuffet + Leftovers', 'Wynaut + Leftovers', 'Baton Pass'],
 	},
 	{
 		name: "[Gen 3] UU",
