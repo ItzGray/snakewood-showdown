@@ -21147,6 +21147,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Red",
 		evos: ["Charmeworm"],
 		eggGroups: ["Monster", "Dragon"],
+		gen: 3,
 	},
 	charmeworm: {
 		num: 5005,
@@ -21162,6 +21163,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 16,
 		evos: ["Dragon"],
 		eggGroups: ["Monster", "Dragon"],
+		gen: 3,
 	},
 	dragon: {
 		num: 5006,
@@ -21176,6 +21178,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Charmeworm",
 		evoLevel: 36,
 		eggGroups: ["Monster", "Dragon"],
+		gen: 3,
 	},
 	oozle: {
 		num: 7,
