@@ -21105,6 +21105,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Green",
 		evos: ["Shrivlsaur"],
 		eggGroups: ["Monster", "Grass"],
+		gen: 3,
 	},
 	shrivlsaur: {
 		num: 2,
@@ -21120,6 +21121,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 16,
 		evos: ["Vivosaur"],
 		eggGroups: ["Monster", "Grass"],
+		gen: 3,
 	},
 	vivosaur: {
 		num: 3,
@@ -21134,6 +21136,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Shrivlsaur",
 		evoLevel: 32,
 		eggGroups: ["Monster", "Grass"],
+		gen: 3,
 	},
 	rotmander: {
 		num: 5004,
@@ -21192,6 +21195,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Blue",
 		evos: ["Entrailtle"],
 		eggGroups: ["Monster", "Water 1"],
+		gen: 3,
 	},
 	entrailtle: {
 		num: 8,
@@ -21207,6 +21211,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 16,
 		evos: ["Bleedoise"],
 		eggGroups: ["Monster", "Water 1"],
+		gen: 3,
 	},
 	bleedoise: {
 		num: 9,
@@ -21221,6 +21226,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Entrailtle",
 		evoLevel: 36,
 		eggGroups: ["Monster", "Water 1"],
+		gen: 3,
 	},
 	shinigami: {
 		num: 10,
@@ -21233,6 +21239,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 2.9,
 		color: "Green",
 		eggGroups: ["Bug"],
+		gen: 3,
 	},
 	stitcher: {
 		num: 11,
@@ -21245,6 +21252,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 9.9,
 		color: "Green",
 		eggGroups: ["Bug"],
+		gen: 3,
 	},
 	antispiral: {
 		num: 12,
@@ -21257,6 +21265,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 32,
 		color: "White",
 		eggGroups: ["Bug"],
+		gen: 3,
 	},
 	glute: {
 		num: 5013,
@@ -21310,6 +21319,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 1.8,
 		color: "Gray",
 		eggGroups: ["Flying"],
+		gen: 3,
 	},
 	nigera: {
 		num: 17,
@@ -21332,6 +21342,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 39.5,
 		color: "Brown",
 		eggGroups: ["Flying"],
+		gen: 3,
 	},
 	ramshaker: {
 		num: 5019,
@@ -21387,6 +21398,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 12.5,
 		color: "Purple",
 		eggGroups: ["Bug"],
+		gen: 3,
 	},
 	gigawolf: {
 		num: 571,
@@ -21424,6 +21436,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 28,
 		color: "Brown",
 		eggGroups: ["Field"],
+		gen: 3,
 	},
 	polihag: {
 		num: 60,
@@ -21436,6 +21449,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Blue",
 		evos: ["Poliworm"],
 		eggGroups: ["Water 1"],
+		gen: 3,
 	},
 	poliworm: {
 		num: 61,
@@ -21450,6 +21464,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 25,
 		evos: ["Poliwraith", "Zombified"],
 		eggGroups: ["Water 1"],
+		gen: 3,
 	},
 	poliwraith: {
 		num: 62,
@@ -21464,6 +21479,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoType: "useItem",
 		evoItem: "Water Stone",
 		eggGroups: ["Water 1"],
+		gen: 3,
 	},
 	kuriputo: {
 		num: 69,
@@ -21475,6 +21491,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 4,
 		color: "Red",
 		eggGroups: ["Grass"],
+		gen: 3,
 	},
 	roodanse: {
 		num: 70,
@@ -21486,6 +21503,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 6.4,
 		color: "Blue",
 		eggGroups: ["Grass"],
+		gen: 3,
 	},
 	ooshe: {
 		num: 71,
@@ -21497,6 +21515,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 15.5,
 		color: "Red",
 		eggGroups: ["Grass"],
+		gen: 3,
 	},
 	qwilshark: {
 		num: 5073,
@@ -21537,6 +21556,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Gray",
 		evos: ["Yuck"],
 		eggGroups: ["Undiscovered"],
+		gen: 3,
 	},
 	yuck: {
 		num: 89,
@@ -21550,6 +21570,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Moulder",
 		evoLevel: 38,
 		eggGroups: ["Undiscovered"],
+		gen: 3,
 	},
 	roclobster: {
 		num: 5115,
@@ -21588,6 +21609,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Green",
 		evos: ["Ironreaper"],
 		eggGroups: ["Bug"],
+		gen: 3,
 	},
 	eyeeye: {
 		num: 124,
@@ -21600,6 +21622,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 40.6,
 		color: "Red",
 		eggGroups: ["Human-Like"],
+		gen: 3,
 	},
 	electabugs: {
 		num: 125,
@@ -21612,6 +21635,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 30,
 		color: "Yellow",
 		eggGroups: ["Human-Like"],
+		gen: 3,
 	},
 	miasmar: {
 		num: 126,
@@ -21624,6 +21648,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 44.5,
 		color: "Red",
 		eggGroups: ["Human-Like"],
+		gen: 3,
 	},
 	gorelax: {
 		num: 143,
@@ -21636,6 +21661,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 460,
 		color: "Black",
 		eggGroups: ["Monster"],
+		gen: 3,
 	},
 	mutagon: {
 		num: 150,
@@ -21650,6 +21676,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Mewby",
 		evoLevel: 34,
 		eggGroups: ["Human-Like", "Monster"],
+		gen: 3,
 	},
 	mewby: {
 		num: 151,
@@ -21663,6 +21690,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Blue",
 		evos: ["Mutagon"],
 		eggGroups: ["Undiscovered"],
+		gen: 3,
 	},
 	kamina: {
 		num: 5175,
@@ -21688,6 +21716,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Red",
 		evos: ["Azombarill"],
 		eggGroups: ["Undiscovered"],
+		gen: 3,
 	},
 	azombarill: {
 		num: 184,
@@ -21701,6 +21730,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Graveill",
 		evoLevel: 18,
 		eggGroups: ["Undiscovered"],
+		gen: 3,
 	},
 	gluemadio: {
 		num: 5185,
@@ -21728,6 +21758,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoType: "trade",
 		evoItem: "King's Rock",
 		eggGroups: ["Water 1"],
+		gen: 3,
 	},
 	earthmadio: {
 		num: 5187,
@@ -21766,6 +21797,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 150,
 		color: "Pink",
 		eggGroups: ["Fairy", "Grass"],
+		gen: 3,
 	},
 	seamadio: {
 		num: 5190,
@@ -21834,6 +21866,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 26.5,
 		color: "Purple",
 		eggGroups: ["Field"],
+		gen: 3,
 	},
 	demoneon: {
 		num: 197,
@@ -21846,6 +21879,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 27,
 		color: "Black",
 		eggGroups: ["Field"],
+		gen: 3,
 	},
 	dirtkrow: {
 		num: 198,
@@ -21857,6 +21891,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 2.1,
 		color: "Black",
 		eggGroups: ["Flying"],
+		gen: 3,
 	},
 	aeromadio: {
 		num: 5203,
@@ -21936,6 +21971,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 3.9,
 		color: "Gray",
 		eggGroups: ["Water 2"],
+		gen: 3,
 	},
 	ironreaper: {
 		num: 212,
@@ -21950,6 +21986,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoType: "trade",
 		evoItem: "Metal Coat",
 		eggGroups: ["Bug"],
+		gen: 3,
 	},
 	maw: {
 		num: 215,
@@ -21961,6 +21998,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 11.5,
 		color: "Black",
 		eggGroups: ["Field", "Fairy"],
+		gen: 3,
 	},
 	chocwork: {
 		num: 5217,
@@ -22000,6 +22038,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Black",
 		evos: ["Headdoom"],
 		eggGroups: ["Field"],
+		gen: 3,
 	},
 	headdoom: {
 		num: 229,
@@ -22013,6 +22052,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Houndsour",
 		evoLevel: 24,
 		eggGroups: ["Field"],
+		gen: 3,
 	},
 	scarlugia: {
 		num: 249,
@@ -22026,6 +22066,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "White",
 		tags: ["Restricted Legendary"],
 		eggGroups: ["Undiscovered"],
+		gen: 3,
 	},
 	skylax: {
 		num: 5272,
