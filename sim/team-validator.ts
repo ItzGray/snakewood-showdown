@@ -746,7 +746,7 @@ export class TeamValidator {
 			if (dex.gen <= 2 || dex.currentMod === 'gen7letsgo') {
 				set.ability = 'No Ability';
 			} else {
-				if (!ability.name || ability.name === 'No Ability') {
+				if (!ability.name) {
 					problems.push(`${name} needs to have an ability.`);
 				} else if (!Object.values(species.abilities).includes(ability.name)) {
 					if (tierSpecies.abilities[0] === ability.name) {
