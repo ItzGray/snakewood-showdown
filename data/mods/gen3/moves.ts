@@ -294,7 +294,6 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	},
 	flash: {
 		inherit: true,
-		accuracy: 70,
 	},
 	fly: {
 		inherit: true,
