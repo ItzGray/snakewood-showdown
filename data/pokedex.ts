@@ -21136,7 +21136,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Monster", "Grass"],
 	},
 	rotmander: {
-		num: 4,
+		num: 5004,
 		name: "Rotmander",
 		types: ["Fire"],
 		genderRatio: { M: 0.875, F: 0.125 },
@@ -21149,7 +21149,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Monster", "Dragon"],
 	},
 	charmeworm: {
-		num: 5,
+		num: 5005,
 		name: "Charmeworm",
 		types: ["Fire"],
 		genderRatio: { M: 0.875, F: 0.125 },
@@ -21164,7 +21164,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Monster", "Dragon"],
 	},
 	dragon: {
-		num: 6,
+		num: 5006,
 		name: "Dragon",
 		types: ["Dragon"],
 		genderRatio: { M: 0.875, F: 0.125 },
