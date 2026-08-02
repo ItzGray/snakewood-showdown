@@ -131,14 +131,4 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		debug: true,
 		ruleset: ['HP Percentage Mod', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
 	},
-	{
-		section: "Snakewood NatDex",
-	},
-	{
-		name: "[Gen 3] National Dex Ubers",
-		mod: 'gen3',
-		searchShow: false,
-		ruleset: ['Standard NatDex', 'Deoxys Camouflage Clause Mod', 'One Baton Pass Clause'],
-		banlist: ['Wobbuffet + Leftovers', 'Wynaut + Leftovers', 'Baton Pass'],
-	},
 ];
