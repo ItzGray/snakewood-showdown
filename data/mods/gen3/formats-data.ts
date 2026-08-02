@@ -1442,9 +1442,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "Uber",
 	},
 	amonster: {
-		isNonstandard: "Past",
-		tier: "Illegal",
-		natDexTier: "Uber",
+		tier: "Uber",
 	},
 	gigawolf: {
 		tier: "Uber",
