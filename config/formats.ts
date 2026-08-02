@@ -19,26 +19,24 @@ The column value will be ignored for repeat sections.
 
 export const Formats: import('../sim/dex-formats').FormatList = [
 
-	// Past Gens OU
+	// Snakewood
 	///////////////////////////////////////////////////////////////////
 
 	{
-		section: "Past Gens OU",
-		column: 4,
+		section: "Snakewood",
+	},
+	{
+		name: "[Gen 3] Snakewood Ubers",
+		mod: 'gen3',
+		searchShow: false,
+		ruleset: ['Standard', 'Deoxys Camouflage Clause Mod', 'One Baton Pass Clause'],
+		banlist: ['Wobbuffet + Leftovers', 'Wynaut + Leftovers', 'Baton Pass'],
 	},
 	{
 		name: "[Gen 3] Snakewood OU",
 		mod: 'gen3',
 		ruleset: ['Standard', 'One Boost Passer Clause', 'Accuracy Trap Clause', 'Freeze Clause Mod', 'Speed Pass Clause'],
 		banlist: ['Uber', 'Smeargle + Ingrain', 'Sand Veil', 'Soundproof', 'Quick Claw', 'Assist', 'Baton Pass + Block', 'Baton Pass + Mean Look', 'Baton Pass + Spider Web', 'Swagger'],
-	},
-
-	// Past Gens Doubles OU
-	///////////////////////////////////////////////////////////////////
-
-	{
-		section: "Past Gens Doubles OU",
-		column: 4,
 	},
 	{
 		name: "[Gen 3] Snakewood Doubles OU",
@@ -48,21 +46,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Standard', '!Switch Priority Clause Mod'],
 		banlist: ['Uber', 'Quick Claw', 'Soul Dew', 'Explosion', 'Self-Destruct', 'Swagger'],
 		unbanlist: ['Wobbuffet', 'Wynaut'],
-	},
-
-	// Past Generations
-	///////////////////////////////////////////////////////////////////
-
-	{
-		section: "Past Generations",
-		column: 4,
-	},
-	{
-		name: "[Gen 3] Snakewood Ubers",
-		mod: 'gen3',
-		searchShow: false,
-		ruleset: ['Standard', 'Deoxys Camouflage Clause Mod', 'One Baton Pass Clause'],
-		banlist: ['Wobbuffet + Leftovers', 'Wynaut + Leftovers', 'Baton Pass'],
 	},
 	{
 		name: "[Gen 3] Snakewood UU",
