@@ -26,7 +26,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "Snakewood",
 	},
 	{
-		name: "[Snakewood] Ubers",
+		name: "[Gen 3] Ubers",
 		mod: 'gen3',
 		searchShow: false,
 		ruleset: ['Standard', 'Deoxys Camouflage Clause Mod', 'One Baton Pass Clause'],
