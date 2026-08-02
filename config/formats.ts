@@ -101,7 +101,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 3] UUBL",
 		mod: 'gen3',
 		searchShow: false,
-		ruleset: ['[Gen 3] Snakewood OU', '!Accuracy Trap Clause'],
+		ruleset: ['[Gen 3] OU', '!Accuracy Trap Clause'],
 		banlist: [
 			'OU', 'Smeargle + Ingrain', 'Baton Pass + Block', 'Baton Pass + Mean Look', 'Baton Pass + Spider Web', 'Flail', 'Reversal',
 			'Baton Pass + Speed Boost', 'Baton Pass + Agility', 'Baton Pass + Dragon Dance', 'Baton Pass + Salac Berry',
