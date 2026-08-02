@@ -39,7 +39,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		banlist: ['Uber', 'Smeargle + Ingrain', 'Sand Veil', 'Soundproof', 'Quick Claw', 'Assist', 'Baton Pass + Block', 'Baton Pass + Mean Look', 'Baton Pass + Spider Web', 'Swagger'],
 	},
 	{
-		name: "[Gen 3] OU",
+		name: "[Gen 3] Doubles OU",
 		mod: 'gen3',
 		gameType: 'doubles',
 		searchShow: false,
