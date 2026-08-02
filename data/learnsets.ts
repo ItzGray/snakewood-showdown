@@ -3123,13 +3123,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             attract: ["3M"],
             flash: ["3M"],
             rocksmash: ["3M"],
-            present: ["3E"],
-            mirrormove: ["3E"],
-            peck: ["3E"],
-            foresight: ["3E"],
-            futuresight: ["3E"],
-            substitute: ["3E"],
-            psychup: ["3E"]
+            //present: ["3E"],
+            //mirrormove: ["3E"],
+            //peck: ["3E"],
+            //foresight: ["3E"],
+            //futuresight: ["3E"],
+            //substitute: ["3E"],
+            //psychup: ["3E"]
         }
     },
     togetic: {
@@ -3447,14 +3447,14 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             rocksmash: ["3M"],
             waterfall: ["3M"],
             dive: ["3M"],
-            lightscreen: ["3E"],
-            present: ["3E"],
-            amnesia: ["3E"],
-            futuresight: ["3E"],
-            bellydrum: ["3E"],
-            perishsong: ["3E"],
-            supersonic: ["3E"],
-            substitute: ["3E"]
+            //lightscreen: ["3E"],
+            //present: ["3E"],
+            //amnesia: ["3E"],
+            //futuresight: ["3E"],
+            //bellydrum: ["3E"],
+            //perishsong: ["3E"],
+            //supersonic: ["3E"],
+            //substitute: ["3E"]
         }
     },
     azombarill: {
@@ -3727,13 +3727,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             surf: ["3M"],
             strength: ["3M"],
             rocksmash: ["3M"],
-            screech: ["3E"],
-            flamewheel: ["3E"],
-            furyswipes: ["3E"],
-            bite: ["3E"],
-            reversal: ["3E"],
-            uproar: ["3E"],
-            swagger: ["3E"]
+            //screech: ["3E"],
+            //flamewheel: ["3E"],
+            //furyswipes: ["3E"],
+            //bite: ["3E"],
+            //reversal: ["3E"],
+            //uproar: ["3E"],
+            //swagger: ["3E"]
         }
     },
     seamadio: {
@@ -4430,13 +4430,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             cut: ["3M"],
             strength: ["3M"],
             rocksmash: ["3M"],
-            bide: ["3E"],
-            ancientpower: ["3E"],
-            rockslide: ["3E"],
-            bite: ["3E"],
-            headbutt: ["3E"],
-            astonish: ["3E"],
-            curse: ["3E"]
+            //bide: ["3E"],
+            //ancientpower: ["3E"],
+            //rockslide: ["3E"],
+            //bite: ["3E"],
+            //headbutt: ["3E"],
+            //astonish: ["3E"],
+            //curse: ["3E"]
         }
     },
     normadio: {
@@ -5462,9 +5462,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             snatch: ["3M"],
             strength: ["3M"],
             rocksmash: ["3M"],
-            pursuit: ["3E"],
-            slam: ["3E"],
-            spite: ["3E"]
+            //pursuit: ["3E"],
+            //slam: ["3E"],
+            //spite: ["3E"]
         }
     },
     kingdra: {
@@ -5911,14 +5911,14 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             surf: ["3M"],
             strength: ["3M"],
             rocksmash: ["3M"],
-            present: ["3E"],
-            reversal: ["3E"],
-            seismictoss: ["3E"],
-            endure: ["3E"],
-            psychup: ["3E"],
-            curse: ["3E"],
-            helpinghand: ["3E"],
-            sleeptalk: ["3E"]
+            //present: ["3E"],
+            //reversal: ["3E"],
+            //seismictoss: ["3E"],
+            //endure: ["3E"],
+            //psychup: ["3E"],
+            //curse: ["3E"],
+            //helpinghand: ["3E"],
+            //sleeptalk: ["3E"]
         }
     },
     blissey: {
@@ -7518,10 +7518,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             strength: ["3M"],
             flash: ["3M"],
             dive: ["3M"],
-            endure: ["3E"],
-            faintattack: ["3E"],
-            gust: ["3E"],
-            silverwind: ["3E"]
+            //endure: ["3E"],
+            //faintattack: ["3E"],
+            //gust: ["3E"],
+            //silverwind: ["3E"]
         }
     },
     secretegg: {
@@ -9653,11 +9653,11 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             strength: ["3M"],
             flash: ["3M"],
             rocksmash: ["3M"],
-            encore: ["3E"],
-            sing: ["3E"],
-            refresh: ["3E"],
-            slam: ["3E"],
-            tickle: ["3E"]
+            //encore: ["3E"],
+            //sing: ["3E"],
+            //refresh: ["3E"],
+            //slam: ["3E"],
+            //tickle: ["3E"]
         }
     },
     spoink: {
@@ -9776,8 +9776,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             thief: ["3M"],
             strength: ["3M"],
             flash: ["3M"],
-            substitute: ["3E"],
-            wish: ["3E"]
+            //substitute: ["3E"],
+            //wish: ["3E"]
         }
     },
     weavile: {
@@ -9819,8 +9819,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             cut: ["3M"],
             strength: ["3M"],
             rocksmash: ["3M"],
-            substitute: ["3E"],
-            wish: ["3E"]
+            //substitute: ["3E"],
+            //wish: ["3E"]
         }
     },
     sneasel: {
@@ -12680,12 +12680,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             snatch: ["3M"],
             strength: ["3M"],
             rocksmash: ["3M"],
-            faintattack: ["3E"],
-            screech: ["3E"],
-            ancientpower: ["3E"],
-            pursuit: ["3E"],
-            uproar: ["3E"],
-            rockslide: ["3E"]
+            //faintattack: ["3E"],
+            //screech: ["3E"],
+            //ancientpower: ["3E"],
+            //pursuit: ["3E"],
+            //uproar: ["3E"],
+            //rockslide: ["3E"]
         }
     },
     galactimon: {
@@ -14087,14 +14087,14 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             rocksmash: ["3M"],
             waterfall: ["3M"],
             dive: ["3M"],
-            steelwing: ["3E"],
-            foresight: ["3E"],
-            mirrormove: ["3E"],
-            gust: ["3E"],
-            quickattack: ["3E"],
-            flail: ["3E"],
-            featherdance: ["3E"],
-            curse: ["3E"]
+            //steelwing: ["3E"],
+            //foresight: ["3E"],
+            //mirrormove: ["3E"],
+            //gust: ["3E"],
+            //quickattack: ["3E"],
+            //flail: ["3E"],
+            //featherdance: ["3E"],
+            //curse: ["3E"]
         }
     },
     doduo: {
@@ -14266,13 +14266,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             rest: ["3M"],
             attract: ["3M"],
             thief: ["3M"],
-            haze: ["3E"],
-            meanlook: ["3E"],
-            lick: ["3E"],
-            imprison: ["3E"],
-            curse: ["3E"],
-            shadowpunch: ["3E"],
-            explosion: ["3E"]
+            //haze: ["3E"],
+            //meanlook: ["3E"],
+            //lick: ["3E"],
+            //imprison: ["3E"],
+            //curse: ["3E"],
+            //shadowpunch: ["3E"],
+            //explosion: ["3E"]
         }
     },
     yuck: {
