@@ -2908,6 +2908,7 @@ export class TeamValidator {
 
 		// Now that we have our list of possible sources, intersect it with the current list
 		if (!moveSources.size()) {
+			console.log(moveSources)
 			if (cantLearnReason) return `'s move ${move.name} ${cantLearnReason}`;
 			return ` can't learn ${move.name}.`;
 		}
