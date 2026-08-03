@@ -692,50 +692,18 @@ export class DexSpecies {
 		return movePool;
 	}
 
-	getFullLearnset(id: ID): (Learnset & { learnset: NonNullable<Learnset['learnset']> })[] {
+	getFullLearnset(id: ID): (Learnset & { learnset: NonNullable<Learnset['learnset']> } & Object)[] {
 		const originalSpecies = this.get(id);
 		let species: Species | null = originalSpecies;
 		let dataPath = this.dex.dataDir.split("mods/")[0]
 		console.log(dataPath);
-		let ogLearnsetData = this.dex.loadDataFile(dataPath, "Learnsets")[id]["learnset"];
+		let ogLearnsetData = this.dex.loadDataFile(dataPath, "Learnsets")[id];
 		let ogSpeciesData = this.getLearnsetData(species.id)["species"];
 		console.log(ogLearnsetData);
 		console.log(ogSpeciesData);
 		const out: (Learnset & { learnset: NonNullable<Learnset['learnset']> })[] = [];
-		const alreadyChecked: { [k: string]: boolean } = {};
-
-		while (species?.name && !alreadyChecked[species.id]) {
-			alreadyChecked[species.id] = true;
-			const learnset = this.getLearnsetData(species.id);
-			if (learnset.learnset) {
-				out.push(learnset as any);
-				species = this.learnsetParent(species, true);
-				continue;
-			}
-
-			// no learnset
-			if ((species.changesFrom || species.baseSpecies) !== species.name) {
-				// forme without its own learnset
-				species = this.get(species.changesFrom || species.baseSpecies);
-				// warning: formes with their own learnset, like Wormadam, should NOT
-				// inherit from their base forme unless they're freely switchable
-				continue;
-			}
-			if (species.isNonstandard) {
-				// It's normal for a nonstandard species not to have learnset data
-
-				// Formats should replace the `Obtainable Moves` rule if they want to
-				// allow pokemon without learnsets.
-				return out;
-			}
-			if (species.prevo && this.getLearnsetData(toID(species.prevo)).learnset) {
-				species = this.get(toID(species.prevo));
-				continue;
-			}
-
-			// should never happen
-			throw new Error(`Species with no learnset data: ${species.id}`);
-		}
+		let learnsetToPush = new Learnset(ogLearnsetData, ogSpeciesData);
+		out.push(learnsetToPush);
 
 		return out;
 	}
