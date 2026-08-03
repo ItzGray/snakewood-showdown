@@ -21322,7 +21322,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		category: "Special",
 		name: "Fire Pump",
 		shortDesc: "40% chance to burn the target.",
-		pp: 8,
+		pp: 12,
+		noPPBoosts: true,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1 },
 		secondary: {
