@@ -2559,7 +2559,6 @@ export class TeamValidator {
 			// allow pokemon without learnsets.
 			return ` can't learn any moves at all.`;
 		}
-		console.log(fullLearnset);
 		for (const { species, learnset } of fullLearnset) {
 			if (dex.gen <= 2 && species.gen === 1) tradebackEligible = true;
 			const checkingPrevo = species.baseSpecies !== originalSpecies.baseSpecies;
@@ -2607,7 +2606,6 @@ export class TeamValidator {
 				//   teach it, and transfer it to the current gen.)
 
 				const learnedGen = parseInt(learned.charAt(0));
-				console.log(`${move.name} ${learned}`)
 				if (formeCantInherit && (learned.charAt(1) !== 'E' || learnedGen < 9)) continue;
 				if (setSources.learnsetDomain && !setSources.learnsetDomain.includes(`${learnedGen}${toID(species.baseSpecies)}`) &&
 					(learned.charAt(1) !== 'E' || learnedGen < 8)
