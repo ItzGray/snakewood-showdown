@@ -1911,7 +1911,7 @@ export class TeamValidator {
 			return `${displayName} ${ruleTable.describeTagRule(match)}, which is ${banReason || "banned"}.`;
 		}
 
-		if (nonexistentCheck) {
+		if (nonexistentCheck && !(thing.effectType === 'Move' && thing.name === "Discharge" && dex.gen === 3)) {
 			if (thing.isNonstandard === 'Unobtainable') {
 				if (thing.effectType === 'Move') {
 					return `${displayName} is not obtainable without hacking or glitches${dex.gen >= 9 && thing.gen < dex.gen ? ` in Gen ${dex.gen}` : ``}.`;
@@ -1925,7 +1925,7 @@ export class TeamValidator {
 				// this to happen with an unusual ruleset, though, so we won't throw.
 				return `${displayName} is a placeholder for a Gigantamax sprite, not a real Pokémon. (This message is likely a validator bug.)`;
 			}
-			if ((thing.isNonstandard === 'Past' || thing.isNonstandard === 'Future') && !(thing.effectType === 'Move' && thing.name === "Discharge" && dex.gen === 3)) {
+			if ((thing.isNonstandard === 'Past' || thing.isNonstandard === 'Future')) {
 				return `${displayName} does not exist in Gen ${dex.gen}.`;
 			}
 			if (thing.isNonstandard === 'CAP') {
