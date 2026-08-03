@@ -698,7 +698,7 @@ export class DexSpecies {
 		let dataPath = this.dex.dataDir.split("mods/")[0]
 		console.log(dataPath);
 		let ogLearnsetData = this.dex.loadDataFile(dataPath, "Learnsets")[id]["learnset"];
-		let ogSpeciesData = this.dex.loadDataFile(dataPath, "Pokedex");
+		let ogSpeciesData = this.dex.loadDataFile(dataPath, "Pokedex")[id];
 		console.log(ogLearnsetData);
 		console.log(ogSpeciesData);
 		const out: (Learnset & { learnset: NonNullable<Learnset['learnset']> })[] = [];
