@@ -695,7 +695,7 @@ export class DexSpecies {
 	getFullLearnset(id: ID): (Learnset & { learnset: NonNullable<Learnset['learnset']> })[] {
 		const originalSpecies = this.get(id);
 		let species: Species | null = originalSpecies;
-		let dataPath = this.dex.dataDir + "/";
+		let dataPath = this.dex.dataDir.split("mods/")[0]
 		console.log(dataPath);
 		let ogLearnsetData = this.dex.loadDataFile(dataPath, "Learnsets")[id]["learnset"];
 		let ogSpeciesData = this.dex.loadDataFile(dataPath, "Pokedex");
