@@ -2607,7 +2607,7 @@ export class TeamValidator {
 				//   teach it, and transfer it to the current gen.)
 
 				const learnedGen = parseInt(learned.charAt(0));
-				console.log(learned)
+				console.log(`${move.name} ${learned}`)
 				if (formeCantInherit && (learned.charAt(1) !== 'E' || learnedGen < 9)) continue;
 				if (setSources.learnsetDomain && !setSources.learnsetDomain.includes(`${learnedGen}${toID(species.baseSpecies)}`) &&
 					(learned.charAt(1) !== 'E' || learnedGen < 8)
