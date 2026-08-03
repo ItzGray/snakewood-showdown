@@ -2559,7 +2559,7 @@ export class TeamValidator {
 			// allow pokemon without learnsets.
 			return ` can't learn any moves at all.`;
 		}
-		console.log(fullLearnset)
+		console.log(fullLearnset);
 		for (const { species, learnset } of fullLearnset) {
 			if (dex.gen <= 2 && species.gen === 1) tradebackEligible = true;
 			const checkingPrevo = species.baseSpecies !== originalSpecies.baseSpecies;
