@@ -696,6 +696,7 @@ export class DexSpecies {
 		const originalSpecies = this.get(id);
 		let species: Species | null = originalSpecies;
 		let dataPath = this.dex.dataDir + "/";
+		console.log(dataPath);
 		let ogLearnsetData = this.dex.loadDataFile(dataPath, "Learnsets")[id]["learnset"];
 		let ogSpeciesData = this.dex.loadDataFile(dataPath, "Pokedex");
 		console.log(ogLearnsetData);
