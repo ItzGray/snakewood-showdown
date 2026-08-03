@@ -800,7 +800,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	dragonite: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "UUBL",
+		natDexTier: "OU",
 	},
 	mewtwo: {
 		tier: "Illegal",
