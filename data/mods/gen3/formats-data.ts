@@ -373,7 +373,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "LC",
 	},
 	arcanine: {
-		tier: "UU",
+		tier: "OU",
 	},
 	polihag: {
 		isNonstandard: "Past",
