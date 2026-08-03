@@ -2552,6 +2552,7 @@ export class TeamValidator {
 
 		let tradebackEligible = false;
 		const fullLearnset = dex.species.getFullLearnset(originalSpecies.id);
+		console.log(fullLearnset);
 		if (!fullLearnset.length) {
 			// It's normal for a nonstandard species not to have learnset data
 
