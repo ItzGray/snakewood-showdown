@@ -695,7 +695,7 @@ export class DexSpecies {
 	getFullLearnset(id: ID): (Learnset & { learnset: NonNullable<Learnset['learnset']> } & Object)[] {
 		const originalSpecies = this.get(id);
 		let species: Species | null = originalSpecies;
-		let dataPath = this.dex.dataDir.split("mods/")[0]
+		let dataPath = this.dex.dataDir.split("mods/")[0];
 		const out: (Learnset & { learnset: NonNullable<Learnset['learnset']> })[] = [];
 		const alreadyChecked: { [k: string]: boolean } = {};
 
