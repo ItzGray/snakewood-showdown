@@ -1925,7 +1925,7 @@ export class TeamValidator {
 				// this to happen with an unusual ruleset, though, so we won't throw.
 				return `${displayName} is a placeholder for a Gigantamax sprite, not a real Pokémon. (This message is likely a validator bug.)`;
 			}
-			if (thing.isNonstandard === 'Past' || thing.isNonstandard === 'Future') {
+			if ((thing.isNonstandard === 'Past' || thing.isNonstandard === 'Future') && !(thing.effectType === 'Move' && thing.name === "Discharge" && dex.gen === 3)) {
 				return `${displayName} does not exist in Gen ${dex.gen}.`;
 			}
 			if (thing.isNonstandard === 'CAP') {
