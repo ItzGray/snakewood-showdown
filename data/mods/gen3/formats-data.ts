@@ -1842,7 +1842,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "OU",
 	},
 	turmur: {
-		tier: "OU",
+		tier: "Uber",
 	},
 	senex: {
 		tier: "Uber",
