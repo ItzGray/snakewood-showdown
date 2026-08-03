@@ -13,6 +13,6 @@ export const Formats: FormatList = [
 		mod: 'gen3',
 		searchShow: false,
 		ruleset: ['Standard NatDex', 'Deoxys Camouflage Clause Mod', 'One Baton Pass Clause'],
-		banlist: ['Wobbuffet + Leftovers', 'Wynaut + Leftovers', 'Baton Pass'],
+		banlist: [],
 	},
 ];
