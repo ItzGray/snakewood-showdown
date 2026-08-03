@@ -1710,7 +1710,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	mutagon: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "Uber",
+		natDexTier: "OU",
 	},
 	mewby: {
 		isNonstandard: "Past",
