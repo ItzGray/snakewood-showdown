@@ -1105,7 +1105,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             swift: ["3L25"],
             screech: ["3L36"],
             thunderbolt: ["3L47", "3M"],
-            thunder: ["3L58"],
+            discharge: ["3L58", "3M"],
             focuspunch: ["3M"],
             toxic: ["3M"],
             hiddenpower: ["3M"],
@@ -1114,7 +1114,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             raindance: ["3M"],
             frustration: ["3M"],
             ironslam: ["3M"],
-            discharge: ["3M"],
             return: ["3M"],
             psychic: ["3M"],
             icepunch: ["3M"],
@@ -1438,7 +1437,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             pinmissile: ["3L36"],
             thunderwave: ["3L42"],
             agility: ["3L47"],
-            thunder: ["3L52"],
+            discharge: ["3L52", "3M"],
             roar: ["3M"],
             toxic: ["3M"],
             hiddenpower: ["3M"],
@@ -1449,7 +1448,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             frustration: ["3M"],
             ironslam: ["3M"],
             thunderbolt: ["3M"],
-            discharge: ["3M"],
             return: ["3M"],
             dig: ["3M"],
             shadowball: ["3M"],
@@ -1846,7 +1844,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             drillpeck: ["3L49"],
             charge: ["3L61"],
             lightscreen: ["3L73", "3M"],
-            thunder: ["3L85"],
+            discharge: ["3L85", "3M"],
             roar: ["3M"],
             toxic: ["3M"],
             hiddenpower: ["3M"],
@@ -1856,7 +1854,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             raindance: ["3M"],
             frustration: ["3M"],
             thunderbolt: ["3M"],
-            discharge: ["3M"],
             return: ["3M"],
             doubleteam: ["3M"],
             shockwave: ["3M"],
@@ -2560,7 +2557,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             pursuit: ["3L22", "3E"],
             spark: ["3L25"],
             tackle: ["3L29"],
-            thunder: ["3L32"],
+            discharge: ["3L32", "3M"],
             agility: ["3L36"],
             afrobreak: ["3L39"],
             thrash: ["3L43"],
@@ -2571,7 +2568,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             raindance: ["3M"],
             frustration: ["3M"],
             thunderbolt: ["3M"],
-            discharge: ["3M"],
             return: ["3M"],
             doubleteam: ["3M"],
             facade: ["3M"],
@@ -2600,7 +2596,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             pursuit: ["3L22"],
             spark: ["3L25"],
             skullbreaker: ["3L31"],
-            thunder: ["3L36"],
+            discharge: ["3L36", "3M"],
             agility: ["3L42"],
             wildbolt: ["3L47"],
             thrash: ["3L53"],
@@ -2612,7 +2608,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             raindance: ["3M"],
             frustration: ["3M"],
             thunderbolt: ["3M"],
-            discharge: ["3M"],
             return: ["3M"],
             doubleteam: ["3M"],
             facade: ["3M"],
@@ -3122,14 +3117,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             rest: ["3M"],
             attract: ["3M"],
             flash: ["3M"],
-            rocksmash: ["3M"],
-            //present: ["3E"],
-            //mirrormove: ["3E"],
-            //peck: ["3E"],
-            //foresight: ["3E"],
-            //futuresight: ["3E"],
-            //substitute: ["3E"],
-            //psychup: ["3E"]
+            rocksmash: ["3M"]
         }
     },
     togetic: {
@@ -3262,7 +3250,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             thunderwave: ["3L16"],
             cottonspore: ["3L23"],
             lightscreen: ["3L30", "3M"],
-            thunder: ["3L37"],
+            discharge: ["3L37", "3M"],
             toxic: ["3M"],
             hiddenpower: ["3M"],
             protect: ["3M"],
@@ -3270,7 +3258,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             frustration: ["3M"],
             ironslam: ["3M"],
             thunderbolt: ["3M"],
-            discharge: ["3M"],
             return: ["3M"],
             doubleteam: ["3M"],
             shockwave: ["3M"],
@@ -3328,7 +3315,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             thunderwave: ["3L18"],
             cottonspore: ["3L27"],
             lightscreen: ["3L36", "3M"],
-            thunder: ["3L45"],
+            discharge: ["3L45", "3M"],
             focuspunch: ["3M"],
             toxic: ["3M"],
             hiddenpower: ["3M"],
@@ -3337,7 +3324,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             frustration: ["3M"],
             ironslam: ["3M"],
             thunderbolt: ["3M"],
-            discharge: ["3M"],
             return: ["3M"],
             icepunch: ["3M"],
             doubleteam: ["3M"],
@@ -3360,7 +3346,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             cottonspore: ["3L27"],
             thunderpunch: ["3L30"],
             lightscreen: ["3L42", "3M"],
-            thunder: ["3L57"],
+            discharge: ["3L57", "3M"],
             focuspunch: ["3M"],
             toxic: ["3M"],
             hiddenpower: ["3M"],
@@ -3370,7 +3356,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             frustration: ["3M"],
             ironslam: ["3M"],
             thunderbolt: ["3M"],
-            discharge: ["3M"],
             return: ["3M"],
             icepunch: ["3M"],
             doubleteam: ["3M"],
@@ -3446,15 +3431,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             strength: ["3M"],
             rocksmash: ["3M"],
             waterfall: ["3M"],
-            dive: ["3M"],
-            //lightscreen: ["3E"],
-            //present: ["3E"],
-            //amnesia: ["3E"],
-            //futuresight: ["3E"],
-            //bellydrum: ["3E"],
-            //perishsong: ["3E"],
-            //supersonic: ["3E"],
-            //substitute: ["3E"]
+            dive: ["3M"]
         }
     },
     azombarill: {
@@ -3688,7 +3665,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             leer: ["3L7"],
             psybeam: ["3L13"],
             roar: ["3L20"],
-            counter: ["3L24", "3E"],
+            counter: ["3L24"],
             seismictoss: ["3L29"],
             horndrill: ["3L31"],
             psychic: ["3L35", "3M"],
@@ -3726,14 +3703,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             snatch: ["3M"],
             surf: ["3M"],
             strength: ["3M"],
-            rocksmash: ["3M"],
-            //screech: ["3E"],
-            //flamewheel: ["3E"],
-            //furyswipes: ["3E"],
-            //bite: ["3E"],
-            //reversal: ["3E"],
-            //uproar: ["3E"],
-            //swagger: ["3E"]
+            rocksmash: ["3M"]
         }
     },
     seamadio: {
@@ -4429,14 +4399,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             attract: ["3M"],
             cut: ["3M"],
             strength: ["3M"],
-            rocksmash: ["3M"],
-            //bide: ["3E"],
-            //ancientpower: ["3E"],
-            //rockslide: ["3E"],
-            //bite: ["3E"],
-            //headbutt: ["3E"],
-            //astonish: ["3E"],
-            //curse: ["3E"]
+            rocksmash: ["3M"]
         }
     },
     normadio: {
@@ -5432,7 +5395,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             screech: ["3L19"],
             glare: ["3L25"],
             crunch: ["3L28"],
-            poisonfang: ["3L34", "3E"],
+            poisonfang: ["3L34"],
             swagger: ["3L37"],
             haze: ["3L43"],
             hyperfang: ["3L55"],
@@ -5453,7 +5416,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             doubleteam: ["3M"],
             firepump: ["3M"],
             sludgebomb: ["3M"],
-            beatup: ["3M", "3E"],
+            beatup: ["3M"],
             facade: ["3M"],
             secretpower: ["3M"],
             rest: ["3M"],
@@ -5461,10 +5424,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             thief: ["3M"],
             snatch: ["3M"],
             strength: ["3M"],
-            rocksmash: ["3M"],
-            //pursuit: ["3E"],
-            //slam: ["3E"],
-            //spite: ["3E"]
+            rocksmash: ["3M"]
         }
     },
     kingdra: {
@@ -5764,14 +5724,13 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             swift: ["3L25"],
             screech: ["3L33"],
             thunderbolt: ["3L41", "3M"],
-            thunder: ["3L49"],
+            discharge: ["3L49", "3M"],
             focuspunch: ["3M"],
             toxic: ["3M"],
             hiddenpower: ["3M"],
             protect: ["3M"],
             raindance: ["3M"],
             frustration: ["3M"],
-            discharge: ["3M"],
             return: ["3M"],
             psychic: ["3M"],
             icepunch: ["3M", "3E"],
@@ -5910,15 +5869,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             attract: ["3M"],
             surf: ["3M"],
             strength: ["3M"],
-            rocksmash: ["3M"],
-            //present: ["3E"],
-            //reversal: ["3E"],
-            //seismictoss: ["3E"],
-            //endure: ["3E"],
-            //psychup: ["3E"],
-            //curse: ["3E"],
-            //helpinghand: ["3E"],
-            //sleeptalk: ["3E"]
+            rocksmash: ["3M"]
         }
     },
     blissey: {
@@ -5985,7 +5936,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             spark: ["3L41"],
             reflect: ["3L51", "3M"],
             crunch: ["3L61"],
-            thunder: ["3L71"],
+            discharge: ["3L71", "3M"],
             calmmind: ["3L81", "3M"],
             toxic: ["3M"],
             hiddenpower: ["3M"],
@@ -5996,7 +5947,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             frustration: ["3M"],
             ironslam: ["3M"],
             thunderbolt: ["3M"],
-            discharge: ["3M"],
             return: ["3M"],
             dig: ["3M"],
             doubleteam: ["3M"],
@@ -6262,7 +6212,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             slam: ["3L20"],
             thunderbolt: ["3L26", "3M"],
             agility: ["3L33"],
-            thunder: ["3L41"],
+            discharge: ["3L41", "3M"],
             lightscreen: ["3L50", "3M"],
             focuspunch: ["3M"],
             toxic: ["3M"],
@@ -6271,7 +6221,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             raindance: ["3M"],
             frustration: ["3M"],
             ironslam: ["3M"],
-            discharge: ["3M"],
             return: ["3M"],
             dig: ["3M"],
             icepunch: ["3M"],
@@ -7517,11 +7466,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             skillswap: ["3M"],
             strength: ["3M"],
             flash: ["3M"],
-            dive: ["3M"],
-            //endure: ["3E"],
-            //faintattack: ["3E"],
-            //gust: ["3E"],
-            //silverwind: ["3E"]
+            dive: ["3M"]
         }
     },
     secretegg: {
@@ -9029,7 +8974,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             thunderbolt: ["3L29", "3M"],
             crunch: ["3L33", "3E"],
             scaryface: ["3L37"],
-            thunder: ["3L41"],
+            discharge: ["3L41", "3M"],
             shadowswipe: ["3L50"],
             toxic: ["3M"],
             hiddenpower: ["3M"],
@@ -9037,7 +8982,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             raindance: ["3M"],
             frustration: ["3M"],
             ironslam: ["3M"],
-            discharge: ["3M"],
             return: ["3M"],
             doubleteam: ["3M"],
             shockwave: ["3M"],
@@ -9067,7 +9011,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             crunch: ["3L33"],
             thunderbolt: ["3L39", "3M"],
             scaryface: ["3L43"],
-            thunder: ["3L48"],
+            discharge: ["3L48", "3M"],
             shadowswipe: ["3L52"],
             toxic: ["3M"],
             hiddenpower: ["3M"],
@@ -9076,7 +9020,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             raindance: ["3M"],
             frustration: ["3M"],
             ironslam: ["3M"],
-            discharge: ["3M"],
             return: ["3M"],
             doubleteam: ["3M"],
             shockwave: ["3M"],
@@ -9616,7 +9559,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
     x32763: {
         learnset: {
             hyperbeam: ["3L1", "3M"],
-            thunder: ["3L10"],
+            discharge: ["3L10", "3M"],
             ironslam: ["3L20", "3M"],
             datastream: ["3L37"],
             dragonclaw: ["3M"],
@@ -9633,7 +9576,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             frustration: ["3M"],
             solarbeam: ["3M"],
             thunderbolt: ["3M"],
-            discharge: ["3M"],
             earthquake: ["3M"],
             return: ["3M"],
             psychic: ["3M"],
@@ -9652,12 +9594,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             thief: ["3M"],
             strength: ["3M"],
             flash: ["3M"],
-            rocksmash: ["3M"],
-            //encore: ["3E"],
-            //sing: ["3E"],
-            //refresh: ["3E"],
-            //slam: ["3E"],
-            //tickle: ["3E"]
+            rocksmash: ["3M"]
         }
     },
     spoink: {
@@ -9753,7 +9690,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             swagger: ["3L28"],
             crunch: ["3L42"],
             scaryface: ["3L49"],
-            thunder: ["3L56"],
+            discharge: ["3L56", "3M"],
             shadowswipe: ["3L61"],
             toxic: ["3M"],
             hiddenpower: ["3M"],
@@ -9764,7 +9701,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             frustration: ["3M"],
             ironslam: ["3M"],
             thunderbolt: ["3M"],
-            discharge: ["3M"],
             return: ["3M"],
             doubleteam: ["3M"],
             shockwave: ["3M"],
@@ -9775,9 +9711,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             attract: ["3M"],
             thief: ["3M"],
             strength: ["3M"],
-            flash: ["3M"],
-            //substitute: ["3E"],
-            //wish: ["3E"]
+            flash: ["3M"]
         }
     },
     weavile: {
@@ -9818,9 +9752,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             thief: ["3M"],
             cut: ["3M"],
             strength: ["3M"],
-            rocksmash: ["3M"],
-            //substitute: ["3E"],
-            //wish: ["3E"]
+            rocksmash: ["3M"]
         }
     },
     sneasel: {
@@ -11971,7 +11903,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             lightscreen: ["3L34", "3M"],
             encore: ["3L38"],
             agility: ["3L46"],
-            thunder: ["3L50"],
+            discharge: ["3L50", "3M"],
             toxic: ["3M"],
             hiddenpower: ["3M"],
             taunt: ["3M"],
@@ -11979,7 +11911,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             raindance: ["3M"],
             frustration: ["3M"],
             thunderbolt: ["3M"],
-            discharge: ["3M"],
             earthquake: ["3M"],
             return: ["3M"],
             beatup: ["3M"],
@@ -12670,7 +12601,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             icepunch: ["3M"],
             doubleteam: ["3M"],
             rocktomb: ["3M"],
-            beatup: ["3M", "3E"],
+            beatup: ["3M"],
             torment: ["3M"],
             facade: ["3M"],
             secretpower: ["3M"],
@@ -12679,13 +12610,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             thief: ["3M"],
             snatch: ["3M"],
             strength: ["3M"],
-            rocksmash: ["3M"],
-            //feintattack: ["3E"],
-            //screech: ["3E"],
-            //ancientpower: ["3E"],
-            //pursuit: ["3E"],
-            //uproar: ["3E"],
-            //rockslide: ["3E"]
+            rocksmash: ["3M"]
         }
     },
     galactimon: {
@@ -12729,7 +12654,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             overheat: ["3M"],
             flash: ["3M"],
             dive: ["3M"],
-			futuresight: ["3S0"],
+            futuresight: ["3S0"]
         }
     },
     meowth: {
@@ -12960,7 +12885,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             thunderwave: ["3L17"],
             spark: ["3L22"],
             screech: ["3L36"],
-            thunder: ["3L44"],
+            discharge: ["3L44", "3M"],
             zapcannon: ["3L55"],
             lightscreen: ["3L66"],
             toxic: ["3M"],
@@ -12972,7 +12897,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             frustration: ["3M"],
             ironslam: ["3M"],
             thunderbolt: ["3M"],
-            discharge: ["3M"],
             return: ["3M"],
             doubleteam: ["3M"],
             reflect: ["3M"],
@@ -14086,15 +14010,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             flash: ["3M"],
             rocksmash: ["3M"],
             waterfall: ["3M"],
-            dive: ["3M"],
-            //steelwing: ["3E"],
-            //foresight: ["3E"],
-            //mirrormove: ["3E"],
-            //gust: ["3E"],
-            //quickattack: ["3E"],
-            //flail: ["3E"],
-            //featherdance: ["3E"],
-            //curse: ["3E"]
+            dive: ["3M"]
         }
     },
     doduo: {
@@ -14265,14 +14181,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             secretpower: ["3M"],
             rest: ["3M"],
             attract: ["3M"],
-            thief: ["3M"],
-            //haze: ["3E"],
-            //meanlook: ["3E"],
-            //lick: ["3E"],
-            //imprison: ["3E"],
-            //curse: ["3E"],
-            //shadowpunch: ["3E"],
-            //explosion: ["3E"]
+            thief: ["3M"]
         }
     },
     yuck: {
