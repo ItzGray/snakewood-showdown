@@ -2607,6 +2607,7 @@ export class TeamValidator {
 				//   teach it, and transfer it to the current gen.)
 
 				const learnedGen = parseInt(learned.charAt(0));
+				console.log(learned)
 				if (formeCantInherit && (learned.charAt(1) !== 'E' || learnedGen < 9)) continue;
 				if (setSources.learnsetDomain && !setSources.learnsetDomain.includes(`${learnedGen}${toID(species.baseSpecies)}`) &&
 					(learned.charAt(1) !== 'E' || learnedGen < 8)
@@ -2906,7 +2907,6 @@ export class TeamValidator {
 			}
 		}
 
-		console.log(moveSources)
 		// Now that we have our list of possible sources, intersect it with the current list
 		if (!moveSources.size()) {
 			if (cantLearnReason) return `'s move ${move.name} ${cantLearnReason}`;
