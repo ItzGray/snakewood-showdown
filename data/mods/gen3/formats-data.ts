@@ -747,7 +747,8 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		isNonstandard: "Unobtainable",
 	},
 	porygon2: {
-		tier: "OU",
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
 	},
 	omanyte: {
 		tier: "LC",
