@@ -1836,7 +1836,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "OU",
 	},
 	furiz: {
-		tier: "OU",
+		tier: "Uber",
 	},
 	furiq: {
 		tier: "OU",
