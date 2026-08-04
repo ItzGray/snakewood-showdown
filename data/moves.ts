@@ -7638,7 +7638,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	grasswhistle: {
 		num: 320,
-		accuracy: 55,
+		accuracy: 65,
 		basePower: 0,
 		category: "Status",
 		isNonstandard: "Past",
@@ -21380,6 +21380,24 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Dragon",
 		contestType: "Cool",
+	},
+	icebreath: {
+		num: -196,
+		accuracy: 95,
+		basePower: 25,
+		category: "Special",
+		name: "Ice Breath",
+		shortDesc: "50% chance to freeze the target.",
+		pp: 15,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		secondary: {
+			chance: 50,
+			status: 'frz',
+		},
+		target: "normal",
+		type: "Ice",
+		contestType: "Beautiful",
 	},
 	datastream: {
 		num: -199,
