@@ -1400,30 +1400,6 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 			}
 		},
 	},
-	freezeclausemod: {
-		effectType: 'Rule',
-		name: 'Freeze Clause Mod',
-		desc: "Prevents players from freezing more than one of their opponent's Pok&eacute;mon at a time",
-		onBegin() {
-			this.add('rule', 'Freeze Clause Mod: Limit one foe frozen');
-		},
-		onSetStatus(status, target, source) {
-			if (source?.isAlly(target)) {
-				return;
-			}
-			if (status.id === 'frz') {
-				for (const pokemon of target.side.pokemon) {
-					if (pokemon.hp && pokemon.status === 'frz') {
-						if (!pokemon.statusState.source?.isAlly(pokemon)) {
-							this.add('-message', 'Freeze Clause Mod activated.');
-							this.hint("Freeze Clause Mod prevents players from freezing more than one of their opponent's Pokémon at a time");
-							return false;
-						}
-					}
-				}
-			}
-		},
-	},
 	stadiumsleepclause: {
 		effectType: 'Rule',
 		name: 'Stadium Sleep Clause',
