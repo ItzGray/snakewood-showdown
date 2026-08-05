@@ -22,7 +22,7 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 		desc: "The standard ruleset for all official Smogon singles tiers (Ubers, OU, etc.)",
 		ruleset: [
 			'Standard AG',
-			'Sleep Clause Mod', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Items Clause', 'Evasion Moves Clause',
+			'Sleep Clause Mod', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Items Clause', 'Evasion Moves Clause', 'Freeze Clause Mod',
 		],
 	},
 	standardnext: {
@@ -95,7 +95,7 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 		desc: "The standard ruleset for all National Dex tiers",
 		ruleset: [
 			'Standard AG', 'NatDex Mod',
-			'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Clause', 'Sleep Clause Mod',
+			'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Clause', 'Sleep Clause Mod', 'Freeze Clause Mod',
 		],
 	},
 	natdexmod: {
@@ -1393,6 +1393,30 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 						if (!pokemon.statusState.source?.isAlly(pokemon)) {
 							this.add('-message', 'Sleep Clause Mod activated.');
 							this.hint("Sleep Clause Mod prevents players from putting more than one of their opponent's Pokémon to sleep at a time");
+							return false;
+						}
+					}
+				}
+			}
+		},
+	},
+	freezeclausemod: {
+		effectType: 'Rule',
+		name: 'Freeze Clause Mod',
+		desc: "Prevents players from freezing more than one of their opponent's Pok&eacute;mon at a time",
+		onBegin() {
+			this.add('rule', 'Freeze Clause Mod: Limit one foe frozen');
+		},
+		onSetStatus(status, target, source) {
+			if (source?.isAlly(target)) {
+				return;
+			}
+			if (status.id === 'frz') {
+				for (const pokemon of target.side.pokemon) {
+					if (pokemon.hp && pokemon.status === 'frz') {
+						if (!pokemon.statusState.source?.isAlly(pokemon)) {
+							this.add('-message', 'Freeze Clause Mod activated.');
+							this.hint("Freeze Clause Mod prevents players from freezing more than one of their opponent's Pokémon at a time");
 							return false;
 						}
 					}
