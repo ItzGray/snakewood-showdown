@@ -14,4 +14,22 @@ export const Formats: FormatList = [
 		ruleset: ['Standard NatDex', 'Deoxys Camouflage Clause Mod', 'One Baton Pass Clause'],
 		banlist: ['Skylax + Belly Drum', 'Kenchukuo + Belly Drum'],
 	},
+	{
+		name: "[Gen 3] National Dex",
+		mod: 'gen3',
+		ruleset: ['Standard NatDex', 'One Boost Passer Clause', 'Accuracy Trap Clause', 'Speed Pass Clause'],
+		banlist: ['Uber'],
+	},
+	{
+		name: "[Gen 3] National Dex UU",
+		mod: 'gen3',
+		ruleset: ['Standard NatDex'],
+		banlist: ['Uber', 'OU', 'UUBL'],
+	},
+	{
+		name: "[Gen 3] National Dex RU",
+		mod: 'gen3',
+		ruleset: ['Standard NatDex'],
+		banlist: ['Uber', 'OU', 'UUBL', 'UU', 'RUBL'],
+	},
 ];
