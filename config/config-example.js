@@ -490,7 +490,7 @@ exports.appealurl = '';
 exports.repl = false;
 exports.replsocketprefix = './logs/repl/';
 exports.replsocketmode = 0o600;
-exports.nofswriting = true;
+exports.nofswriting = false;
 
 /**
  * disablehotpatchall - disables `/hotpatch all`. Generally speaking, there's a
