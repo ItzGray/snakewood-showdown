@@ -29,7 +29,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 3] Ubers",
 		mod: 'gen3',
 		ruleset: ['Standard', 'Deoxys Camouflage Clause Mod', 'One Baton Pass Clause'],
-		banlist: [],
+		banlist: ['Skylax + Belly Drum', 'Kenchukuo + Belly Drum'],
 	},
 	{
 		name: "[Gen 3] OU",

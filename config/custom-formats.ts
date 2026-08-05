@@ -12,6 +12,6 @@ export const Formats: FormatList = [
 		name: "[Gen 3] National Dex Ubers",
 		mod: 'gen3',
 		ruleset: ['Standard NatDex', 'Deoxys Camouflage Clause Mod', 'One Baton Pass Clause'],
-		banlist: [],
+		banlist: ['Skylax + Belly Drum', 'Kenchukuo + Belly Drum'],
 	},
 ];
