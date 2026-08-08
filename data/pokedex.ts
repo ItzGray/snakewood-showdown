@@ -22124,6 +22124,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Kajilianth",
 		types: ["Poison", "Psychic"],
 		baseStats: { hp: 1, atk: 97, def: 74, spa: 107, spd: 74, spe: 99 },
+		maxHP: 1,
 		abilities: { 0: "Wonder Guard" },
 		heightm: 1.2,
 		weightkg: 14,
