@@ -1704,9 +1704,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "OU",
 	},
 	vigourlan: {
-		isNonstandard: "Past",
-		tier: "Illegal",
-		natDexTier: "OU",
+		tier: "OU",
 	},
 	mutagon: {
 		isNonstandard: "Past",
