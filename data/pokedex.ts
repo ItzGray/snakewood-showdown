@@ -6914,6 +6914,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 0.6,
 		weightkg: 8.7,
 		color: "Pink",
+		evos: ["Basculin"],
 		eggGroups: ["Water 2"],
 	},
 	bagon: {
@@ -10286,6 +10287,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 1,
 		weightkg: 18,
 		color: "Green",
+		prevo: "Luvdisc",
+		evoType: "useItem",
+		evoItem: "Water Stone",
 		eggGroups: ["Water 2"],
 		otherFormes: ["Basculin-Blue-Striped", "Basculin-White-Striped"],
 		formeOrder: ["Basculin", "Basculin-Blue-Striped", "Basculin-White-Striped"],

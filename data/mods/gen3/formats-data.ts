@@ -1511,7 +1511,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "OU",
 	},
 	luvdisc: {
-		tier: "OU",
+		tier: "NFE",
 	},
 	bagon: {
 		tier: "Illegal",
