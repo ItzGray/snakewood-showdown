@@ -4967,7 +4967,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	explosion: {
 		num: 153,
 		accuracy: 100,
-		basePower: 250,
+		basePower: 255,
 		category: "Physical",
 		name: "Explosion",
 		pp: 5,
