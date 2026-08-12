@@ -18,7 +18,7 @@ export const Formats: FormatList = [
 		name: "[Gen 3] National Dex",
 		mod: 'gen3',
 		ruleset: ['Standard NatDex', 'One Boost Passer Clause', 'Accuracy Trap Clause', 'Speed Pass Clause'],
-		banlist: ['Uber'],
+		banlist: ['Uber', 'Soul Dew'],
 	},
 	{
 		name: "[Gen 3] National Dex UU",
