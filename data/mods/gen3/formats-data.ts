@@ -768,7 +768,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	gorelax: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "OU",
+		natDexTier: "Uber",
 	},
 	snorlax: {
 		tier: "OU",
@@ -1719,7 +1719,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	kamina: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "OU",
+		natDexTier: "Uber",
 	},
 	gluemadio: {
 		tier: "OU",
