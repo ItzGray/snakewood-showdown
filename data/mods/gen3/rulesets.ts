@@ -8,6 +8,15 @@ export const Rulesets: import('../../../sim/dex-formats').ModdedFormatDataTable 
 			'Sleep Clause Mod', 'Switch Priority Clause Mod', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Items Clause', 'Evasion Moves Clause', 'Freeze Clause Mod',
 		],
 	},
+	standardnatdex: {
+		effectType: 'ValidatorRule',
+		name: 'Standard NatDex',
+		desc: "The standard ruleset for all National Dex tiers",
+		ruleset: [
+			'Standard AG', 'NatDex Mod',
+			'Sleep Clause Mod', 'Switch Priority Clause Mod', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Items Clause', 'Evasion Moves Clause', 'Evasion Abilities Clause', 'Freeze Clause Mod',
+		],
+	},
 	standarddraft: {
 		effectType: 'ValidatorRule',
 		name: 'Standard Draft',
