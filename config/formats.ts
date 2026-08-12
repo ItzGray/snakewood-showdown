@@ -35,7 +35,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 3] OU",
 		mod: 'gen3',
 		ruleset: ['Standard', 'One Boost Passer Clause', 'Accuracy Trap Clause', 'Speed Pass Clause'],
-		banlist: ['Uber'],
+		banlist: ['Uber', 'Soul Dew'],
 	},
 	{
 		name: "[Gen 3] Doubles OU",
