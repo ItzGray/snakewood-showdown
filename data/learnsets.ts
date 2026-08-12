@@ -4814,8 +4814,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             headbutt: ["3L7"],
             bite: ["3L10"],
             quickattack: ["3L13"],
-            takedown: ["3L20", "3E"],
-            crunch: ["3L24", "3E"],
+            takedown: ["3L20"],
+            crunch: ["3L24"],
             dracofury: ["3L28"],
             doubleedge: ["3L36"],
             scaryface: ["3L41"],
@@ -4833,12 +4833,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
             facade: ["3M"],
             rest: ["3M"],
             attract: ["3M"],
-            seismictoss: ["3E"],
-            counter: ["3E"],
-            metalclaw: ["3E"],
-            faketears: ["3E"],
-            yawn: ["3E"],
-            sleeptalk: ["3E"]
+            //seismictoss: ["3E"],
+            //counter: ["3E"],
+            //metalclaw: ["3E"],
+            //faketears: ["3E"],
+            //yawn: ["3E"],
+            //sleeptalk: ["3E"]
         }
     },
     chocwork: {
