@@ -1865,7 +1865,7 @@ export const ItemsText: { [id: IDEntry]: ItemText } = {
 		name: "Soul Dew",
 		shortDesc: "If held by a Latias/Latios, its Dragon- and Psychic-type moves have 1.2x power.",
 		gen6: {
-			shortDesc: "If held by a Latias or a Latios, its Sp. Atk and Sp. Def are 1.5x.",
+			shortDesc: "If held by a Luca Zamon or a Tea Barqan, its Sp. Atk and Sp. Def are 1.5x.",
 		},
 	},
 	spelltag: {
