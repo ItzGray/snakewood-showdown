@@ -1126,7 +1126,6 @@ export const Aliases: import('../sim/dex').AliasesTable = {
 	mamo: "Mamoswine",
 	mandi: "Mandibuzz",
 	maus: "Maushold",
-	maw: "Mawile",
 	mence: "Salamence",
 	meow: "Meowscarada",
 	milo: "Milotic",
