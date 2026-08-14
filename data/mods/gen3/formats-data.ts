@@ -1607,7 +1607,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		natDexTier: "OU",
 	},
 	toxicroak: {
-		tier: "OU",
+		tier: "UU",
 	},
 	spiritomb: {
 		tier: "OU",
@@ -1782,7 +1782,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 	telson: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "OU",
+		natDexTier: "UU",
 	},
 	maw: {
 		isNonstandard: "Past",
