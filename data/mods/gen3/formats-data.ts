@@ -235,7 +235,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "NFE",
 	},
 	beedrill: {
-		tier: "OU",
+		tier: "UU",
 	},
 	raticate: {
 		isNonstandard: "Past",
@@ -470,7 +470,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "LC",
 	},
 	magneton: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	farfetchd: {
 		tier: "Illegal",
@@ -1011,7 +1011,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		isNonstandard: "Unobtainable",
 	},
 	qwilfish: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	shuckle: {
 		tier: "UU",
@@ -1275,7 +1275,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "LC",
 	},
 	hariyama: {
-		tier: "OU",
+		tier: "UU",
 	},
 	nosepass: {
 		tier: "UU",
@@ -1394,7 +1394,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		tier: "LC",
 	},
 	altaria: {
-		tier: "OU",
+		tier: "UU",
 	},
 	zangoose: {
 		tier: "NFE",
