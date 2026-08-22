@@ -631,7 +631,7 @@ export class RandomGen3Teams extends RandomGen4Teams {
 		species: Species,
 		pokemon: RandomTeamsTypes.RandomSet[],
 	): boolean {
-		const formats_data = require("../mods/gen3/formats-data.ts");
+		const formats_data = require("../../mods/gen3/formats-data.ts");
 		if (this.format.id !== "gen3nationaldexrandombattle" && formats_data[species.id]["tier"] === "Illegal" && formats_data[species.id]["isNonstandard"] === "Past") return false;
 		const reversalUsers = ['raticate', 'primeape', 'hitmonlee', 'furret', 'yanma', 'heracross', 'blaziken', 'medicham'];
 		const flailUsers = ['dodrio', 'farfetchd'];
