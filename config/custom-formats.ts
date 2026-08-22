@@ -9,6 +9,13 @@ export const Formats: FormatList = [
 		section: "Snakewood NatDex",
 	},
 	{
+		name: "[Gen 3] National Dex Random Battle",
+		mod: 'gen3',
+		team: 'random',
+		bestOfDefault: true,
+		ruleset: ['Standard NatDex'],
+	},
+	{
 		name: "[Gen 3] National Dex Ubers",
 		mod: 'gen3',
 		ruleset: ['Standard NatDex', 'Deoxys Camouflage Clause Mod', 'One Baton Pass Clause'],

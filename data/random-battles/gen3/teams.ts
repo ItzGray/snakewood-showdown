@@ -34,6 +34,7 @@ export class RandomGen3Teams extends RandomGen4Teams {
 
 	constructor(format: string | Format, prng: PRNG | PRNGSeed | null) {
 		super(format, prng);
+		console.log(format);
 		this.noStab = NO_STAB;
 		this.battleHasDitto = false;
 		this.battleHasWobbuffet = false;
