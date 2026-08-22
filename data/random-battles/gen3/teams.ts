@@ -34,15 +34,7 @@ export class RandomGen3Teams extends RandomGen4Teams {
 
 	constructor(format: string | Format, prng: PRNG | PRNGSeed | null) {
 		super(format, prng);
-		try {
-			if (format.id === 'gen3nationaldexrandombattle') {
-				this.randomSets = require('./natdex-sets.json');
-			}
-		} catch {
-			if (format === "gen3nationaldexrandombattle") {
-				this.randomSets = require('./natdex-sets.json');
-			}
-		}
+		console.log(this.format);
 		this.noStab = NO_STAB;
 		this.battleHasDitto = false;
 		this.battleHasWobbuffet = false;
