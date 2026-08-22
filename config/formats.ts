@@ -26,6 +26,13 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "Snakewood",
 	},
 	{
+		name: "[Gen 3] Random Battle",
+		mod: 'gen3',
+		team: 'random',
+		bestOfDefault: true,
+		ruleset: ['Standard'],
+	},
+	{
 		name: "[Gen 3] Ubers",
 		mod: 'gen3',
 		ruleset: ['Standard', 'Deoxys Camouflage Clause Mod', 'One Baton Pass Clause'],
