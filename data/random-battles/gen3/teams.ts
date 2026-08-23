@@ -181,7 +181,7 @@ export class RandomGen3Teams extends RandomGen4Teams {
 			preferredType, role);
 
 		// If there are only four moves, add all moves and return early
-		if (movePool.length <= this.maxMoveCount || species.id === 'unown') {
+		if (movePool.length <= this.maxMoveCount) {
 			// Still need to ensure that multiple Hidden Powers are not added (if maxMoveCount is increased)
 			while (movePool.length) {
 				const moveid = this.sample(movePool);
@@ -457,7 +457,6 @@ export class RandomGen3Teams extends RandomGen4Teams {
 		if (species.id === 'linoone' && role === 'Setup Sweeper') return 'Silk Scarf';
 		if (species.id === 'marowak') return 'Thick Club';
 		if (species.id === 'pikachu') return 'Light Ball';
-		if (species.id === 'unown') return counter.get('Physical') ? 'Choice Band' : 'Twisted Spoon';
 		if (species.id === 'deoxys' || species.id === 'deoxysattack') return 'White Herb';
 
 		if (moves.has('trick')) return 'Choice Band';
