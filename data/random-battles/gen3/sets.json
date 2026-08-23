@@ -2153,5 +2153,15 @@
                 "preferredTypes": ["Ground"]
             }
         ]
+    },
+    "kingmadio": {
+        "level": 99,
+        "sets": [
+            {
+                "role": "Staller",
+                "movepool": ["nightshade", "teleport"],
+                "abilities": ["Wonder Guard"]
+            }
+        ]
     }
 }
