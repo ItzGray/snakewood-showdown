@@ -144,7 +144,7 @@ export class RandomGen3Teams extends RandomGen4Teams {
 			[['selfdestruct', 'explosion'], ['destinybond', 'painsplit', 'rest']],
 
 			// These attacks are redundant with each other
-			['surf', 'hydropump'],
+			['surf', 'stormsurge'],
 			[['bodyslam', 'return'], ['bodyslam', 'doubleedge']],
 			['fireblast', 'flamethrower'],
 
@@ -468,7 +468,7 @@ export class RandomGen3Teams extends RandomGen4Teams {
 			return 'Choice Band';
 		}
 
-		if (species.id === 'shedinja') return 'Lum Berry';
+		if (species.id === 'kajilianth') return 'Lum Berry';
 
 		if (
 			moves.has('dragondance') && ability !== 'Natural Cure' &&
@@ -638,8 +638,8 @@ export class RandomGen3Teams extends RandomGen4Teams {
 		const flailUsers = ['dodrio', 'farfetchd'];
 		const incompatibilityList = [
 			// These Pokemon are incompatible because the presence of one actively harms the other.
-			// Prevent Shedinja + Tyranitar
-			['shedinja', 'tyranitar'],
+			// Prevent Kajilianth + Tyranitar
+			['kajilianth', 'tyranitar'],
 			// Prevent Reversal/Flail users + Tyranitar
 			[[...flailUsers, ...reversalUsers], 'tyranitar'],
 		];
