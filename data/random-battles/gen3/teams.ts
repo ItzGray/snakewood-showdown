@@ -9,7 +9,7 @@ const RECOVERY_MOVES = [
 // Conglomerate for ease of access
 const SETUP = [
 	'acidarmor', 'agility', 'bellydrum', 'bulkup', 'calmmind', 'curse', 'dragondance', 'growth', 'howl', 'irondefense',
-	'meditate', 'raindance', 'sunnyday', 'swordsdance', 'tailglow',
+	'meditate', 'raindance', 'sunnyday', 'swordsdance', 'tailglow', 'brightidea', 'furydance',
 ];
 // Moves that shouldn't be the only STAB moves:
 const NO_STAB = [
@@ -146,7 +146,7 @@ export class RandomGen3Teams extends RandomGen4Teams {
 			// These attacks are redundant with each other
 			['surf', 'stormsurge'],
 			[['bodyslam', 'return'], ['bodyslam', 'doubleedge']],
-			['fireblast', 'flamethrower'],
+			['fireblast', 'firepump'],
 
 			// Assorted hardcodes go here:
 			// Granbull
@@ -470,7 +470,7 @@ export class RandomGen3Teams extends RandomGen4Teams {
 		if (species.id === 'kajilianth') return 'Lum Berry';
 
 		if (
-			moves.has('dragondance') && ability !== 'Natural Cure' &&
+			moves.has('furydance') && ability !== 'Natural Cure' &&
 			!moves.has('healbell') && !moves.has('substitute')
 		) return 'Lum Berry';
 		if (moves.has('bellydrum')) return moves.has('substitute') ? 'Salac Berry' : 'Lum Berry';
