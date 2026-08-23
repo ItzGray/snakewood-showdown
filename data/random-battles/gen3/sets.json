@@ -18,5 +18,20 @@
                 "abilities": ["Speed Boost"]
             }
         ]
+    },
+    "nute": {
+        "level": 100,
+        "sets": [
+            {
+                "role": "Staller",
+                "movepool": ["toxic", "substitute", "endeavor", "superfang", "protect", "seismictoss"],
+                "abilities": ["No Ability"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["bodyslam", "twineedle", "endeavor", "sunnyday"],
+                "abilities": ["No Ability"]
+            }
+        ]
     }
 }
