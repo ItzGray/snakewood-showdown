@@ -3310,7 +3310,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	cut: {
 		num: 15,
 		accuracy: 95,
-		basePower: 50,
+		basePower: 65,
 		category: "Physical",
 		isNonstandard: "Unobtainable",
 		name: "Cut",

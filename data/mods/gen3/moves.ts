@@ -538,7 +538,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	},
 	rocksmash: {
 		inherit: true,
-		basePower: 20,
+		basePower: 50,
 	},
 	sketch: {
 		inherit: true,
