@@ -8,5 +8,15 @@
                 "abilities": ["Wonder Guard"]
             }
         ]
-    }
+    },
+    "faceleech": {
+        "level": 100,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["doubleedge", "poisonfang", "fly", "confuseray", "rocksmash"],
+                "abilities": ["Speed Boost"]
+            }
+        ]
+    },
 }
