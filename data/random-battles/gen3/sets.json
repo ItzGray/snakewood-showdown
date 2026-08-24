@@ -38,5 +38,25 @@
                 "abilities": ["No Ability"]
             }
         ]
+    },
+    "shinigami": {
+        "level": 76,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["crosschop", "earthquake", "psychic", "shadowswipe"],
+                "abilities": ["Vital Spirit"]
+            }
+        ]
+    },
+    "stitcher": {
+        "level": 72,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["dragonclaw", "icebeam", "psychic", "thunderbolt"],
+                "abilities": ["Levitate"]
+            }
+        ]
     }
 }
