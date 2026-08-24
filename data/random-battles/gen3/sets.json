@@ -58,5 +58,15 @@
                 "abilities": ["Levitate"]
             }
         ]
+    },
+    "antispiral": {
+        "level": 78,
+        "sets": [
+            {
+                "role": "Berry Sweeper",
+                "movepool": ["brickbreak", "reversal", "megapunch", "megakick"],
+                "abilities": ["Immunity"]
+            }
+        ]
     }
 }
