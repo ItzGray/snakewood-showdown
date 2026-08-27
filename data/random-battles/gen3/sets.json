@@ -68,5 +68,45 @@
                 "abilities": ["Immunity"]
             }
         ]
+    },
+    "earthmadio": {
+        "level": 98,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["doubleedge", "earthquake", "shadowball", "rockblast", "hiddenpowerbug", "roar"],
+                "abilities": ["Rock Head"]
+            }
+        ]
+    },
+    "gluemadio": {
+        "level": 97,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["shadowball", "sludgebomb", "selfdestruct", "hiddenpowerfighting"],
+                "abilities": ["Liquid Ooze"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["memento", "lightscreen", "sludgebomb", "raindance", "roar", "shadowball"],
+                "abilities": ["Liquid Ooze"]
+            }
+        ]
+    },
+    "bonemadio": {
+        "level": 95,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["calmmind", "psychic", "icepunch", "taunt", "protect"],
+                "abilities": ["Speed Boost"]
+            },
+            {
+                "role": "Fast Support",
+                "movepool": ["taunt", "glare", "grasswhistle", "toxic", "shadowball"],
+                "abilities": ["Speed Boost", "Levitate"]
+            }
+        ]
     }
 }
