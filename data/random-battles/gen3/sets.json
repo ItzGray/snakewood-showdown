@@ -53,7 +53,7 @@
         "level": 72,
         "sets": [
             {
-                "role": "Wallbreaker",
+                "role": "Fast Attacker",
                 "movepool": ["dragonclaw", "icebeam", "psychic", "thunderbolt"],
                 "abilities": ["Levitate"]
             }
