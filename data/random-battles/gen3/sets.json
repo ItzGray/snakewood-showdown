@@ -108,5 +108,65 @@
                 "abilities": ["Speed Boost", "Levitate"]
             }
         ]
+    },
+    "fangasu": {
+        "level": 96,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["facade", "return", "steelwing", "hiddenpowerfighting", "fly"],
+                "abilities": ["Speed Boost"]
+            }
+        ]
+    },
+    "ooshe": {
+        "level": 96,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["rockslide", "bonerush", "sludgebomb", "hiddenpowerflying", "facade"],
+                "abilities": ["Rock Head"]
+            }
+        ]
+    },
+    "kajilianth": {
+        "level": 93,
+        "sets": [
+            {
+                "role": "Staller",
+                "movepool": ["toxic", "protect", "taunt", "fireblast", "whirlwind"],
+                "abilities": ["Wonder Guard"]
+            },
+            {
+                "role": "Fast Attacker",
+                "movepool": ["psychic", "shadowball", "icepunch", "taunt", "fireblast", "hiddenpowerelectric"],
+                "abilities": ["Wonder Guard"]
+            },
+            {
+                "role": "Fast Support",
+                "movepool": ["taunt", "glare", "memento", "psychic", "sludgebomb"],
+                "abilities": ["Wonder Guard"]
+            }
+        ]
+    },
+    "dirtkrow": {
+        "level": 90,
+        "sets": [
+            {
+                "role": "Fast Support",
+                "movepool": ["haze", "nightshade", "taunt", "drillpeck", "confuseray"],
+                "abilities": ["Air Lock"]
+            },
+            {
+                "role": "Staller",
+                "movepool": ["meanlook", "perishsong", "protect", "nightshade"],
+                "abilities": ["Air Lock"]
+            },
+            {
+                "role": "Generalist",
+                "movepool": ["pursuit", "whirlwind", "drillpeck", "taunt", "shadowball"],
+                "abilities": ["Air Lock"]
+            }
+        ]
     }
 }
