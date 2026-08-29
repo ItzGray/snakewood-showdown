@@ -168,5 +168,65 @@
                 "abilities": ["Air Lock"]
             }
         ]
+    },
+    "munchlax": {
+        "level": 89,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["bodyslam", "synthesis", "earthquake", "focuspunch", "grasswhistle"],
+                "abilities": ["Thick Fat"]
+            },
+            {
+                "role": "Staller",
+                "movepool": ["leechseed", "protect", "bodyslam", "firepump", "synthesis"],
+                "abilities": ["Thick Fat"]
+            }
+        ]
+    },
+    "kuriputo": {
+        "level": 88,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["sworddance", "earthquake", "ironslam", "sludgebomb", "hiddenpowerrock"],
+                "abilities": ["Battle Armor"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["synthesis", "stunspore", "sludgebomb", "firepump", "protect"],
+                "abilities": ["Battle Armor"]
+            }
+        ]
+    },
+    "goosuboa": {
+        "level": 87,
+        "sets": [
+            {
+                "role": "Fast Support",
+                "movepool": ["recover", "glare", "shadowswipe", "sunnyday", "earthquake"],
+                "abilities": ["Levitate"]
+            },
+            {
+                "role": "Wallbreaker",
+                "movepool": ["earthquake", "shadowswipe", "facade", "steelwing", "hiddenpowerfighting"],
+                "abilities": ["Levitate"]
+            }
+        ]
+    },
+    "seamadio": {
+        "level": 88,
+        "sets": [
+            {
+                "role": "Generalist",
+                "movepool": ["surf", "icebeam", "taunt", "glare", "hiddenpowerelectric"],
+                "abilities": ["Arena Trap"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["calmmind", "surf", "icebeam", "glare", "hiddenpowergrass"],
+                "abilities": ["Arena Trap"]
+            }
+        ]
     }
 }
