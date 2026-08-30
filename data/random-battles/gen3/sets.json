@@ -228,5 +228,60 @@
                 "abilities": ["Arena Trap"]
             }
         ]
+    },
+    "chocwork": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["explosion", "crystalstorm", "ironslam", "earthquake", "shadowball"],
+                "abilities": ["Intimidate"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["bulkup", "glare", "ironslam", "shadowball", "earthquake"],
+                "abilities": ["Intimidate"]
+            }
+        ]
+    },
+    "basculin": {
+        "level": 87,
+        "sets": [
+            {
+                "role": "Berry Sweeper",
+                "movepool": ["doubleedge", "surf", "hiddenpowerground", "agility", "raindance"],
+                "abilities": ["Rock Head"]
+            },
+            {
+                "role": "Fast Attacker",
+                "movepool": ["doubleedge", "taunt", "surf", "crunch", "hiddenpowerfighting"],
+                "abilities": ["Rock Head"]
+            }
+        ]
+    },
+    "maw": {
+        "level": 86,
+        "sets": [
+            {
+                "role": "Fast Support",
+                "movepool": ["icebreath", "fakeout", "ironslam", "shadowswipe", "taunt"],
+                "abilities": ["Inner Focus"]
+            },
+            {
+                "role": "Fast Attacker",
+                "movepool": ["icebreath", "shadowswipe", "focuspunch", "ironslam", "return"],
+                "abilities": ["Inner Focus"]
+            }
+        ]
+    },
+    "aeromadio": {
+        "level": 86,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["shadowswipe", "aerialace", "steelwing", "frustration", "hiddenpowerfighting"],
+                "abilities": ["Early Bird"]
+            }
+        ]
     }
 }
