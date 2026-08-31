@@ -90,7 +90,8 @@
             {
                 "role": "Bulky Support",
                 "movepool": ["memento", "lightscreen", "sludgebomb", "raindance", "roar", "shadowball"],
-                "abilities": ["Liquid Ooze"]
+                "abilities": ["Liquid Ooze"],
+                "preferredTypes": ["Ghost"]
             }
         ]
     },
@@ -105,7 +106,7 @@
             {
                 "role": "Fast Support",
                 "movepool": ["taunt", "glare", "grasswhistle", "toxic", "shadowball"],
-                "abilities": ["Speed Boost", "Levitate"]
+                "abilities": ["Speed Boost", "Levitate"],
                 "preferredTypes": ["Ghost"]
             }
         ]
@@ -251,7 +252,7 @@
             {
                 "role": "Berry Sweeper",
                 "movepool": ["doubleedge", "surf", "hiddenpowerground", "agility", "raindance"],
-                "abilities": ["Rock Head"]
+                "abilities": ["Rock Head"],
                 "preferredTypes": ["Normal"]
             },
             {
