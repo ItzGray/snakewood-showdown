@@ -91,6 +91,7 @@
                 "role": "Bulky Support",
                 "movepool": ["memento", "lightscreen", "sludgebomb", "raindance", "roar", "shadowball"],
                 "abilities": ["Liquid Ooze"]
+                "preferredTypes": ["Ghost"]
             }
         ]
     },
@@ -106,6 +107,7 @@
                 "role": "Fast Support",
                 "movepool": ["taunt", "glare", "grasswhistle", "toxic", "shadowball"],
                 "abilities": ["Speed Boost", "Levitate"]
+                "preferredTypes": ["Ghost"]
             }
         ]
     },
@@ -238,7 +240,7 @@
                 "abilities": ["Intimidate"]
             },
             {
-                "role": "Setup Sweeper",
+                "role": "Bulky Setup",
                 "movepool": ["bulkup", "glare", "ironslam", "shadowball", "earthquake"],
                 "abilities": ["Intimidate"]
             }
@@ -251,6 +253,7 @@
                 "role": "Berry Sweeper",
                 "movepool": ["doubleedge", "surf", "hiddenpowerground", "agility", "raindance"],
                 "abilities": ["Rock Head"]
+                "preferredTypes": ["Normal"]
             },
             {
                 "role": "Fast Attacker",
@@ -305,12 +308,37 @@
         ]
     },
     "crazymadio": {
-        "level": 83,
+        "level": 78,
         "sets": [
             {
                 "role": "Wallbreaker",
                 "movepool": ["shadowball", "focuspunch", "machpunch", "return"],
                 "abilities": ["Shadow Tag"]
+            }
+        ]
+    },
+    "emolga": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["thunderbolt", "hiddenpowerice", "earthquake", "pursuit", "steelwing"],
+                "abilities": ["Static"]
+            },
+            {
+                "role": "Fast Support",
+                "movepool": ["discharge", "hiddenpowerice", "encore", "taunt", "beatup", "lightscreen"],
+                "abilities": ["Static"]
+            }
+        ]
+    },
+    "roodanse": {
+        "level": 86,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["hiddenpowerflying", "frustration", "beatup", "facade"],
+                "abilities": ["Clear Body"]
             }
         ]
     }
