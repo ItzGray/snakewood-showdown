@@ -91,7 +91,6 @@
                 "role": "Bulky Support",
                 "movepool": ["memento", "lightscreen", "sludgebomb", "raindance", "roar", "shadowball"],
                 "abilities": ["Liquid Ooze"]
-                "preferredTypes": ["Ghost"]
             }
         ]
     },
