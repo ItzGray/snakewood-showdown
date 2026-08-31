@@ -14,7 +14,7 @@
         "sets": [
             {
                 "role": "Wallbreaker",
-                "movepool": ["doubleedge", "poisonfang", "fly", "confuseray", "rocksmash"],
+                "movepool": ["doubleedge", "poisonfang", "fly", "rocksmash"],
                 "abilities": ["Speed Boost"]
             }
         ]
