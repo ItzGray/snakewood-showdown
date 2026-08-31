@@ -283,5 +283,35 @@
                 "abilities": ["Early Bird"]
             }
         ]
+    },
+    "poliwraith": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["bulkup", "earthquake", "submission", "facade", "hiddenpowerghost", "hypnosis"],
+                "abilities": ["Water Absorb"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["hypnosis", "boilingwater", "focuspunch", "haze", "bodyslam"],
+                "abilities": ["Water Absorb"]
+            },
+            {
+                "role": "Berry Sweeper",
+                "movepool": ["bellydrum", "hiddenpowerfighting", "earthquake", "return", "hypnosis"],
+                "abilities": ["Water Absorb"]
+            }
+        ]
+    },
+    "crazymadio": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["shadowball", "focuspunch", "machpunch", "return"],
+                "abilities": ["Shadow Tag"]
+            }
+        ]
     }
 }
