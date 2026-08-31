@@ -1,6 +1,6 @@
 {
     "kingmadio": {
-        "level": 99,
+        "level": 70,
         "sets": [
             {
                 "role": "Staller",
@@ -50,7 +50,7 @@
         ]
     },
     "stitcher": {
-        "level": 72,
+        "level": 74,
         "sets": [
             {
                 "role": "Fast Attacker",
@@ -189,7 +189,7 @@
         "sets": [
             {
                 "role": "Setup Sweeper",
-                "movepool": ["sworddance", "earthquake", "ironslam", "sludgebomb", "hiddenpowerrock"],
+                "movepool": ["swordsdance", "earthquake", "ironslam", "sludgebomb", "hiddenpowerrock"],
                 "abilities": ["Battle Armor"]
             },
             {
@@ -275,7 +275,7 @@
         ]
     },
     "aeromadio": {
-        "level": 86,
+        "level": 84,
         "sets": [
             {
                 "role": "Wallbreaker",
