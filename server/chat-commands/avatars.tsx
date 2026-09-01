@@ -529,7 +529,7 @@ const OFFICIAL_AVATARS = new Set([
 	'eye',
 	'jericho',
 	'ghostgirl',
-	'zombiekids',
+	'zombiekid',
 	'filmstudent',
 	'meteor',
 	'zombiekids',
