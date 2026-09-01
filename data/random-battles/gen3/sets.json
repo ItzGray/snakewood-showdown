@@ -341,5 +341,20 @@
                 "abilities": ["Clear Body"]
             }
         ]
+    },
+    "hombeast": {
+        "level": 81,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["earthquake", "rockblast", "curseclaw", "shadowswipe", "skullbreaker", "ironslam"],
+                "abilities": ["Intimidate"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["earthquake", "roar", "toxic", "bodyslam", "curseclaw"],
+                "abilities": ["Intimidate"]
+            }
+        ]
     }
 }
