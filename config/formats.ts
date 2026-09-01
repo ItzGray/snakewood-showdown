@@ -30,7 +30,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		mod: 'gen3',
 		team: 'random',
 		bestOfDefault: true,
-		ruleset: ['Standard'],
+		ruleset: ['Standard NatDex', '!OHKO Clause'],
 	},
 	{
 		name: "[Gen 3] Ubers",
