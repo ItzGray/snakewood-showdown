@@ -434,7 +434,7 @@
                 "role": "Berry Sweeper",
                 "movepool": ["bellydrum", "earthquake", "return", "hypnosis", "hiddenpowerghost"],
                 "abilities": ["Water Absorb"]
-            },
+            }
         ]
     }
 }
