@@ -104,7 +104,7 @@
                 "abilities": ["Speed Boost"]
             },
             {
-                "role": "Fast Support",
+                "role": "Bulky Support",
                 "movepool": ["taunt", "glare", "grasswhistle", "toxic", "shadowball"],
                 "abilities": ["Speed Boost", "Levitate"],
                 "preferredTypes": ["Ghost"]
@@ -145,7 +145,7 @@
                 "abilities": ["Wonder Guard"]
             },
             {
-                "role": "Fast Support",
+                "role": "Generalist",
                 "movepool": ["taunt", "glare", "memento", "psychic", "sludgebomb"],
                 "abilities": ["Wonder Guard"]
             }
@@ -155,7 +155,7 @@
         "level": 90,
         "sets": [
             {
-                "role": "Fast Support",
+                "role": "Bulky Support",
                 "movepool": ["haze", "nightshade", "taunt", "drillpeck", "confuseray"],
                 "abilities": ["Air Lock"]
             },
@@ -205,7 +205,7 @@
         "level": 87,
         "sets": [
             {
-                "role": "Fast Support",
+                "role": "Bulky Support",
                 "movepool": ["recover", "glare", "shadowswipe", "sunnyday", "earthquake"],
                 "abilities": ["Levitate"]
             },
@@ -266,7 +266,7 @@
         "level": 86,
         "sets": [
             {
-                "role": "Fast Support",
+                "role": "Generalist",
                 "movepool": ["icebreath", "fakeout", "ironslam", "shadowswipe", "taunt"],
                 "abilities": ["Inner Focus"]
             },
@@ -326,7 +326,7 @@
                 "abilities": ["Static"]
             },
             {
-                "role": "Fast Support",
+                "role": "Generalist",
                 "movepool": ["discharge", "hiddenpowerice", "encore", "taunt", "beatup", "lightscreen"],
                 "abilities": ["Static"]
             }
@@ -355,6 +355,86 @@
                 "movepool": ["earthquake", "roar", "toxic", "bodyslam", "curseclaw"],
                 "abilities": ["Intimidate"]
             }
+        ]
+    },
+    "miasmar": {
+        "level": 84,
+        "sets": [
+            {
+                "role": "Generalist",
+                "movepool": ["fireblast", "willowisp", "confuseray", "protect", "rest"],
+                "abilities": ["Flame Body"]
+            },
+            {
+                "role": "Fast Attacker",
+                "movepool": ["fireblast", "firepump", "icepunch", "focuspunch", "psychic"],
+                "abilities": ["Flame Body"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["fireblast", "firepump", "sunnyday", "psychic"],
+                "abilities": ["Flame Body"]
+            }
+        ]
+    },
+    "zebstrika": {
+        "level": 84,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["thunderbolt", "afrobreak", "skullbreaker", "surf", "thunderwave"],
+                "abilities": ["Lighting Rod"]
+            },
+            {
+                "role": "Berry Sweeper",
+                "movepool": ["substitute", "skullbreaker", "thunderbolt", "return", "hiddenpowerghost"],
+                "abilities": ["Lighting Rod"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["raindance", "wildboltstorm", "surf", "agility"],
+                "abilities": ["Lightning Rod"]
+            }
+        ]
+    },
+    "toxicroak": {
+        "level": 84,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["brightidea", "icepunch", "hiddenpowerelectric", "earthquake"],
+                "abilities": ["Limber"]
+            },
+            {
+                "role": "Bulky Setup",
+                "movepool": ["bulkup", "earthquake", "sludgebomb", "shadowswipe", "hiddenpowerfighting"],
+                "abilities": ["Limber"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["raindance", "sludgebomb", "taunt", "hypnosis", "earthquake"],
+                "abilities": ["Aqua Heal"]
+            }
+        ]
+    },
+    "zombified": {
+        "level": 84,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["raindance", "stormsurge", "bodyslam", "haze", "hypnosis", "boilingwater"],
+                "abilities": ["Water Absorb"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["stormsurge", "icebeam", "psychic", "hiddenpowerelectric", "focuspunch"],
+                "abilities": ["Water Absorb"]
+            },
+            {
+                "role": "Berry Sweeper",
+                "movepool": ["bellydrum", "earthquake", "return", "hypnosis", "hiddenpowerghost"],
+                "abilities": ["Water Absorb"]
+            },
         ]
     }
 }
