@@ -2038,7 +2038,7 @@ export class GameRoom extends BasicRoom {
 		if (battle.ended) {
 			connection?.popup(
 				`|html|<p>Your replay is available at:</p><p> ` +
-				`<a class="no-panel-intercept" href="${link}" target="_blank">${link}</a> ` +
+				`<a href="${link}" target="_blank">${link}</a> ` +
 				`<copytext value="${link}">Copy</copytext>`
 			);
 		}
