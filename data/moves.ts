@@ -21605,6 +21605,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Curse Claw",
 		shortDesc: "OHKOs the target. Fails if user is a lower level.",
 		pp: 1,
+		noPPBoosts: true,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1 },
 		ohko: true,

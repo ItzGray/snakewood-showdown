@@ -29,6 +29,7 @@ const MOVE_PAIRS = [
 export class RandomGen3Teams extends RandomGen4Teams {
 	battleHasDitto: boolean;
 	battleHasWobbuffet: boolean;
+	battleHasKingmadio: boolean;
 
 	override randomSets: { [species: string]: RandomTeamsTypes.RandomSpeciesData } = require('./sets.json');
 
@@ -37,6 +38,7 @@ export class RandomGen3Teams extends RandomGen4Teams {
 		this.noStab = NO_STAB;
 		this.battleHasDitto = false;
 		this.battleHasWobbuffet = false;
+		this.battleHasKingmadio = false;
 		this.moveEnforcementCheckers = {
 			Bug: (movePool, moves, abilities, types, counter, species) => (
 				!counter.get('Bug') && ['armaldo', 'heracross', 'parasect'].includes(species.id)
@@ -602,6 +604,12 @@ export class RandomGen3Teams extends RandomGen4Teams {
 				hp = Math.floor(Math.floor(2 * species.baseStats.hp + ivs.hp + Math.floor(evs.hp / 4) + 100) * level / 100 + 10);
 			}
 		}
+		
+		// Set happiness to 0 if Frustration is in the moveset, else set to 255
+		let happiness = 255;
+		if (moves.has('frustration')) {
+			happiness = 0;
+		}
 
 		// shuffle moves to add more randomness to camomons
 		const shuffledMoves = Array.from(moves);
@@ -613,6 +621,7 @@ export class RandomGen3Teams extends RandomGen4Teams {
 			speciesId: species.id,
 			gender: species.gender,
 			shiny: this.randomChance(1, 1024),
+			happiness: happiness,
 			level,
 			moves: shuffledMoves,
 			ability,
@@ -690,6 +699,8 @@ export class RandomGen3Teams extends RandomGen4Teams {
 			if (species.name === 'Wobbuffet' && this.battleHasWobbuffet) continue;
 			// Limit to one Ditto per battle in Gen 2
 			if (this.dex.gen < 3 && species.name === 'Ditto' && this.battleHasDitto) continue;
+			// Limit to one Kingmadio per battle
+			if (species.name === 'Kingmadio' && this.battleHasKingmadio) continue;
 
 			const types = species.types;
 
@@ -781,6 +792,7 @@ export class RandomGen3Teams extends RandomGen4Teams {
 			// To prevent this, we prevent more than one Wobbuffet in a single battle.
 			if (species.id === 'wobbuffet') this.battleHasWobbuffet = true;
 			if (species.id === 'ditto') this.battleHasDitto = true;
+			if (species.id === 'kingmadio') this.battleHasKingmadio = true;
 		}
 
 		if (pokemon.length < this.maxTeamSize && !isMonotype && !this.forceMonotype && pokemon.length < 12) {
