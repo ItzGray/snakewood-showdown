@@ -282,7 +282,7 @@
         "sets": [
             {
                 "role": "Wallbreaker",
-                "movepool": ["shadowswipe", "aerialace", "steelwing", "frustration", "hiddenpowerfighting"],
+                "movepool": ["shadowswipe", "aerialace", "steelwing", "return", "hiddenpowerfighting"],
                 "abilities": ["Early Bird"]
             }
         ]
