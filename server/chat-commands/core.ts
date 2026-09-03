@@ -1174,7 +1174,7 @@ export const commands: Chat.ChatCommands = {
 		const options = (target === 'forpunishment' || target === 'silent') ? target : undefined;
 		await room.uploadReplay(user, connection, options);
 	},
-	savereplayhelp: [`/savereplay - Saves the replay for the current battle.`],
+	savereplayhelp: [`/savereplay - Gives you the link to the replay for the current battle.`],
 
 	hidereplay(target, room, user, connection) {
 		if (!room?.battle) throw new Chat.ErrorMessage(`Must be used in a battle.`);
