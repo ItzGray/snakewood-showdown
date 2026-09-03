@@ -337,7 +337,7 @@
         "sets": [
             {
                 "role": "Wallbreaker",
-                "movepool": ["hiddenpowerflying", "frustration", "beatup", "facade"],
+                "movepool": ["hiddenpowerflying", "return", "beatup", "facade"],
                 "abilities": ["Clear Body"]
             }
         ]
