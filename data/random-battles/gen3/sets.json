@@ -413,7 +413,7 @@
             {
                 "role": "Bulky Support",
                 "movepool": ["raindance", "sludgebomb", "taunt", "hypnosis", "earthquake"],
-                "abilities": ["Aqua Heal"]
+                "abilities": ["Rain Dish"]
             }
         ]
     },
