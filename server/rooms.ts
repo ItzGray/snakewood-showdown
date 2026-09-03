@@ -2035,10 +2035,11 @@ export class GameRoom extends BasicRoom {
 		const p2Cap = ('' + p2name).replace(/[^a-zA-Z0-9]+/g, '') as ID;
 		const id = this.getReplayData().id.split("-")[1];
 		const link = "https://snakewoodshowdown.dynv6.net/replays/" + format + "/" + id + "_" + p1Cap + "_vs_" + p2Cap + ".html";
+		const link_element = "https://snakewoodshowdown.dynv6.net/replays/<br>" + format + "/" + id + "_" + p1Cap + "_vs_" + p2Cap + ".html";
 		if (battle.ended) {
 			connection?.popup(
 				`|html|<p>Your replay is available at:</p><p> ` +
-				`<a href="${link}" target="_blank">${link}</a> ` +
+				`<a class="no-panel-intercept" href="${link}" target="_blank">${link_element}</a> ` +
 				`<copytext value="${link}">Copy</copytext>`
 			);
 		}
