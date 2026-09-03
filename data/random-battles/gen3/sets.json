@@ -116,7 +116,7 @@
         "sets": [
             {
                 "role": "Fast Attacker",
-                "movepool": ["facade", "return", "steelwing", "hiddenpowerfighting", "fly"],
+                "movepool": ["facade", "frustration", "steelwing", "hiddenpowerfighting", "fly"],
                 "abilities": ["Speed Boost"]
             }
         ]
@@ -337,7 +337,7 @@
         "sets": [
             {
                 "role": "Wallbreaker",
-                "movepool": ["hiddenpowerflying", "return", "beatup", "facade"],
+                "movepool": ["hiddenpowerflying", "frustration", "beatup", "facade"],
                 "abilities": ["Clear Body"]
             }
         ]
