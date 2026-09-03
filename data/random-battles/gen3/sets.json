@@ -387,7 +387,7 @@
             },
             {
                 "role": "Berry Sweeper",
-                "movepool": ["substitute", "skullbreaker", "thunderbolt", "return", "hiddenpowerghost"],
+                "movepool": ["substitute", "skullbreaker", "thunderwave", "return", "hiddenpowerghost"],
                 "abilities": ["Lighting Rod"]
             },
             {
