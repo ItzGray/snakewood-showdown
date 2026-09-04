@@ -436,5 +436,40 @@
                 "abilities": ["Water Absorb"]
             }
         ]
+    },
+    "radiorange": {
+        "level": 83,
+        "sets": [
+            {
+                "role": "Bulky Setup",
+                "movepool": ["calmmind", "crazybolt", "firepump", "hiddenpowergrass", "willowisp"],
+                "abilities": ["Intimidate"]
+            },
+            {
+                "role": "Wallbreaker",
+                "movepool": ["crazybolt", "fireblast", "explosion", "hiddenpowergrass", "overheat"],
+                "abilities": ["Intimidate"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["healbell", "firepump", "reflect", "protect", "toxic"],
+                "abilities": ["Intimidate"]
+            }
+        ]
+    },
+    "yuck": {
+        "level": 83,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["sludgebomb", "firepump", "discharge", "return", "hiddenpowerground"],
+                "abilities": ["Sticky Hold"]
+            },
+            {
+                "role": "Bulky Setup",
+                "movepool": ["acidarmor", "taunt", "sludgebomb", "hiddenpowerground", "firepump"],
+                "abilities": ["Sticky Hold"]
+            }
+        ]
     }
 }
