@@ -278,7 +278,7 @@
         ]
     },
     "aeromadio": {
-        "level": 84,
+        "level": 83,
         "sets": [
             {
                 "role": "Wallbreaker",
@@ -484,6 +484,77 @@
                 "role": "Fast Attacker",
                 "movepool": ["spikes", "stormsurge", "sludgebomb", "hiddenpowerground"],
                 "abilities": ["Poison Point"]
+            }
+        ]
+    },
+    "galactimon": {
+        "level": 82,
+        "sets": [
+            {
+                "role": "Bulky Setup",
+                "movepool": ["calmmind", "psychic", "firepump", "icebeam", "hiddenpowerdark"],
+                "abilities": ["Levitate"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["psychic", "rockslide", "explosion", "overheat", "earthquake", "shadowball"],
+                "abilities": ["Levitate"]
+            }
+        ]
+    },
+    "bleedoise": {
+        "level": 82,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["toxic", "yawn", "rapidspin", "stormsurge", "refresh", "mirrorcoat", "earthquake"],
+                "abilities": ["Torrent"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["stormsurge", "surf", "icebeam", "focuspunch", "earthquake", "ironslam"],
+                "abilities": ["Torrent"]
+            }
+        ]
+    },
+    "electabugs": {
+        "level": 82,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["thunderbolt", "firepunch", "icepunch", "psychic", "crosschop"],
+                "abilities": ["Static"],
+                "preferredTypes": ["Ice"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["meditate", "crosschop", "return", "thunderbolt", "icepunch"],
+                "abilities": ["Static"]
+            }
+        ]
+    },
+    "grimreaper": {
+        "level": 82,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["sworddance", "agility", "hiddenpowerbug", "shadowswipe", "return"],
+                "abilities": ["Swarm"]
+            },
+            {
+                "role": "Wallbreaker",
+                "movepool": ["hiddenpowerbug", "wingattack", "shadowswipe", "return", "steelwing"],
+                "abilities": ["Swarm"]
+            }
+        ]
+    },
+    "luxray": {
+        "level": 82,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["discharge", "crunch", "hiddenpowerice", "ironslam", "shadowswipe"],
+                "abilities": ["Intimidate"]
             }
         ]
     }
