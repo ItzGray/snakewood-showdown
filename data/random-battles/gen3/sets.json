@@ -471,5 +471,20 @@
                 "abilities": ["Sticky Hold"]
             }
         ]
+    },
+    "telson": {
+        "level": 82,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["spikes", "haze", "toxic", "shadowball"],
+                "abilities": ["Poison Point"]
+            },
+            {
+                "role": "Fast Attacker",
+                "movepool": ["spikes", "stormsurge", "sludgebomb", "hiddenpowerground"],
+                "abilities": ["Poison Point"]
+            }
+        ]
     }
 }
