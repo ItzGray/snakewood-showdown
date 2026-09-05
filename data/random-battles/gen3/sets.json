@@ -538,7 +538,7 @@
         "sets": [
             {
                 "role": "Setup Sweeper",
-                "movepool": ["sworddance", "agility", "hiddenpowerbug", "shadowswipe", "return"],
+                "movepool": ["swordsdance", "agility", "hiddenpowerbug", "shadowswipe", "return"],
                 "abilities": ["Swarm"]
             },
             {
