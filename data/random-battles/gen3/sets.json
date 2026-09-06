@@ -1,6 +1,6 @@
 {
     "kingmadio": {
-        "level": 45,
+        "level": 52,
         "sets": [
             {
                 "role": "Staller",
@@ -60,7 +60,7 @@
         ]
     },
     "antispiral": {
-        "level": 85,
+        "level": 95,
         "sets": [
             {
                 "role": "Berry Sweeper",
@@ -217,7 +217,7 @@
         ]
     },
     "seamadio": {
-        "level": 88,
+        "level": 89,
         "sets": [
             {
                 "role": "Generalist",
@@ -278,7 +278,7 @@
         ]
     },
     "aeromadio": {
-        "level": 83,
+        "level": 82,
         "sets": [
             {
                 "role": "Wallbreaker",
@@ -378,7 +378,7 @@
         ]
     },
     "zebstrika": {
-        "level": 84,
+        "level": 85,
         "sets": [
             {
                 "role": "Fast Attacker",
