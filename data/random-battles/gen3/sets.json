@@ -383,12 +383,12 @@
             {
                 "role": "Fast Attacker",
                 "movepool": ["thunderbolt", "afrobreak", "skullbreaker", "surf", "thunderwave"],
-                "abilities": ["Lighting Rod"]
+                "abilities": ["Lightning Rod"]
             },
             {
                 "role": "Berry Sweeper",
                 "movepool": ["substitute", "skullbreaker", "thunderwave", "return", "hiddenpowerghost"],
-                "abilities": ["Lighting Rod"]
+                "abilities": ["Lightning Rod"]
             },
             {
                 "role": "Setup Sweeper",
