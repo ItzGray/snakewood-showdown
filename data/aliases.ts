@@ -1375,7 +1375,6 @@ export const Aliases: import('../sim/dex').AliasesTable = {
 	vicegrip: "Vise Grip",
 	web: "Sticky Web",
 	webs: "Sticky Web",
-	wildbolt: "Wildbolt Storm",
 	wisp: "Will-O-Wisp",
 	wow: "Will-O-Wisp",
 

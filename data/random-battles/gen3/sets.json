@@ -378,7 +378,7 @@
         ]
     },
     "zebstrika": {
-        "level": 85,
+        "level": 83,
         "sets": [
             {
                 "role": "Fast Attacker",
@@ -392,7 +392,7 @@
             },
             {
                 "role": "Setup Sweeper",
-                "movepool": ["raindance", "wildboltstorm", "surf", "agility"],
+                "movepool": ["raindance", "wildbolt", "surf", "agility"],
                 "abilities": ["Lightning Rod"]
             }
         ]
