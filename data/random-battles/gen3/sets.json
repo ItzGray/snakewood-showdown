@@ -557,5 +557,65 @@
                 "abilities": ["Intimidate"]
             }
         ]
+    },
+    "gigawolf": {
+        "level": 81,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["crunch", "earthquake", "icepunch", "ironslam", "hiddenpowerflying", "extremespeed"],
+                "abilities": ["Intimidate"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["bulkup", "earthquake", "extremespeed", "hiddenpowerrock", "shadowball"],
+                "abilities": ["Intimidate"]
+            }
+        ]
+    },
+    "sevicious": {
+        "level": 81,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["crunch", "sludgebomb", "earthquake", "firepump", "icebeam", "rest"],
+                "abilities": ["Shed Skin"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["toxic", "rest", "taunt", "firepump", "earthquake", "glare", "superfang"],
+                "abilities": ["Shed Skin"]
+            }
+        ]
+    },
+    "ironreaper": {
+        "level": 81,
+        "sets": [
+            {
+                "role": "Bulky Setup",
+                "movepool": ["sworddance", "hiddenpowerbug", "steelwing", "shadowswipe", "agility"],
+                "abilities": ["Swarm"]
+            },
+            {
+                "role": "Wallbreaker",
+                "movepool": ["hiddenpowerbug", "steelwing", "shadowswipe", "rocksmash", "return"],
+                "abilities": ["Swarm"]
+            }
+        ]
+    },
+    "bouffalant": {
+        "level": 81,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["afrobreak", "earthquake", "megahorn", "hiddenpowerghost", "ironslam"],
+                "abilities": ["Thick Fat"]
+            },
+            {
+                "role": "Bulky Setup",
+                "movepool": ["sworddance", "return", "painsplit", "earthquake", "hiddenpowerghost"],
+                "abilities": ["Thick Fat"]
+            }
+        ]
     }
 }
