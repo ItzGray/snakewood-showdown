@@ -617,5 +617,25 @@
                 "abilities": ["Thick Fat"]
             }
         ]
+    },
+    "furiq": {
+        "level": 80,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["earthquake", "superpower", "sunnyday", "solarbeam"],
+                "abilities": ["Chlorophyll"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["synthesis", "sunnyday", "earthquake", "ancientpower", "superpower", "icepunch", "hiddenpowergrass"],
+                "abilities": ["Chlorophyll"]
+            },
+            {
+                "role": "Wallbreaker",
+                "movepool": ["earthquake", "superpower", "hiddenpowerghost", "extremespeed"],
+                "abilities": ["Chlorophyll"]
+            }
+        ]
     }
 }
