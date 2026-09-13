@@ -637,5 +637,60 @@
                 "abilities": ["Chlorophyll"]
             }
         ]
-    }
+    },
+    "dragon": {
+        "level": 80,
+        "sets": [
+            {
+                "role": "Bulky Setup",
+                "movepool": ["swordsdance", "earthquake", "rockslide", "return", "hiddenpowerfighting"],
+                "abilities": ["Intimidate"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["furydance", "earthquake", "rockslide", "hiddenpowerbug", "ironslam"],
+                "abilities": ["Intimidate", "Guts"]
+            },
+            {
+                "role": "Wallbreaker",
+                "movepool": ["fireblast", "overheat", "outrage", "dragonclaw", "earthquake", "focuspunch", "icepunch"],
+                "abilities": ["Intimidate"]
+            }
+        ]
+    },
+    "vigourlan": {
+        "level": 80,
+        "sets": [
+            {
+                "role": "Bulky Setup",
+                "movepool": ["calmmind", "psychic", "thunderbolt", "firepump", "icebeam", "slackoff"],
+                "abilities": ["Vital Spirit"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["encore", "taunt", "psychic", "slackoff", "discharge", "grasswhistle", "firepump"],
+                "abilities": ["Vital Spirit"]
+            },
+            {
+                "role": "Fast Attacker",
+                "movepool": ["psychic", "return", "shadowball", "icebeam", "fireblast", "slackoff"],
+                "abilities": ["Vital Spirit"]
+            }
+        ]
+    },
+    "vivosaur": {
+        "level": 80,
+        "sets": [
+            {
+                "role": "Staller",
+                "movepool": ["synthesis", "leechseed", "toxic", "gigadrain", "hiddenpowerfire", "protect"],
+                "abilities": ["Overgrow"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["sleeppowder", "sludgebomb", "leechseed", "gigadrain", "synthesis", "earthquake"],
+                "abilities": ["Overgrow"]
+            }
+        ]
+    },
 }
