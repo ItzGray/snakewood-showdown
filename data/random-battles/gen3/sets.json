@@ -693,4 +693,69 @@
             }
         ]
     },
+    "eyeeye": {
+        "level": 80,
+        "sets": [
+            {
+                "role": "Generalist",
+                "movepool": ["lovelykiss", "psychic", "icebeam", "taunt"],
+                "abilities": ["Oblivious"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["lovelykiss", "calmmind", "icebeam", "psychic", "hiddenpowerelectric"],
+                "abilities": ["Oblivious"]
+            }
+        ]
+    },
+    "azombarill": {
+        "level": 80,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["doubleedge", "hiddenpowerghost", "ironslam", "stormsurge"],
+                "abilities": ["Huge Power"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["doubleedge", "boilingwater", "focuspunch", "toxic"],
+                "abilities": ["Huge Power"]
+            }
+        ]
+    },
+    "toxeon": {
+        "level": 80,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["sludgebomb", "shadowball", "recover", "hiddenpowerground", "glare"],
+                "abilities": ["Poison Point"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["recover", "glare", "sludgebomb", "lightscreen", "protect", "hiddenpowerfighting"],
+                "abilities": ["Poison Point"]
+            },
+            {
+                "role": "Bulky Setup",
+                "movepool": ["recover", "curse", "sludgebomb", "shadowball"],
+                "abilities": ["Poison Point"]
+            }
+        ]
+    },
+    "demoneon": {
+        "level": 82,
+        "sets": [
+            {
+                "role": "Generalist",
+                "movepool": ["icebeam", "psychic", "glare", "grasswhistle", "hiddenpowerfire"],
+                "abilities": ["Levitate"]
+            },
+            {
+                "role": "Staller",
+                "movepool": ["toxic", "wish", "protect", "psychic"],
+                "abilities": ["Levitate"]
+            }
+        ]
+    },
 }
