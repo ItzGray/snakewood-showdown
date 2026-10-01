@@ -758,4 +758,44 @@
             }
         ]
     },
+    "headdoom": {
+        "level": 79,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["fireblast", "firepump", "crunch", "overheat", "hiddenpowerice", "pursuit"],
+                "abilities": ["Flash Fire"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["willowisp", "taunt", "fireblast", "crunch", "pursuit"],
+                "abilities": ["Flash Fire"]
+            }
+        ]
+    },
+    "magnezone": {
+        "level": 79,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["discharge", "hiddenpowerfire", "thunderbolt", "thunderwave", "mirrorcoat"],
+                "abilities": ["Magnet Pull"]
+            }
+        ]
+    },
+    "zangol": {
+        "level": 78,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["swordsdance", "return", "brickbreak", "shadowswipe"],
+                "abilities": ["Immunity"]
+            },
+            {
+                "role": "Wallbreaker",
+                "movepool": ["return", "brickbreak", "shadowswipe", "quickattack", "focuspunch"],
+                "abilities": ["Immunity"]
+            }
+        ]
+    }
 }
