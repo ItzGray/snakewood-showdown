@@ -783,6 +783,36 @@
             }
         ]
     },
+    "furix": {
+        "level": 79,
+        "sets": [
+            {
+                "role": "Bulky Setup",
+                "movepool": ["swordsdance", "earthquake", "rockblast", "hiddenpowerbug", "machpunch"],
+                "abilities": ["Water Absorb"]
+            },
+            {
+                "role": "Wallbreaker",
+                "movepool": ["earthquake", "ancientpower", "superpower", "return", "selfdestruct", "hiddenpowerflying"],
+                "abilities": ["Water Absorb"]
+            }
+        ]
+    },
+    "psypig": {
+        "level": 79,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["calmmind", "sacredfire", "psychic", "stormsurge", "hypnosis"],
+                "abilities": ["Flash Fire"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["sacredfire", "taunt", "psychic", "lightscreen", "hiddenpowergrass"],
+                "abilities": ["Flash Fire"]
+            }
+        ]
+    },
     "zangol": {
         "level": 78,
         "sets": [
@@ -795,6 +825,61 @@
                 "role": "Wallbreaker",
                 "movepool": ["return", "brickbreak", "shadowswipe", "quickattack", "focuspunch"],
                 "abilities": ["Immunity"]
+            }
+        ]
+    },
+    "blastmadio": {
+        "level": 78,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["eruption", "fireblast", "overheat", "solarbeam", "thunderbolt", "explosion", "shadowball"],
+                "abilities": ["Drought"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["firepump", "painsplit", "psychic", "thunderbolt", "solarbeam"],
+                "abilities": ["Drought"]
+            },
+            {
+                "role": "Fast Support",
+                "movepool": ["fireblast", "encore", "leechseed", "grasswhistle", "solarbeam"],
+                "abilities": ["Drought"]
+            },
+            {
+                "role": "Staller",
+                "movepool": ["firepump", "detect", "leechseed", "painsplit", "block"],
+                "abilities": ["Drought"]
+            }
+        ]
+    },
+    "dragoone": {
+        "level": 78,
+        "sets": [
+            {
+                "role": "Berry Sweeper",
+                "movepool": ["substitute", "bellydrum", "frustration", "shadowball"],
+                "abilities": ["Battle Armor"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["substitute", "frustration", "firepump", "hiddenpowerfighting", "shadowswipe"],
+                "abilities": ["Battle Armor"]
+            }
+        ]
+    },
+    "spiritomb": {
+        "level": 78,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["brightidea", "fireblast", "hiddenpowerdark", "psychic", "hypnosis"],
+                "abilities": ["Pressure"]
+            },
+            {
+                "role": "Bulky Setup",
+                "movepool": ["calmmind", "firepump", "hiddenpowerdark", "psychic"],
+                "abilities": ["Pressure"]
             }
         ]
     }
