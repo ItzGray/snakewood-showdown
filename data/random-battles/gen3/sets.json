@@ -882,5 +882,55 @@
                 "abilities": ["Pressure"]
             }
         ]
+    },
+    "hyperegg": {
+        "level": 77,
+        "sets": [
+            {
+                "role": "Staller",
+                "movepool": ["softboiled", "toxic", "protect", "rapidspin", "firepump"],
+                "abilities": ["Shell Armor"]
+            },
+            {
+                "role": "Fast Support",
+                "movepool": ["softboiled", "rapidspin", "reflect", "lightscreen", "explosion", "grasswhistle"],
+                "abilities": ["Shell Armor"]
+            }
+        ]
+    },
+    "weavile": {
+        "level": 77,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["icebreath", "swordsdance", "shadowswipe", "hiddenpowerfighting"],
+                "abilities": ["Pressure"]
+            },
+            {
+                "role": "Wallbreaker",
+                "movepool": ["shadowswipe", "hiddenpowerfighting", "ironslam", "ancientpower", "facade"],
+                "abilities": ["Pressure"]
+            },
+            {
+                "role": "Fast Attacker",
+                "movepool": ["icebreath", "shadowswipe", "focuspunch", "taunt", "return"],
+                "abilities": ["Pressure"]
+            }
+        ]
+    },
+    "normadio": {
+        "level": 77,
+        "sets": [
+            {
+                "role": "Staller",
+                "movepool": ["slackoff", "toxic", "protect", "counter", "sandtomb"],
+                "abilities": ["Clear Body"]
+            },
+            {
+                "role": "Fast Support",
+                "movepool": ["slackoff", "taunt", "toxic", "reflect"],
+                "abilities": ["Clear Body"]
+            }
+        ]
     }
 }
