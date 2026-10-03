@@ -932,5 +932,65 @@
                 "abilities": ["Clear Body"]
             }
         ]
+    },
+    "ramshaker": {
+        "level": 76,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["doubleedge", "return", "earthquake", "skullbreaker", "hiddenpowerghost", "ironslam", "frictionkick"],
+                "abilities": ["Huge Power"]
+            },
+            {
+                "role": "Bulky Setup",
+                "movepool": ["milkdrink", "bulkup", "return", "earthquake", "hiddenpowerghost", "skullbreaker"],
+                "abilities": ["Huge Power"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["milkdrink", "doubleedge", "psychic", "roar", "earthquake"],
+                "abilities": ["Huge Power"]
+            }
+        ]
+    },
+    "treemadio": {
+        "level": 76,
+        "sets": [
+            {
+                "role": "Staller",
+                "movepool": ["leechseed", "synthesis", "protect", "beatup", "toxic"],
+                "abilities": ["Effect Spore"]
+            },
+            {
+                "role": "Fast Support",
+                "movepool": ["synthesis", "leechseed", "spore", "batonpass", "beatup"],
+                "abilities": ["Effect Spore"]
+            }
+        ]
+    },
+    "qwilshark": {
+        "level": 76,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["spikes", "stormsurge", "rapidspin", "sludgebomb", "icebeam"],
+                "abilities": ["Poison Point"]
+            },
+            {
+                "role": "Fast Support",
+                "movepool": ["spikes", "rapidspin", "haze", "stormsurge", "toxic"],
+                "abilities": ["Poison Point"]
+            }
+        ]
+    },
+    "nigera": {
+        "level": 76,
+        "sets": [
+            {
+                "role": "Staller",
+                "movepool": ["toxic", "spikes", "protect", "rest", "beatup"],
+                "abilities": ["Intimidate"]
+            }
+        ]
     }
 }
