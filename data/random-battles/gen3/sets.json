@@ -842,7 +842,7 @@
                 "abilities": ["Drought"]
             },
             {
-                "role": "Fast Support",
+                "role": "Bulky Support",
                 "movepool": ["fireblast", "encore", "leechseed", "grasswhistle", "solarbeam"],
                 "abilities": ["Drought"]
             },
@@ -892,7 +892,7 @@
                 "abilities": ["Shell Armor"]
             },
             {
-                "role": "Fast Support",
+                "role": "Bulky Support",
                 "movepool": ["softboiled", "rapidspin", "reflect", "lightscreen", "explosion", "grasswhistle"],
                 "abilities": ["Shell Armor"]
             }
@@ -927,7 +927,7 @@
                 "abilities": ["Clear Body"]
             },
             {
-                "role": "Fast Support",
+                "role": "Bulky Support",
                 "movepool": ["slackoff", "taunt", "toxic", "reflect"],
                 "abilities": ["Clear Body"]
             }
@@ -962,7 +962,7 @@
                 "abilities": ["Effect Spore"]
             },
             {
-                "role": "Fast Support",
+                "role": "Bulky Support",
                 "movepool": ["synthesis", "leechseed", "spore", "batonpass", "beatup"],
                 "abilities": ["Effect Spore"]
             }
@@ -977,7 +977,7 @@
                 "abilities": ["Poison Point"]
             },
             {
-                "role": "Fast Support",
+                "role": "Bulky Support",
                 "movepool": ["spikes", "rapidspin", "haze", "stormsurge", "toxic"],
                 "abilities": ["Poison Point"]
             }
@@ -989,6 +989,66 @@
             {
                 "role": "Staller",
                 "movepool": ["toxic", "spikes", "protect", "rest", "beatup"],
+                "abilities": ["Intimidate"]
+            }
+        ]
+    },
+    "lucazamon": {
+        "level": 75,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["icebeam", "waterfall", "fireblast", "dragonclaw", "refresh"],
+                "abilities": ["Guts"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["icebeam", "fireblast", "wish", "grasswhistle", "dragonclaw"],
+                "abilities": ["Guts"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["hail", "blizzard", "fireblast", "dragonclaw"],
+                "abilities": ["Guts"]
+            }
+        ]
+    },
+    "teabarqan": {
+        "level": 75,
+        "sets": [
+            {
+                "role": "Bulky Setup",
+                "movepool": ["bulkup", "recover", "earthquake", "rockslide", "hiddenpowerfighting"],
+                "abilities": ["Marvel Scale"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["calmmind", "recover", "firepump", "dragonclaw", "waterfall"],
+                "abilities": ["Marvel Scale"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["recover", "firepump", "rocktomb", "dragonbreath", "roar"],
+                "abilities": ["Marvel Scale"]
+            }
+        ]
+    },
+    "mutagon": {
+        "level": 73,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["calmmind", "dragonclaw", "psychic", "thunderbolt", "fireblast", "icebeam"],
+                "abilities": ["Intimidate"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["discharge", "firepump", "icebeam", "psychic", "taunt", "encore"],
+                "abilities": ["Intimidate"]
+            },
+            {
+                "role": "Fast Attacker",
+                "movepool": ["overheat", "psychic", "gigadrain", "outrage", "thunderbolt"],
                 "abilities": ["Intimidate"]
             }
         ]
