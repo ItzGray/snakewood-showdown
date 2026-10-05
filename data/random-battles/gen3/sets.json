@@ -1052,5 +1052,60 @@
                 "abilities": ["Intimidate"]
             }
         ]
+    },
+    "x32763": {
+        "level": 74,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["discharge", "thunderbolt", "ironslam", "icebeam", "gigadrain", "earthquake"],
+                "abilities": ["Levitate"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["discharge", "reflect", "lightscreen", "icebeam", "toxic"],
+                "abilities": ["Levitate"]
+            }
+        ]
+    },
+    "roclobster": {
+        "level": 74,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["rockslide", "earthquake", "skullbreaker", "ironslam", "hiddenpowerbug", "rest"],
+                "abilities": ["Shed Skin"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["toxic", "rest", "substitute", "rockslide", "counter", "firepump"],
+                "abilities": ["Shed Skin"]
+            },
+            {
+                "role": "Generalist",
+                "movepool": ["firepump", "thunderbolt", "dragonclaw", "outrage", "crabhammer", "icebeam", "leafblade", "rest"],
+                "abilities": ["Shed Skin"]
+            },
+            {
+                "role": "Wallbreaker",
+                "movepool": ["superpower", "earthquake", "rockslide", "ironslam", "hiddenpowerflying"],
+                "abilities": ["Shed Skin"]
+            }
+        ]
+    },
+    "excadrill": {
+        "level": 74,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["swordsdance", "earthquake", "hiddenpowersteel", "rockslide"],
+                "abilities": ["Sand Stream"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["earthquake", "rapidspin", "toxic", "rockslide", "sludgebomb"],
+                "abilities": ["Sand Stream"]
+            }
+        ]
     }
 }
