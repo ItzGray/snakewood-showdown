@@ -1107,5 +1107,45 @@
                 "abilities": ["Sand Stream"]
             }
         ]
+    },
+    "senex": {
+        "level": 73,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["crosschop", "earthquake", "hiddenpowerdark", "shadowball", "firepunch", "icepunch", "thunderbolt"],
+                "abilities": ["Trace"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["calmmind", "hiddenpowerdark", "psychic", "firepunch", "thunderbolt", "icepunch"],
+                "abilities": ["Trace"]
+            },
+            {
+                "role": "Wallbreaker",
+                "movepool": ["crosschop", "earthquake", "shadowball", "hiddenpowerflying"],
+                "abilities": ["Trace"]
+            }
+        ]
+    },
+    "gorelax": {
+        "level": 73,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["doubleedge", "return", "earthquake", "shadowball", "bodyslam", "hiddenpowerbug", "focuspunch"],
+                "abilities": ["Thick Fat"]
+            },
+            {
+                "role": "Bulky Sweeper",
+                "movepool": ["bellydrum", "return", "earthquake", "shadowball", "hiddenpowerfighting"],
+                "abilities": ["Thick Fat"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["bodyslam", "yawn", "firepump", "shadowball", "rest"],
+                "abilities": ["Thick Fat"]
+            }
+        ]
     }
 }
