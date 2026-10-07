@@ -1128,23 +1128,53 @@
             }
         ]
     },
-    "gorelax": {
-        "level": 73,
+    "kenchukuo": {
+        "level": 72,
         "sets": [
             {
+                "role": "Fast Attacker",
+                "movepool": ["skyuppercut", "hiddenpowerflying", "shadowball", "taunt", "earthquake"],
+                "abilities": ["Speed Boost"]
+            },
+            {
+                "role": "Wallbreaker",
+                "movepool": ["skullbreaker", "hiddenpowerflying", "shadowswipe", "facade"],
+                "abilities": ["Guts"]
+            }
+        ]
+    },
+    "kamina": {
+        "level": 72,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["crosschop", "earthquake", "hiddenpowerbug", "shadowball", "frustration"],
+                "abilities": ["Intimidate"]
+            },
+            {
                 "role": "Bulky Attacker",
-                "movepool": ["doubleedge", "return", "earthquake", "shadowball", "bodyslam", "hiddenpowerbug", "focuspunch"],
-                "abilities": ["Thick Fat"]
+                "movepool": ["crossover", "firepump", "thunderpunch", "earthquake", "hiddenpowerrock"],
+                "abilities": ["Intimidate"]
+            }
+        ]
+    },
+    "skylax": {
+        "level": 71,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["aeroblast", "doubleedge", "return", "extremespeed", "skyuppercut", "shadowball"],
+                "abilities": ["Immunity"]
             },
             {
-                "role": "Bulky Sweeper",
-                "movepool": ["bellydrum", "return", "earthquake", "shadowball", "hiddenpowerfighting"],
-                "abilities": ["Thick Fat"]
+                "role": "Bulky Attacker",
+                "movepool": ["aeroblast", "bodyslam", "synthesis", "leechseed", "skyuppercut"],
+                "abilities": ["Immunity"]
             },
             {
-                "role": "Bulky Support",
-                "movepool": ["bodyslam", "yawn", "firepump", "shadowball", "rest"],
-                "abilities": ["Thick Fat"]
+                "role": "Wallbreaker",
+                "movepool": ["aeroblast", "doubleedge", "skyuppercut", "hiddenpowerground", "shadowball"],
+                "abilities": ["Immunity"]
             }
         ]
     }
