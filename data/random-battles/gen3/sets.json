@@ -1177,5 +1177,60 @@
                 "abilities": ["Immunity"]
             }
         ]
+    },
+    "turmur": {
+        "level": 70,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["icebreath", "grasswhistle", "explosion", "earthquake"],
+                "abilities": ["Levitate"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["recover", "fireblast", "earthquake", "shadowswipe", "icebeam", "hiddenpowerflying", "icebreath"],
+                "abilities": ["Levitate"]
+            },
+            {
+                "role": "Staller",
+                "movepool": ["recover", "protect", "toxic", "earthquake"],
+                "abilities": ["Levitate"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["recover", "calmmind", "fireblast", "discharge", "icebeam", "psychic", "surf"],
+                "abilities": ["Levitate"]
+            }
+        ]
+    },
+    "scarlugia": {
+        "level": 70,
+        "sets": [
+            {
+                "role": "Staller",
+                "movepool": ["toxic", "protect", "recover", "aeroblast", "roar"],
+                "abilities": ["Pressure"]
+            },
+            {
+                "role": "Bulky Setup",
+                "movepool": ["calmmind", "recover", "psychic", "icebeam", "discharge", "stormsurge"],
+                "abilities": ["Pressure"]
+            }
+        ]
+    },
+    "rotting": {
+        "level": 70,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["return", "earthquake", "rockslide", "ironslam", "hiddenpowerghost"],
+                "abilities": ["Thick Fat"]
+            },
+            {
+                "role": "Bulky Setup",
+                "movepool": ["bulkup", "return", "earthquake", "hiddenpowerfighting", "ironslam"],
+                "abilities": ["Thick Fat"]
+            }
+        ]
     }
 }
