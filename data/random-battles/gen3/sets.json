@@ -593,7 +593,7 @@
         "sets": [
             {
                 "role": "Bulky Setup",
-                "movepool": ["sworddance", "hiddenpowerbug", "steelwing", "shadowswipe", "agility"],
+                "movepool": ["swordsdance", "hiddenpowerbug", "steelwing", "shadowswipe", "agility"],
                 "abilities": ["Swarm"]
             },
             {
@@ -613,7 +613,7 @@
             },
             {
                 "role": "Bulky Setup",
-                "movepool": ["sworddance", "return", "painsplit", "earthquake", "hiddenpowerghost"],
+                "movepool": ["swordsdance", "return", "painsplit", "earthquake", "hiddenpowerghost"],
                 "abilities": ["Thick Fat"]
             }
         ]
@@ -1153,7 +1153,7 @@
             },
             {
                 "role": "Bulky Attacker",
-                "movepool": ["crossover", "firepump", "thunderpunch", "earthquake", "hiddenpowerrock"],
+                "movepool": ["crosschop", "firepump", "thunderpunch", "earthquake", "hiddenpowerrock"],
                 "abilities": ["Intimidate"]
             }
         ]

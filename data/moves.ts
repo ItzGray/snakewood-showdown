@@ -21297,6 +21297,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Fire",
 		contestType: "Beautiful",
 	},
+
+	// Snakewood moves
+	
 	skullbreaker: {
 		num: -23,
 		accuracy: 85,
