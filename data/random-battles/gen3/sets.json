@@ -1273,5 +1273,76 @@
                 "abilities": ["Cute Charm"]
             }
         ]
+    },
+    "beedrill": {
+        "level": 82,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["furydance", "hiddenpowerbug", "sludgebomb", "drillpeck", "return"],
+                "abilities": ["Swarm"]
+            },
+            {
+                "role": "Bulky Sweeper",
+                "movepool": ["swordsdance", "agility", "hiddenpowerground", "sludgebomb", "drillpeck"],
+                "abilities": ["Swarm"]
+            }
+        ]
+    },
+    "raticate": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["facade", "return", "superfang", "shadowball", "hiddenpowerfighting"],
+                "abilities": ["Guts"]
+            }
+        ]
+    },
+    "fearow": {
+        "level": 81,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["frustration", "drillpeck", "steelwing", "hiddenpowerground", "beatup"],
+                "abilities": ["Keen Eye"]
+            }
+        ]
+    },
+    "pikachu": {
+        "level": 87,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["encore", "thunderbolt", "icepunch", "focuspunch", "hiddenpowerfire"],
+                "abilities": ["Static"]
+            }
+        ]
+    },
+    "raichu": {
+        "level": 83,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["encore", "thunderbolt", "icepunch", "ironslam", "hiddenpowerwater"],
+                "abilities": ["Static"]
+            },
+            {
+                "role": "Fast Support",
+                "movepool": ["encore", "discharge", "icepunch", "thunderwave", "wish"],
+                "abilities": ["Static"]
+            }
+        ]
+    },
+    "sandslash": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["earthquake", "hiddenpowerbug", "rapidspin", "rockslide", "swordsdance", "toxic"],
+                "abilities": ["Sand Veil"],
+                "preferredTypes": ["Rock"]
+            }
+        ]
     }
 }
