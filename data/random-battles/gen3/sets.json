@@ -1218,18 +1218,59 @@
             }
         ]
     },
-    "rotting": {
-        "level": 70,
+    "furiz": {
+        "level": 69,
         "sets": [
             {
-                "role": "Wallbreaker",
-                "movepool": ["return", "earthquake", "rockslide", "ironslam", "hiddenpowerghost"],
-                "abilities": ["Thick Fat"]
+                "role": "Staller",
+                "movepool": ["toxic", "protect", "willowisp", "seismictoss"],
+                "abilities": ["Flash Fire"]
+            }
+        ]
+    },
+    "shaderu": {
+        "level": 69,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["recover", "return", "shadowball", "earthquake", "hiddenpowerfighting", "ironslam"],
+                "abilities": ["Levitate"]
             },
             {
-                "role": "Bulky Setup",
-                "movepool": ["bulkup", "return", "earthquake", "hiddenpowerfighting", "ironslam"],
-                "abilities": ["Thick Fat"]
+                "role": "Setup Sweeper",
+                "movepool": ["calmmind", "firepump", "thunderbolt", "pulsar", "icebeam", "gigadrain", "psychic"],
+                "abilities": ["Levitate"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["return", "taunt", "glare", "shadowball", "toxic"],
+                "abilities": ["Levitate"]
+            }
+        ]
+    },
+    "diamandix": {
+        "level": 69,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["ironslam", "doubleedge", "earthquake", "rockslide", "hiddenpowerbug"],
+                "abilities": ["Rock Head"]
+            },
+            {
+                "role": "Staller",
+                "movepool": ["toxic", "roar", "protect", "earthquake", "explosion"],
+                "abilities": ["Sturdy"]
+            }
+        ]
+    },
+    "amonster": {
+        "level": 68,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["return", "surf", "overheat", "gigadrain", "thunderbolt", "icebeam", "sludgebomb", "shadowball", "crosschop", 
+                  "hiddenpowerbug", "beatup", "psychic", "dragonclaw", "earthquake", "rocktomb", "ironslam", "fly"],
+                "abilities": ["Cute Charm"]
             }
         ]
     }
