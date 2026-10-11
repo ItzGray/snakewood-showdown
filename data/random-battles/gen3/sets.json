@@ -1424,5 +1424,145 @@
                 "abilities": ["Cute Charm"]
             }
         ]
+    },
+    "vileplume": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["aromatherapy", "sleeppowder", "toxic", "moonlight", "gigadrain"],
+                "abilities": ["Chlorophyll"]
+            },
+            {
+                "role": "Bulky Setup",
+                "movepool": ["swordsdance", "sludgebomb", "hiddenpowerfighting", "moonlight", "stunspore"],
+                "abilities": ["Chlorophyll"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["sunnyday", "solarbeam", "moonlight", "hiddenpowerfire"],
+                "abilities": ["Chlorophyll"]
+            }
+        ]
+    },
+    "parasect": {
+        "level": 98,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["spore", "stunspore", "hiddenpowerbug", "shadowswipe", "aromatherapy"],
+                "abilities": ["Effect Spore"]
+            }
+        ]
+    },
+    "persian": {
+        "level": 87,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["return", "crunch", "ironslam", "fakeout", "hiddenpowerflying"],
+                "abilities": ["Limber"]
+            }
+        ]
+    },
+    "golduck": {
+        "level": 81,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["calmmind", "surf", "psychic", "icebeam", "hiddenpowerelectric"],
+                "abilities": ["Cloud Nine"]
+            },
+            {
+                "role": "Fast Attacker",
+                "movepool": ["hypnosis", "stormsurge", "focuspunch", "icebeam"],
+                "abilities": ["Cloud Nine"]
+            }
+        ]
+    },
+    "arcanine": {
+        "level": 78,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["extremespeed", "fireblast", "overheat", "crunch", "toxic"],
+                "abilities": ["Intimidate"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["agility", "fireblast", "crunch", "hiddenpowergrass"],
+                "abilities": ["Intimidate"]
+            }
+        ]
+    },
+    "alakazam": {
+        "level": 77,
+        "sets": [
+            {
+                "role": "Bulky Setup",
+                "movepool": ["calmmind", "recover", "psychic", "firepunch"],
+                "abilities": ["Synchronize"]
+            },
+            {
+                "role": "Generalist",
+                "movepool": ["recover", "knockoff", "psychic", "encore"],
+                "abilities": ["Synchronize"]
+            }
+        ]
+    },
+    "machamp": {
+        "level": 82,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["crosschop", "earthquake", "rockslide", "hiddenpowerbug"],
+                "abilities": ["Guts"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["bulkup", "earthquake", "crosschop", "hiddenpowerbug"],
+                "abilities": ["Guts"]
+            }
+        ]
+    },
+    "golem": {
+        "level": 84,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["explosion", "doubleedge", "rockslide", "earthquake"],
+                "abilities": ["Rock Head"]
+            },
+            {
+                "role": "Bulky Atacker",
+                "movepool": ["explosion", "doubleedge", "hiddenpowerflying", "focuspunch", "rockslide", "earthquake"],
+                "abilities": ["Rock Head"]
+            }
+        ]
+    },
+    "rapidash": {
+        "level": 83,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["firepump", "fireblast", "hiddenpowerice", "doubleedge", "hypnosis"],
+                "abilities": ["Flash Fire"]
+            }
+        ]
+    },
+    "slowbro": {
+        "level": 82,
+        "sets": [
+            {
+                "role": "Bulky Setup",
+                "movepool": ["calmmind", "slackoff", "psychic", "surf", "firepump"],
+                "abilities": ["Own Tempo"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["slackoff", "psychic", "surf", "fireblast", "icebeam", "yawn"],
+                "abilities": ["Own Tempo"]
+            }
+        ]
     }
 }
