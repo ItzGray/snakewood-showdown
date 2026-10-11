@@ -1344,5 +1344,85 @@
                 "preferredTypes": ["Rock"]
             }
         ]
+    },
+    "nidoqueen": {
+        "level": 82,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["bodyslam", "earthquake", "taunt", "disable", "firepump"],
+                "abilities": ["Poison Point"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["earthquake", "sludgebomb", "shadowball", "focuspunch", "icebeam"],
+                "abilities": ["Poison Point"]
+            }
+        ]
+    },
+    "nidoking": {
+        "level": 82,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["earthquake", "sludgebomb", "shadowball", "focuspunch", "icebeam"],
+                "abilities": ["Poison Point"]
+            },
+            {
+                "role": "Wallbreaker",
+                "movepool": ["earthquake", "sludgebomb", "shadowball", "hiddenpowerfighting", "ironslam", "horndrill"],
+                "abilities": ["Poison Point"]
+            }
+        ]
+    },
+    "clefable": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Berry Sweeper",
+                "movepool": ["substitute", "bellydrum", "return", "shadowball", "meteormash"],
+                "abilities": ["Cute Charm"]
+            },
+            {
+                "role": "Bulky Setup",
+                "movepool": ["calmmind", "moonlight", "fireblast", "thunderbolt", "icebeam", "psychic", "hiddenpowerdark"],
+                "abilities": ["Cute Charm"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["wish", "toxic", "discharge", "protect", "reflect"],
+                "abilities": ["Cute Charm"]
+            }
+        ]
+    },
+    "ninetales": {
+        "level": 82,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["fireblast", "overheat", "hiddenpowergrass", "firepump"],
+                "abilities": ["Flash Fire"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["willowisp", "confuseray", "spite", "heatwave", "hypnosis"],
+                "abilities": ["Flash Fire"]
+            },
+            {
+                "role": "Generalist",
+                "movepool": ["firespin", "firepump", "protect", "confuseray"],
+                "abilities": ["Flash Fire"]
+            }
+        ]
+    },
+    "wigglytuff": {
+        "level": 92,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["bodyslam", "wish", "toxic", "flash", "protect"],
+                "abilities": ["Cute Charm"]
+            }
+        ]
     }
 }
