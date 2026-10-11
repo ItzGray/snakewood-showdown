@@ -1564,5 +1564,50 @@
                 "abilities": ["Own Tempo"]
             }
         ]
+    },
+    "magneton": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["discharge", "hiddenpowerice", "thunderbolt", "toxic"],
+                "abilities": ["Magnet Pull"]
+            }
+        ]
+    },
+    "dodrio": {
+        "level": 79,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["drillpeck", "return", "steelwing", "hiddenpowerfighting", "endeavor"],
+                "abilities": ["Early Bird"]
+            }
+        ]
+    },
+    "dewgong": {
+        "level": 87,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["icebreath", "icebeam", "surf", "fakeout", "crystalstorm"],
+                "abilities": ["Thick Fat"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["icebreath", "surf", "encore", "disable"],
+                "abilities": ["Thick Fat"]
+            }
+        ]
+    },
+    "cloyster": {
+        "level": 83,
+        "sets": [
+            {
+                "role": "Generalist",
+                "movepool": ["spikes", "rapidspin", "surf", "toxic", "boilingwater"],
+                "abilities": ["Shell Armor"]
+            }
+        ]
     }
 }
