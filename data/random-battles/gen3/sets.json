@@ -1609,5 +1609,50 @@
                 "abilities": ["Shell Armor"]
             }
         ]
+    },
+    "gengar": {
+        "level": 76,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["thunderbolt", "icepunch", "explosion", "hiddenpowerfire", "psychic", "hypnosis"],
+                "abilities": ["Levitate"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["willowisp", "discharge", "nightshade", "haze", "destinybond"],
+                "abilities": ["Levitate"]
+            },
+            {
+                "role": "Generalist",
+                "movepool": ["perishsong", "meanlook", "protect", "willowisp"],
+                "abilities": ["Levitate"]
+            }
+        ]
+    },
+    "hypno": {
+        "level": 88,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["calmmind", "psychic", "firepunch", "taunt", "hypnosis"],
+                "abilities": ["Insomnia"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["psychic", "firepunch", "icepunch", "focuspunch", "shadowball", "futuresight"],
+                "abilities": ["Insomnia"]
+            }
+        ]
+    },
+    "kingler": {
+        "level": 90,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["swordsdance", "return", "skullbreaker", "hiddenpowerghost", "knockoff", "guillotine"],
+                "abilities": ["Shell Armor", "Hyper Cutter"]
+            }
+        ]
     }
 }
