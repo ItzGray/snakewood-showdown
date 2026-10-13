@@ -1741,7 +1741,7 @@
             {
                 "role": "Bulky Attacker",
                 "movepool": ["bodyslam", "earthquake", "knockoff", "curse", "skullbreaker", "ironslam"],
-                "abilities": ["Own Tewmpo"]
+                "abilities": ["Own Tempo"]
             }
         ]
     },
