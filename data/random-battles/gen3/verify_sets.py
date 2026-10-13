@@ -30,6 +30,8 @@ with open("move_ids.txt", "r") as move_ids_txt:
 with open("abilities.txt", "r") as abilities_txt:
 	ability_names = abilities_txt.read().split("\n")
 
+print(f"Amount of sets: {len(sets.keys())}")
+no_errors = True
 for pkmn in sets.keys():
 	for set in sets[pkmn]["sets"]:
 		try:
@@ -37,6 +39,7 @@ for pkmn in sets.keys():
 			move_pool = set["movepool"]
 			abilities = set["abilities"]
 		except:
+			no_errors = False
 			print(f"Error for pkmn {pkmn}: Variables are not declared correctly")
 			continue
 		
@@ -47,12 +50,17 @@ for pkmn in sets.keys():
 		else:
 			for preferred_type in preferred_types:
 				if preferred_type not in TYPES:
+					no_errors = False
 					print(f"Error for pkmn {pkmn}: Preferred type {preferred_type} not a type")
 
 		for ability in abilities:
 			if ability not in ability_names:
+				no_errors = False
 				print(f"Error for pkmn {pkmn}: Ability {ability} not a real ability")
 
 		for move in move_pool:
 			if move not in move_ids:
+				no_errors = False
 				print(f"Error for pkmn {pkmn}: Move {move} not a real move")
+if no_errors:
+	print("No errors found.")
