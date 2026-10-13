@@ -1734,5 +1734,110 @@
                 "abilities": ["Keen Eye"]
             }
         ]
+    },
+    "lickitung": {
+        "level": 94,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["bodyslam", "earthquake", "knockoff", "curse", "skullbreaker", "ironslam"],
+                "abilities": ["Own Tewmpo"]
+            }
+        ]
+    },
+    "weezing": {
+        "level": 81,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["painsplit", "sludgebomb", "fireblast", "explosion", "willowisp"],
+                "abilities": ["Levitate"]
+            },
+            {
+                "role": "Staller",
+                "movepool": ["painsplit", "toxic", "protect", "haze", "fireblast"],
+                "abilities": ["Levitate"]
+            }
+        ]
+    },
+    "rhydon": {
+        "level": 83,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["rockslide", "earthquake", "megahorn", "focuspunch", "swordsdance", "roar"],
+                "abilities": ["Rock Head"]
+            },
+            {
+                "role": "Wallbreaker",
+                "movepool": ["rockslide", "earthquake", "megahorn", "hiddenpowerflying", "skullbreaker"],
+                "abilities": ["Rock Head"]
+            }
+        ]
+    },
+    "tangela": {
+        "level": 95,
+        "sets": [
+            {
+                "role": "Staller",
+                "movepool": ["leechseed", "protect", "hiddenpowerfire", "toxic", "gigadrain"],
+                "abilities": ["Chlorophyll"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["stunspore", "sleeppowder", "gigadrain", "hiddenpowerfire", "reflect"],
+                "abilities": ["Chlorophyll"]
+            }
+        ]
+    },
+    "seaking": {
+        "level": 90,
+        "sets": [
+            {
+                "role": "Generalist",
+                "movepool": ["surf", "icebeam", "haze", "agility", "toxic", "return"],
+                "abilities": ["Water Veil"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["raindance", "stormsurge", "icebeam", "return"],
+                "abilities": ["Swift Swim"]
+            },
+            {
+                "role": "Staller",
+                "movepool": ["rest", "sleeptalk", "toxic", "surf"],
+                "abilities": ["Swift Swim"]
+            }
+        ]
+    },
+    "starmie": {
+        "level": 76,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["recover", "rapidspin", "psychic", "thunderbolt", "stormsurge", "icebeam"],
+                "abilities": ["Natural Cure"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["boilingwater", "recover", "lightscreen", "surf", "discharge"],
+                "abilities": ["Natural Cure"]
+            }
+        ]
+    },
+    "pinsir": {
+        "level": 82,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["swordsdance", "hiddenpowerbug", "brickbreak", "earthquake", "shadowswipe", "frustration"],
+                "abilities": ["Hyper Cutter"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["bulkup", "seismictoss", "earthquake", "hiddenpowerrock", "facade"],
+                "abilities": ["Hyper Cutter"]
+            }
+        ]
     }
 }
