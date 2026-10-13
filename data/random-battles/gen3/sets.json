@@ -1705,7 +1705,7 @@
         "sets": [
             {
                 "role": "Bulky Attacker",
-                "movepool": ["hijumpkick", "rapidspin", "bulkup", "earthquake", "hiddenpowerghost"],
+                "movepool": ["highjumpkick", "rapidspin", "bulkup", "earthquake", "hiddenpowerghost"],
                 "abilities": ["Limber"]
             },
             {
@@ -1720,7 +1720,7 @@
         "sets": [
             {
                 "role": "Bulky Attacker",
-                "movepool": ["hijumpkick", "rapidspin", "bulkup", "earthquake", "hiddenpowerghost"],
+                "movepool": ["highjumpkick", "rapidspin", "bulkup", "earthquake", "hiddenpowerghost"],
                 "abilities": ["Keen Eye"]
             },
             {
