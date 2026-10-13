@@ -1654,5 +1654,85 @@
                 "abilities": ["Shell Armor", "Hyper Cutter"]
             }
         ]
+    },
+    "electrode": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["thunderbolt", "hiddenpowerice", "discharge", "explosion", "lightscreen", "taunt"],
+                "abilities": ["Static"]
+            }
+        ]
+    },
+    "exeggutor": {
+        "level": 83,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["synthesis", "sleeppowder", "stunspore", "psychic", "leechseed"],
+                "abilities": ["Chlorophyll"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["synthesis", "psychic", "gigadrain", "hiddenpowerfire", "skullbreaker", "sleeppowder"],
+                "abilities": ["Chlorophyll"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["synthesis", "sunnyday", "solarbeam", "psychic"],
+                "abilities": ["Chlorophyll"]
+            }
+        ]
+    },
+    "marowak": {
+        "level": 83,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["swordsdance", "bonemerang", "rockslide", "doubleedge", "shadowswipe"],
+                "abilities": ["Rock Head"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["bonemerang", "rockslide", "doubleedge", "focuspunch", "hiddenpowerbug"],
+                "abilities": ["Rock Head"]
+            }
+        ]
+    },
+    "hitmonlee": {
+        "level": 84,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["hijumpkick", "rapidspin", "bulkup", "earthquake", "hiddenpowerghost"],
+                "abilities": ["Limber"]
+            },
+            {
+                "role": "Wallbreaker",
+                "movepool": ["brickbreak", "earthquake", "hiddenpowerflying", "machpunch"],
+                "abilities": ["Limber"]
+            }
+        ]
+    },
+    "hitmonchan": {
+        "level": 87,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["hijumpkick", "rapidspin", "bulkup", "earthquake", "hiddenpowerghost"],
+                "abilities": ["Keen Eye"]
+            },
+            {
+                "role": "Wallbreaker",
+                "movepool": ["skyuppercut", "earthquake", "hiddenpowerflying", "machpunch"],
+                "abilities": ["Keen Eye"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["agility", "bulkup", "skyuppercut", "hiddenpowerghost"],
+                "abilities": ["Keen Eye"]
+            }
+        ]
     }
 }
