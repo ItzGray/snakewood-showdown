@@ -3741,7 +3741,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			chance: 30,
 			status: 'par',
 		},
-		target: "allAdjacent",
+		target: "allAdjacentFoes",
 		type: "Electric",
 		contestType: "Beautiful",
 	},
