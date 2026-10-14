@@ -1924,5 +1924,125 @@
                 "abilities": ["Flash Fire"]
             }
         ]
+    },
+    "omastar": {
+        "level": 84,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["spikes", "stormsurge", "icebeam", "haze", "toxic"],
+                "abilities": ["Shell Armor"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["raindance", "spikes", "stormsurge", "hiddenpowergrass"],
+                "abilities": ["Swift Swim"]
+            }
+        ]
+    },
+    "kabutops": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["raindance", "surf", "hiddenpowerrock", "gigadrain"],
+                "abilities": ["Swift Swim"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["rapidspin", "knockoff", "boilingwater", "gigadrain", "hiddenpowerrock"],
+                "abilities": ["Shell Armor"]
+            }
+        ]
+    },
+    "aerodactyl": {
+        "level": 79,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["ancientpower", "earthquake", "hiddenpowerflying", "ironslam", "return"],
+                "abilities": ["Pressure"]
+            }
+        ]
+    },
+    "snorlax": {
+        "level": 76,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["doubleedge", "earthquake", "synthesis", "shadowball", "focuspunch"],
+                "abilities": ["Immunity", "Thick Fat"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["bodyslam", "synthesis", "leechseed", "shadowball", "toxic", "yawn"],
+                "abilities": ["Immunity", "Thick Fat"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["bellydrum", "return", "earthquake", "shadowball"],
+                "abilities": ["Immunity", "Thick Fat"]
+            }
+        ]
+    },
+    "articuno": {
+        "level": 81,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["icebeam", "agility", "hiddenpowerelectric", "toxic", "reflect"],
+                "abilities": ["Pressure"]
+            }
+        ]
+    },
+    "zapdos": {
+        "level": 75,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["discharge", "hiddenpowerice", "drillpeck", "thunderbolt", "toxic"],
+                "abilities": ["Pressure"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["thunderwave", "thunderbolt", "toxic", "lightscreen", "hiddenpowerice"],
+                "abilities": ["Pressure"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["agility", "thunderbolt", "hiddenpowerice", "drillpeck"],
+                "abilities": ["Pressure"]
+            }
+        ]
+    },
+    "moltres": {
+        "level": 78,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["firepump", "fireblast", "hiddenpowergrass", "overheat", "toxic"],
+                "abilities": ["Pressure"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["agility", "sunnyday", "fireblast", "hiddenpowergrass", "heatwave"],
+                "abilities": ["Pressure"]
+            }
+        ]
+    },
+    "dragonite": {
+        "level": 78,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["furydance", "earthquake", "ironslam", "hiddenpowerflying", "facade", "thunderwave"],
+                "abilities": ["Inner Focus"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["discharge", "dragonclaw", "earthquake", "hiddenpowerflying", "surf", "icebeam", "focuspunch"],
+                "abilities": ["Inner Focus"]
+            }
+        ]
     }
 }
