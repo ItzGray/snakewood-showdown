@@ -32,7 +32,13 @@ with open("abilities.txt", "r") as abilities_txt:
 
 print(f"Amount of sets: {len(sets.keys())}")
 no_errors = True
+pkmns = []
 for pkmn in sets.keys():
+	if pkmn not in pkmns:
+		pkmns.append(pkmn)
+	else:
+		no_errors = False
+		print(f"Error: pkmn {pkmn} is a dupe")
 	for set in sets[pkmn]["sets"]:
 		try:
 			role = set["role"]
