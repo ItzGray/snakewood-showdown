@@ -2044,5 +2044,35 @@
                 "abilities": ["Inner Focus"]
             }
         ]
+    },
+    "meganium": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["leechseed", "synthesis", "counter", "gigadrain", "toxic"],
+                "abilities": ["Overgrow"]
+            }
+        ]
+    },
+    "typhlosion": {
+        "level": 81,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["overheat", "fireblast", "icepunch", "focuspunch", "hiddenpowergrass", "earthquake"],
+                "abilities": ["Blaze"]
+            }
+        ]
+    },
+    "feraligatr": {
+        "level": 83,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["stormsurge", "rockslide", "earthquake", "icebeam", "hiddenpowerbug", "crunch"],
+                "abilities": ["Torrent"]
+            }
+        ]
     }
 }
