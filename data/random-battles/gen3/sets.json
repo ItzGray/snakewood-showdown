@@ -2074,5 +2074,60 @@
                 "abilities": ["Torrent"]
             }
         ]
+    },
+    "noctowl": {
+        "level": 95,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["psychic", "hypnosis", "whirlwind", "toxic", "beatup"],
+                "abilities": ["Insomnia"]
+            }
+        ]
+    },
+    "ledian": {
+        "level": 100,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["agility", "batonpass", "lightscreen", "reflect"],
+                "abilities": ["Early Bird"]
+            }
+        ]
+    },
+    "ariados": {
+        "level": 98,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["agility", "sludgebomb", "signalbeam", "nightshade", "hiddenpowerfighting"],
+                "abilities": ["Swarm"]
+            }
+        ]
+    },
+    "crobat": {
+        "level": 79,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["sludgebomb", "hiddenpowerflying", "shadowball", "taunt", "steelwing"],
+                "abilities": ["Inner Focus"]
+            }
+        ]
+    },
+    "lanturn": {
+        "level": 82,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["discharge", "stormsurge", "icebeam", "hiddenpowerdark"],
+                "abilities": ["Volt Absorb"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["thunderbolt", "stormsurge", "icebeam", "thunderwave", "confuseray", "amnesia"],
+                "abilities": ["Volt Absorb"]
+            }
+        ]
     }
 }
