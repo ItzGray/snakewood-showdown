@@ -2129,5 +2129,75 @@
                 "abilities": ["Volt Absorb"]
             }
         ]
+    },
+    "togetic": {
+        "level": 97,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["seismictoss", "softboiled", "thunderwave", "yawn", "firepump"],
+                "abilities": ["Serene Grace"]
+            },
+            {
+                "role": "Staller",
+                "movepool": ["softboiled", "toxic", "protect", "seismictoss", "substitute"],
+                "abilities": ["Serene Grace"]
+            }
+        ]
+    },
+    "xatu": {
+        "level": 84,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["calmmind", "psychic", "gigadrain", "hiddenpowerfire"],
+                "abilities": ["Synchronize"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["wish", "nightshade", "futuresight", "reflect", "lightscreen"],
+                "abilities": ["Synchronize"]
+            }
+        ]
+    },
+    "ampharos": {
+        "level": 82,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["discharge", "thunderbolt", "icepunch", "focuspunch", "hiddenpowerdark"],
+                "abilities": ["Static"]
+            }
+        ]
+    },
+    "bellossom": {
+        "level": 94,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["moonlight", "sunnyday", "sleeppowder", "stunspore", "sludgebomb", "gigadrain"],
+                "abilities": ["Chlorophyll"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["sunnyday", "solarbeam", "swordsdance", "sludgebomb", "hiddenpowerground", "moonlight"],
+                "abilities": ["Chlorophyll"]
+            }
+        ]
+    },
+    "quagsire": {
+        "level": 84,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["yawn", "focuspunch", "toxic", "haze", "earthquake", "bodyslam"],
+                "abilities": ["Water Absorb"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["curse", "earthquake", "sludgebomb", "hiddenpowerrock", "bodyslam"],
+                "abilities": ["Water Absorb"]
+            }
+        ]
     }
 }
