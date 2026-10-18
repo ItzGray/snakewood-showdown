@@ -2199,5 +2199,75 @@
                 "abilities": ["Water Absorb"]
             }
         ]
+    },
+    "slowking": {
+        "level": 82,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["calmmind", "psychic", "firepump", "icebeam", "surf"],
+                "abilities": ["Own Tempo"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["futuresight", "yawn", "toxic", "surf", "firepump"],
+                "abilities": ["Own Tempo"]
+            }
+        ]
+    },
+    "misdreavus": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Generalist",
+                "movepool": ["perishsong", "meanlook", "protect", "painsplit"],
+                "abilities": ["Levitate"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["destinybond", "discharge", "painsplit", "taunt", "psychic", "confuseray"],
+                "abilities": ["Levitate"]
+            }
+        ]
+    },
+    "unown": {
+        "level": 74,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["calmmind", "softboiled", "psychic", "firepump", "icebeam", "thunderbolt"],
+                "abilities": ["Levitate"]
+            },
+            {
+                "role": "Fast Atacker",
+                "movepool": ["explosion", "earthquake", "shadowball", "bulkup", "psychic", "hiddenpowerfighting", "softboiled"],
+                "abilities": ["Levitate"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["reflect", "lightscreen", "rapispin", "explosion", "futuresight"],
+                "abilities": ["Levitate"]
+            }
+        ]
+    },
+    "wobbuffet": {
+        "level": 82,
+        "sets": [
+            {
+                "role": "Generalist",
+                "movepool": ["counter", "mirrorcoat", "destinybond", "encore"],
+                "abilities": ["Shadow Tag"]
+            }
+        ]
+    },
+    "forretress": {
+        "level": 81,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["spikes", "rapidspin", "explosion", "hiddenpowerbug"],
+                "abilities": ["Sturdy"]
+            }
+        ]
     }
 }
