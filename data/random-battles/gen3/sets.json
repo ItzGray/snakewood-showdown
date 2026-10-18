@@ -2245,7 +2245,7 @@
             },
             {
                 "role": "Bulky Support",
-                "movepool": ["reflect", "lightscreen", "rapispin", "explosion", "futuresight"],
+                "movepool": ["reflect", "lightscreen", "rapidspin", "explosion", "futuresight"],
                 "abilities": ["Levitate"]
             }
         ]
