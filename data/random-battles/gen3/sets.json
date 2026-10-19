@@ -2269,5 +2269,150 @@
                 "abilities": ["Sturdy"]
             }
         ]
+    },
+    "steelix": {
+        "level": 82,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["ironslam", "earthquake", "doubleedge", "rockslide", "explosion", "toxic"],
+                "abilities": ["Rock Head"]
+            }
+        ]
+    },
+    "qwilfish": {
+        "level": 84,
+        "sets": [
+            {
+                "role": "Generalist",
+                "movepool": ["spikes", "rapidspin", "sludgebomb", "shadowball"],
+                "abilities": ["Poison Point"]
+            },
+            {
+                "role": "Fast Attacker",
+                "movepool": ["spikes", "hiddenpowerfighting", "sludgebomb", "shadowball", "magiccoat"],
+                "abilities": ["Poison Point"]
+            }
+        ]
+    },
+    "shuckle": {
+        "level": 99,
+        "sets": [
+            {
+                "role": "Staller",
+                "movepool": ["toxic", "protect", "encore", "rest", "wrap"],
+                "abilities": ["Sturdy"]
+            }
+        ]
+    },
+    "heracross": {
+        "level": 78,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["megahorn", "brickbreak", "earthquake", "hiddenpowerflying", "shadowswipe"],
+                "abilities": ["Swarm"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["megahorn", "brickbreak", "focuspunch", "bulkup", "shadowswipe", "earthquake"],
+                "abilities": ["Swarm", "Guts"]
+            }
+        ]
+    },
+    "sneasel": {
+        "level": 86,
+        "sets": [
+            {
+                "role": "Generalist",
+                "movepool": ["icebreath", "swordsdance", "ironslam", "shadowswipe", "taunt", "hiddenpowerfighting"],
+                "abilities": ["Inner Focus"]
+            },
+            {
+                "role": "Fast Attacker",
+                "movepool": ["icebreath", "shadowswipe", "focuspunch", "ironslam", "return", "swordsdance"],
+                "abilities": ["Inner Focus"]
+            }
+        ]
+    },
+    "magcargo": {
+        "level": 100,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["fireblast", "bodyslam", "overheat", "hiddenpowergrass"],
+                "abilities": ["Flame Body"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["firepump", "yawn", "reflect", "lightscreen", "bodyslam"],
+                "abilities": ["Flame Body"]
+            }
+        ]
+    },
+    "piloswine": {
+        "level": 87,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["earthquake", "rockslide", "bodyslam", "doubleedge", "roar", "crystalstorm"],
+                "abilities": ["Oblivious"]
+            }
+        ]
+    },
+    "corsola": {
+        "level": 98,
+        "sets": [
+            {
+                "role": "Bulky Setup",
+                "movepool": ["calmmind", "barrier", "surf", "icebeam", "recover"],
+                "abilities": ["Natural Cure"]
+            },
+            {
+                "role": "Staller",
+                "movepool": ["recover", "toxic", "boilingwater", "mirrorcoat", "protect"],
+                "abilities": ["Natural Cure"]
+            }
+        ]
+    },
+    "octillery": {
+        "level": 86,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["surf", "datastream", "fireblast", "icebeam", "psychic"],
+                "abilities": ["Suction Cups"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["boilingwater", "thunderwave", "firepump", "haze"],
+                "abilities": ["Suction Cups"]
+            }
+        ]
+    },
+    "mantine": {
+        "level": 87,
+        "sets": [
+            {
+                "role": "Generalist",
+                "movepool": ["stormsurge", "agility", "raindance", "icebeam", "toxic"],
+                "abilities": ["Water Absorb"]
+            }
+        ]
+    },
+    "skarmory": {
+        "level": 75,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["curse", "drillpeck", "steelwing", "hiddenpowerground", "spikes"],
+                "abilities": ["Sturdy"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["spikes", "whirlwind", "toxic", "drillpeck", "taunt"],
+                "abilities": ["Sturdy"]
+            }
+        ]
     }
 }
