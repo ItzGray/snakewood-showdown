@@ -31,16 +31,10 @@ with open("abilities.txt", "r") as abilities_txt:
 	ability_names = abilities_txt.read().split("\n")
 
 print(f"Amount of pokemon: {len(sets.keys())}")
-pkmns = []
 errors = []
 set_count = 0
 for pkmn in sets.keys():
 	set_pkmn_count = 0
-
-	if pkmn not in pkmns:
-		pkmns.append(pkmn)
-	else:
-		errors.append(f"Error: pkmn {pkmn} is a dupe")
 	
 	for set in sets[pkmn]["sets"]:
 		set_count += 1
