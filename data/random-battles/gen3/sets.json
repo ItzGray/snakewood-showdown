@@ -2460,7 +2460,7 @@
         "sets": [
             {
                 "role": "Bulky Attacker",
-                "movepool": ["hijumpkick", "earthquake", "bulkup", "rapidspin", "hiddenpowerghost", "agility"],
+                "movepool": ["highjumpkick", "earthquake", "bulkup", "rapidspin", "hiddenpowerghost", "agility"],
                 "abilities": ["Intimidate"]
             }
         ]
