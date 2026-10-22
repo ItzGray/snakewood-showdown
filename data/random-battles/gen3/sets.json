@@ -2594,5 +2594,105 @@
                 "abilities": ["Natural Cure"]
             }
         ]
+    },
+    "sceptile": {
+        "level": 82,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["leafblade", "focuspunch", "endeavor", "icepunch", "crunch", "hiddenpowerfire"],
+                "abilities": ["Overgrow"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["leechseed", "gigadrain", "endeavor", "icepunch", "toxic"],
+                "abilities": ["Overgrow"]
+            }
+        ]
+    },
+    "blaziken": {
+        "level": 81,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["earthquake", "rockslide", "skyuppercut", "overheat", "frictionkick", "icepunch"],
+                "abilities": ["Blaze"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["bulkup", "skyuppercut", "earthquake", "rockslide", "hiddenpowerflying", "fireblast"],
+                "abilities": ["Blaze"]
+            }
+        ]
+    },
+    "swampert": {
+        "level": 78,
+        "sets": [
+            {
+                "role": "Generalist",
+                "movepool": ["earthquake", "surf", "focuspunch", "toxic", "mirrorcoat", "icebeam"],
+                "abilities": ["Torrent"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["earthquake", "stormsurge", "skullbreaker", "curse", "hiddenpowerrock"],
+                "abilities": ["Torrent"]
+            }
+        ]
+    },
+    "mightyena": {
+        "level": 98,
+        "sets": [
+            {
+                "role": "Generalist",
+                "movepool": ["crunch", "ironslam", "return", "hiddenpowerground", "yawn", "toxic"],
+                "abilities": ["Intimidate"]
+            }
+        ]
+    },
+    "linoone": {
+        "level": 82,
+        "sets": [
+            {
+                "role": "Berry Sweeper",
+                "movepool": ["substitute", "bellydrum", "return", "shadowball"],
+                "abilities": ["Pickup"]
+            },
+            {
+                "role": "Wallbreaker",
+                "movepool": ["return", "shadowball", "ironslam", "hiddenpowerflying", "trick"],
+                "abilities": ["Pickup"]
+            }
+        ]
+    },
+    "beautifly": {
+        "level": 100,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["stunspore", "morningsun", "whirlwind", "psychic", "toxic"],
+                "abilities": ["Swarm"]
+            },
+            {
+                "role": "Wallbreaker",
+                "movepool": ["frictionkick", "shadowball", "psychic", "gigadrain", "hiddenpowerflying"],
+                "abilities": ["Swarm"]
+            }
+        ]
+    },
+    "dustox": {
+        "level": 97,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["lightscreen", "moonlight", "whirlwind", "sludgebomb"],
+                "abilities": ["Shield Dust"]
+            },
+            {
+                "role": "Staller",
+                "movepool": ["moonlight", "toxic", "protect", "lightscreen", "gigadrain"],
+                "abilities": ["Shield Dust"]
+            }
+        ]
     }
 }
