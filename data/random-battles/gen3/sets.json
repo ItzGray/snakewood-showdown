@@ -2694,5 +2694,145 @@
                 "abilities": ["Shield Dust"]
             }
         ]
+    },
+    "shiftry": {
+        "level": 91,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["shadowswipe", "explosion", "gigadrain", "extrasensory", "hiddenpowerdark", "frictionkick", "icepunch", "rest"],
+                "abilities": ["Early Bird"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["sunnyday", "growth", "solarbeam", "hiddenpowerdark"],
+                "abilities": ["Chlorophyll"]
+            }
+        ]
+    },
+    "swellow": {
+        "level": 83,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["return", "hiddenpowerflying", "facade", "steelwing", "endeavor"],
+                "abilities": ["Guts"]
+            }
+        ]
+    },
+    "pelipper": {
+        "level": 88,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["stormsurge", "icebeam", "agility", "hiddenpowerelectric", "toxic"],
+                "abilities": ["Keen Eye"]
+            }
+        ]
+    },
+    "gardevoir": {
+        "level": 80,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["calmmind", "psychic", "thunderbolt", "hiddenpowerfire", "willowisp"],
+                "abilities": ["Synchronize"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["willowisp", "futuresight", "hypnosis", "destinybond", "memento", "psychic"],
+                "abilities": ["Synchronize"]
+            }
+        ]
+    },
+    "masquerain": {
+        "level": 96,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["stunspore", "icebeam", "boilingwater", "whirlwind", "gigadrain"],
+                "abilities": ["Intimidate"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["stormsurge", "agility", "icebeam", "gigadrain", "hiddenpowerpsychic"],
+                "abilities": ["Intimidate"]
+            }
+        ]
+    },
+    "breloom": {
+        "level": 84,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["spore", "focuspunch", "skyuppercut", "shadowswipe", "machpunch"],
+                "abilities": ["Effect Spore"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["spore", "bulkup", "skyuppercut", "shadowswipe"],
+                "abilities": ["Effect Spore"]
+            }
+        ]
+    },
+    "vigoroth": {
+        "level": 84,
+        "sets": [
+            {
+                "role": "Bulky Setup",
+                "movepool": ["return", "shadowball", "slackoff", "bulkup", "earthquake"],
+                "abilities": ["Vital Spirit"]
+            },
+            {
+                "role": "Fast Attacker",
+                "movepool": ["return", "shadowball", "slackoff", "bodyslam", "yawn", "encore", "hiddenpowerfighting"],
+                "abilities": ["Vital Spirit"]
+            }
+        ]
+    },
+    "slaking": {
+        "level": 78,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["strength", "shadowball", "earthquake", "hiddenpowerfighting"],
+                "abilities": ["Truant"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["strength", "shadowball", "focuspunch", "thunderbolt", "bodyslam"],
+                "abilities": ["Truant"]
+            }
+        ]
+    },
+    "exploud": {
+        "level": 86,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["return", "earthquake", "jumpkick", "shadowball", "hiddenpowerbug"],
+                "abilities": ["Soundproof"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["return", "extrasensory", "fireblast", "icebeam", "earthquake", "taunt"],
+                "abilities": ["Soundproof"]
+            }
+        ]
+    },
+    "hariyama": {
+        "level": 83,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["crosschop", "bulkup", "facade", "knockoff", "earthquake", "hiddenpowerflying"],
+                "abilities": ["Thick Fat", "Guts"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["fakeout", "knockoff", "seismictoss", "whirlwind", "return"],
+                "abilities": ["Thick Fat", "Guts"]
+            }
+        ]
     }
 }
