@@ -2831,7 +2831,82 @@
             {
                 "role": "Bulky Support",
                 "movepool": ["fakeout", "knockoff", "seismictoss", "whirlwind", "return"],
-                "abilities": ["Thick Fat", "Guts"]
+                "abilities": ["Thick Fat"]
+            }
+        ]
+    },
+    "nosepass": {
+        "level": 100,
+        "sets": [
+            {
+                "role": "Staller",
+                "movepool": ["toxic", "protect", "earthquake", "rest"],
+                "abilities": ["Magnet Pull"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["explosion", "thunderwave", "rockslide", "block", "earthquake"],
+                "abilities": ["Magnet Pull"]
+            }
+        ]
+    },
+    "delcatty": {
+        "level": 96,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["wish", "batonpass", "healbell", "substitute"],
+                "abilities": ["Cute Charm"]
+            },
+            {
+                "role": "Fast Attacker",
+                "movepool": ["doubleedge", "shadowball", "ironslam", "wish", "charm"],
+                "abilities": ["Cute Charm"]
+            }
+        ]
+    },
+    "sableye": {
+        "level": 91,
+        "sets": [
+            {
+                "role": "Staller",
+                "movepool": ["nightshade", "recover", "toxic", "confuseray"],
+                "abilities": ["Keen Eye"]
+            },
+            {
+                "role": "Generalist",
+                "movepool": ["recover", "focuspunch", "shadowball", "crystalstorm", "fakeout"],
+                "abilities": ["Keen Eye"]
+            }
+        ]
+    },
+    "aggron": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["doubleedge", "ironslam", "earthquake", "skullbreaker", "hiddenpowerrock"],
+                "abilities": ["Rock Head"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["doubleedge", "ironslam", "roar", "focuspunch", "endeavor"],
+                "abilities": ["Rock Head"]
+            }
+        ]
+    },
+    "medicham": {
+        "level": 81,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["highjumpkick", "shadowball", "hiddenpowerbug", "reversal"],
+                "abilities": ["Pure Power"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["highjumpkick", "shadowball", "bulkup", "fakeout", "recover"],
+                "abilities": ["Pure Power"]
             }
         ]
     }
