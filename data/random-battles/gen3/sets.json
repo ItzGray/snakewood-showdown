@@ -2909,5 +2909,75 @@
                 "abilities": ["Pure Power"]
             }
         ]
+    },
+    "volbeat": {
+        "level": 93,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["brightidea", "batonpass", "discharge", "moonlight"],
+                "abilities": ["Illuminate"]
+            },
+            {
+                "role": "Generalist",
+                "movepool": ["moonlight", "signalbeam", "focuspunch", "shadowball"],
+                "abilities": ["Swarm"]
+            }
+        ]
+    },
+    "illumise": {
+        "level": 92,
+        "sets": [
+            {
+                "role": "Generalist",
+                "movepool": ["moonlight", "thunderbolt", "icepunch", "encore"],
+                "abilities": ["Oblivious"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["wish", "discharge", "encore", "lightscreen"],
+                "abilities": ["Oblivious"]
+            }
+        ]
+    },
+    "roselia": {
+        "level": 97,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["spikes", "stunspore", "gigadrain", "leechseed", "aromatherapy"],
+                "abilities": ["Natural Cure", "Poison Point"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["spikes", "gigadrain", "hiddenpowerfire", "synthesis"],
+                "abilities": ["Natural Cure", "Poison Point"]
+            }
+        ]
+    },
+    "sharpedo": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["stormsurge", "crunch", "earthquake", "doubleedge", "hiddenpowerflying"],
+                "abilities": ["Rough Skin"]
+            }
+        ]
+    },
+    "wailord": {
+        "level": 87,
+        "sets": [
+            {
+                "role": "Bulky Setup",
+                "movepool": ["curse", "rest", "sleeptalk", "earthquake"],
+                "abilities": ["Water Veil"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["earthquake", "stormsurge", "icebeam", "waterspout", "toxic"],
+                "abilities": ["Water Veil"]
+            }
+        ]
     }
 }
