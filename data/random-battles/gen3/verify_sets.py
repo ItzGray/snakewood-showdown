@@ -41,6 +41,7 @@ for pkmn in sets.keys():
 		try:
 			assert isinstance(pkmn_lvl, int)
 			assert pkmn_lvl <= 100
+			assert pkmn_lvl >= 1
 		except:
 			errors.append(f"Error for pkmn {pkmn}: level not declared correctly")
 	except:
