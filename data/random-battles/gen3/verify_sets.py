@@ -35,6 +35,16 @@ errors = []
 set_count = 0
 for pkmn in sets.keys():
 	set_pkmn_count = 0
+
+	try:
+		pkmn_lvl = sets[pkmn]["level"]
+		try:
+			assert isinstance(pkmn_lvl, int)
+			assert pkmn_lvl <= 100
+		except:
+			errors.append(f"Error for pkmn {pkmn}: level not declared correctly")
+	except:
+		errors.append(f"Error for pkmn {pkmn}: level not declared")
 	
 	for set in sets[pkmn]["sets"]:
 		set_count += 1
