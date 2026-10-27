@@ -2979,5 +2979,60 @@
                 "abilities": ["Water Veil"]
             }
         ]
+    },
+    "torkoal": {
+        "level": 90,
+        "sets": [
+            {
+                "role": "Bulky Setup",
+                "movepool": ["curse", "bodyslam", "ironslam", "sludgebomb", "hiddenpowerghost"],
+                "abilities": ["White Smoke"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["overheat", "fireblast", "hiddenpowergrass", "toxic", "yawn"],
+                "abilities": ["White Smoke"]
+            }
+        ]
+    },
+    "spinda": {
+        "level": 100,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["wish", "batonpass", "calmmind", "encore"],
+                "abilities": ["Own Tempo"]
+            },
+            {
+                "role": "Generalist",
+                "movepool": ["wish", "doubleedge", "teeterdance", "shadowball", "hypnosis"],
+                "abilities": ["Own Tempo"]
+            }
+        ]
+    },
+    "flygon": {
+        "level": 79,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["earthquake", "ironslam", "hiddenpowerbug", "fireblast", "dragonclaw"],
+                "abilities": ["Levitate"]
+            }
+        ]
+    },
+    "altaria": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["furydance", "hiddenpowerflying", "earthquake", "ironslam", "return"],
+                "abilities": ["Natural Cure"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["dragonclaw", "toxic", "firepump", "haze", "icebeam"],
+                "abilities": ["Natural Cure"]
+            }
+        ]
     }
 }
