@@ -3034,5 +3034,75 @@
                 "abilities": ["Natural Cure"]
             }
         ]
+    },
+    "zangoose": {
+        "level": 82,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["swordsdance", "return", "shadowball", "hiddenpowerfighting"],
+                "abilities": ["Immunity"]
+            },
+            {
+                "role": "Wallbreaker",
+                "movepool": ["return", "shadowswipe", "hiddenpowerfighting", "facade"],
+                "abilities": ["Immunity"]
+            }
+        ]
+    },
+    "seviper": {
+        "level": 88,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["sludgebomb", "earthquake", "ironslam", "firepump", "crunch", "rest"],
+                "abilities": ["Shed Skin"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["taunt", "sludgebomb", "glare", "haze", "earthquake"],
+                "abilities": ["Shed Skin"]
+            }
+        ]
+    },
+    "lunatone": {
+        "level": 84,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["calmmind", "psychic", "icebeam", "hiddenpowerfire"],
+                "abilities": ["Levitate"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["hypnosis", "reflect", "explosion", "futuresight", "lightscreen"],
+                "abilities": ["Levitate"]
+            }
+        ]
+    },
+    "solrock": {
+        "level": 84,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["explosion", "earthquake", "rockslide", "shadowball"],
+                "abilities": ["Levitate"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["toxic", "reflect", "explosion", "rockslide", "lightscreen"],
+                "abilities": ["Levitate"]
+            }
+        ]
+    },
+    "whiscash": {
+        "level": 83,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["earthquake", "surf", "icebeam", "hiddenpowergrass", "futuresight", "toxic"],
+                "abilities": ["Oblivious"]
+            }
+        ]
     }
 }
