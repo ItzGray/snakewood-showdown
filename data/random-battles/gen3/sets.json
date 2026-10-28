@@ -3104,5 +3104,75 @@
                 "abilities": ["Oblivious"]
             }
         ]
+    },
+    "crawdaunt": {
+        "level": 89,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["swordsdance", "return", "hiddenpowerflying", "sludgebomb", "knockoff"],
+                "abilities": ["Hyper Cutter", "Shell Armor"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["knockoff", "crabhammer", "bodyslam", "icebeam", "ancientpower"],
+                "abilities": ["Hyper Cutter", "Shell Armor"]
+            }
+        ]
+    },
+    "claydol": {
+        "level": 81,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["rapidspin", "explosion", "reflect", "lightscreen", "earthquake"],
+                "abilities": ["Levitate"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["rapidspin", "explosion", "psychic", "earthquake", "icebeam", "shadowball"],
+                "abilities": ["Levitate"]
+            }
+        ]
+    },
+    "cradily": {
+        "level": 84,
+        "sets": [
+            {
+                "role": "Staller",
+                "movepool": ["mirrorcoat", "barrier", "recover", "rockslide", "toxic"],
+                "abilities": ["Suction Cups"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["rockslide", "earthquake", "recover", "sludgebomb", "gigadrain"],
+                "abilities": ["Suction Cups"]
+            }
+        ]
+    },
+    "armaldo": {
+        "level": 84,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["rockslide", "earthquake", "hiddenpowerbug", "rapidspin", "knockoff", "swordsdance"],
+                "abilities": ["Shell Armor"]
+            }
+        ]
+    },
+    "milotic": {
+        "level": 75,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["recover", "extrasensory", "stormsurge", "icebeam"],
+                "abilities": ["Marvel Scale"]
+            },
+            {
+                "role": "Staller",
+                "movepool": ["recover", "toxic", "surf", "protect"],
+                "abilities": ["Marvel Scale"]
+            }
+        ]
     }
 }
