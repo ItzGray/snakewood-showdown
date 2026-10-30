@@ -3264,5 +3264,75 @@
                 "abilities": ["Pressure"]
             }
         ]
+    },
+    "glalie": {
+        "level": 80,
+        "sets": [
+            {
+                "role": "Generalist",
+                "movepool": ["icebreath", "spikes", "earthquake", "icebeam"],
+                "abilities": ["Inner Focus"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["icebreath", "earthquake", "shadowball", "icebeam", "hiddenpowerfighting", "spikes", "sheercold"],
+                "abilities": ["Inner Focus"]
+            }
+        ]
+    },
+    "walrein": {
+        "level": 80,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["bodyslam", "icebeam", "surf", "earthquake", "encore"],
+                "abilities": ["Thick Fat"]
+            },
+            {
+                "role": "Bulky Setup",
+                "movepool": ["curse", "earthquake", "rockslide", "ironslam", "hiddenpowerbug"],
+                "abilities": ["Thick Fat"]
+            }
+        ]
+    },
+    "relicanth": {
+        "level": 88,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["doubleedge", "rockslide", "earthquake", "hiddenpowerflying"],
+                "abilities": ["Rock Head"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["raindance", "rockslide", "earthquake", "hiddenpowerbug"],
+                "abilities": ["Swift Swim"]
+            }
+        ]
+    },
+    "luvdisc": {
+        "level": 100,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["raindance", "surf", "icebeam", "hiddenpowerelectric", "toxic"],
+                "abilities": ["Swift Swim"]
+            }
+        ]
+    },
+    "metagross": {
+        "level": 75,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["meteormash", "earthquake", "shadowball", "hiddenpowerbug"],
+                "abilities": ["Clear Body"]
+            },
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["agility", "meteormash", "earthquake", "psychic", "shadowball"],
+                "abilities": ["Clear Body"]
+            }
+        ]
     }
 }
