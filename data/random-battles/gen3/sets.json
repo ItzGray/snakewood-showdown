@@ -3174,5 +3174,95 @@
                 "abilities": ["Marvel Scale"]
             }
         ]
+    },
+    "castform": {
+        "level": 90,
+        "sets": [
+            {
+                "role": "Fast Attacker",
+                "movepool": ["sunnyday", "fireblast", "solarbeam", "thunderbolt"],
+                "abilities": ["Forecast"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["raindance", "weatherball", "icebeam", "discharge"],
+                "abilities": ["Forecast"]
+            },
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["hail", "blizzard", "thunderbolt", "toxic"],
+                "abilities": ["Forecast"]
+            }
+        ]
+    },
+    "kecleon": {
+        "level": 92,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["substitute", "return", "shadowball", "focuspunch", "discharge", "hiddenpowerflying"],
+                "abilities": ["Color Change"]
+            }
+        ]
+    },
+    "banette": {
+        "level": 88,
+        "sets": [
+            {
+                "role": "Berry Sweeper",
+                "movepool": ["shadowball", "skullbreaker", "willowisp", "knockoff", "destinybond"],
+                "abilities": ["Insomnia"]
+            },
+            {
+                "role": "Wallbreaker",
+                "movepool": ["shadowball", "skullbreaker", "facade", "hiddenpowerground"],
+                "abilities": ["Insomnia"]
+            }
+        ]
+    },
+    "dusclops": {
+        "level": 86,
+        "sets": [
+            {
+                "role": "Staller",
+                "movepool": ["painsplit", "toxic", "willowisp", "nightshade", "protect"],
+                "abilities": ["Pressure"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["painsplit", "nightshade", "willowisp", "disable", "memento"],
+                "abilities": ["Insomnia"]
+            }
+        ]
+    },
+    "tropius": {
+        "level": 95,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["sunnyday", "solarbeam", "synthesis", "hiddenpowerfire"],
+                "abilities": ["Chlorophyll"]
+            },
+            {
+                "role": "Staller",
+                "movepool": ["synthesis", "leechseed", "protect", "toxic"],
+                "abilities": ["Chlorophyll"]
+            }
+        ]
+    },
+    "absol": {
+        "level": 87,
+        "sets": [
+            {
+                "role": "Setup Sweeper",
+                "movepool": ["swordsdance", "return", "shadowball", "ironslam"],
+                "abilities": ["Pressure"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["swordsdance", "calmmind", "batonpass", "return"],
+                "abilities": ["Pressure"]
+            }
+        ]
     }
 }
